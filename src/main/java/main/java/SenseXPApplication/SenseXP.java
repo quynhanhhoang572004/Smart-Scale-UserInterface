@@ -1,4 +1,4 @@
-package SenseXPApplication;
+package main.java.SenseXPApplication;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -6,19 +6,18 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.util.Objects;
 
-public class HelloApplication extends Application {
+public class SenseXP extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(Objects.requireNonNull(getClass().getResource("EditExperiment_UI.fxml")));
         Scene scene = new Scene(fxmlLoader.load());
         stage.setTitle("Sense XP");
         stage.setScene(scene);
         stage.show();
         stage.setMinWidth(700);
         stage.setMinWidth(500);
-
-
     }
 
     public static void main(String[] args) {
