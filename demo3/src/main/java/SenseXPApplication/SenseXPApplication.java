@@ -1,4 +1,4 @@
-package main.demo3;
+package SenseXPApplication;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
