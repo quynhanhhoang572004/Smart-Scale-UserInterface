@@ -15,7 +15,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/hello-view.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/Profile_UI.fxml"));
         Parent root = loader.load();
         primaryStage.setTitle("Sense XP");
 
