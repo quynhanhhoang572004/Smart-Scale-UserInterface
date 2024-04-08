@@ -11,13 +11,11 @@ import java.util.Objects;
 public class SenseXP extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(Objects.requireNonNull(getClass().getResource("EditExperiment_UI.fxml")));
+        FXMLLoader fxmlLoader = new FXMLLoader(Objects.requireNonNull(getClass().getResource("hello-view.fxml")));
         Scene scene = new Scene(fxmlLoader.load());
         stage.setTitle("Sense XP");
         stage.setScene(scene);
         stage.show();
-        stage.setMinWidth(700);
-        stage.setMinWidth(500);
     }
 
     public static void main(String[] args) {
