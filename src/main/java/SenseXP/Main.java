@@ -16,6 +16,8 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/Profile_UI.fxml"));
+        ProfileController controller = new ProfileController();
+        loader.setController(controller);
         Parent root = loader.load();
         primaryStage.setTitle("Sense XP");
 
