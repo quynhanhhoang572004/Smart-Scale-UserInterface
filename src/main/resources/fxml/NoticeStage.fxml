@@ -44,31 +44,31 @@
                            <children>
 
                               <Button fx:id="noticeStageButton" layoutX="36.0" layoutY="91.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" text="Add Notice Stage">
-                                 </Button>
+                              </Button>
                               <Button fx:id="audibleInstructionButton" layoutX="36.0" layoutY="133.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" text="Add Audible Instruction">
-                                 </Button>
+                              </Button>
                               <Button fx:id="assignSoundButton" layoutX="36.0" layoutY="175.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" text="Assign Sound">
-                                 </Button>
+                              </Button>
                               <Button fx:id="addInputButton" layoutX="36.0" layoutY="217.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" text="Add Input Stage">
-                                 </Button>
+                              </Button>
                               <Button fx:id="addTimerButton" layoutX="36.0" layoutY="259.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" text="Add Timer Stage">
-                                 </Button>
+                              </Button>
                               <Button fx:id="addTasteTestButton" layoutX="36.0" layoutY="301.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" text="Add Taste Test">
-                                 </Button>
+                              </Button>
                               <Button fx:id="addFoodAndTasteButton" layoutX="36.0" layoutY="343.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" text="Add Food &amp; Taste">
-                                 </Button>
+                              </Button>
                               <Button fx:id="addRatingsContainerButton" layoutX="36.0" layoutY="385.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" text="Add Ratings Container">
-                                 </Button>
+                              </Button>
                               <Button fx:id="addVASStageButton" layoutX="36.0" layoutY="427.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" text="Add VAS Stage">
-                                 </Button>
+                              </Button>
                               <Button fx:id="addGLMSStageButton" layoutX="36.0" layoutY="469.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" text="Add GLMS Stage">
-                                 </Button>
+                              </Button>
                               <Button fx:id="addCourseButton" layoutX="36.0" layoutY="511.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" text="Add Course">
-                                 </Button>
+                              </Button>
                               <Button fx:id="addPeriodicStageButton" layoutX="36.0" layoutY="553.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" text="Add Periodic Stage">
-                                 </Button>
+                              </Button>
                               <Button fx:id="addConditionalStatementButton" layoutX="36.0" layoutY="595.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" text="Add Conditional Statement">
-                                 </Button>
+                              </Button>
                               <Label fx:id="labelEditExperiment" layoutX="115.0" layoutY="-17.0" prefHeight="53.0" prefWidth="292.0" text="Edit Experiment">
                               </Label>
                               <Button fx:id="menuButton" layoutX="61.0" layoutY="-10.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="39.0" text=" " />
@@ -98,32 +98,37 @@
                <children>
                   <AnchorPane maxHeight="664.0" maxWidth="812.0" minHeight="664.0" minWidth="812.0" prefHeight="644.0" prefWidth="812.0">
                      <children>
-                        <TextArea fx:id="textFrame" layoutX="3.0" layoutY="56.0" maxHeight="644.0" minHeight="644.0" minWidth="812.0" prefHeight="644.0" prefWidth="667.0" promptText="demo" stylesheets="@/css/Style.css" />
-                        <AnchorPane layoutX="14.0" layoutY="380.0" prefHeight="288.0" prefWidth="798.0" stylesheets="@/css/Style.css">
+                        <TextArea fx:id="textFrame" layoutX="3.0" layoutY="56.0" maxHeight="644.0" minHeight="644.0" minWidth="812.0" prefHeight="644.0" prefWidth="667.0" promptText="demo" stylesheets="@/css/EditExp_CSS.css" />
+                        <AnchorPane layoutX="14.0" layoutY="380.0" prefHeight="288.0" prefWidth="798.0" stylesheets="@/css/EditExp_CSS.css">
                            <children>
                               <ScrollPane layoutX="-13.0" layoutY="-1.0" prefHeight="289.0" prefWidth="810.0">
-                                <content>
-                                  <AnchorPane fx:id="Properties" maxHeight="500.0" maxWidth="823.0" minHeight="257.0" minWidth="0.0" prefHeight="50.0" prefWidth="823.0">
-                                       <children>
-                                          <Label fx:id="BackGroundColorLabel" layoutX="14.0" layoutY="14.0" text="Background color " />
-                                          <Label fx:id="textColorlabel" layoutX="14.0" layoutY="55.0" text="Text Color" />
-                                          <Label fx:id="fontLabel" layoutX="14.0" layoutY="96.0" text="Font " />
-                                          <Label fx:id="StartDelayLabel" layoutX="14.0" layoutY="138.0" text="Start of Stage Delay " />
-                                          <Label fx:id="EndDelayLabel" layoutX="14.0" layoutY="183.0" text="End of Stage Delay" />
-                                          <Label fx:id="DisablebuttonLabel" layoutX="14.0" layoutY="232.0" text="Disabled Button Colour" />
-                                          <Button fx:id="ChangeButton0" layoutX="201.0" layoutY="11.0" mnemonicParsing="false" text="Change" />
-                                          <Button fx:id="ChangeButton1" layoutX="201.0" layoutY="94.0" mnemonicParsing="false" text="Change" />
-                                          <Button fx:id="ChangeButton2" layoutX="201.0" layoutY="52.0" mnemonicParsing="false" text="Change" />
-                                          <TextArea fx:id="textField1" layoutX="323.0" layoutY="94.0" prefHeight="45.0" prefWidth="485.0" />
-                                          <TextArea fx:id="timeField" layoutX="201.0" layoutY="135.0" prefHeight="45.0" prefWidth="485.0" />
-                                          <Button fx:id="ChangeButton3" layoutX="201.0" layoutY="229.0" mnemonicParsing="false" text="Change" />
-                                          <TextArea fx:id="timeField2" layoutX="201.0" layoutY="173.0" maxWidth="441.0" prefHeight="30.0" prefWidth="441.0" />
-                                       </children>
-                                    </AnchorPane>
-                                </content>
+                                 <content>
+                                    <ScrollPane prefHeight="571.0" prefWidth="811.0">
+                                       <content>
+                                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="228.0" prefWidth="792.0">
+                                             <children>
+                                                <Label fx:id="BackGroundColorLabel" layoutX="14.0" layoutY="14.0" text="Background Color " />
+                                                <Button fx:id="ChangeButton0" layoutX="195.0" layoutY="8.0" mnemonicParsing="false" text="Change" />
+                                                <Label fx:id="textColorlabel" layoutX="14.0" layoutY="51.0" text="Text Color" />
+                                                <Button fx:id="ChangeButton2" layoutX="195.0" layoutY="48.0" mnemonicParsing="false" text="Change" />
+                                                <Label fx:id="fontLabel" layoutX="14.0" layoutY="87.0" text="Font " />
+                                                <Button fx:id="ChangeButton" layoutX="195.0" layoutY="84.0" mnemonicParsing="false" text="Change" />
+                                                <TextArea fx:id="textField1" layoutX="315.0" layoutY="90.0" prefHeight="45.0" prefWidth="485.0" />
+                                                <Label fx:id="StartDelayLabel" layoutX="14.0" layoutY="133.0" text="Start of Stage Delay " />
+                                                <TextArea fx:id="timeField" layoutX="195.0" layoutY="131.0" prefHeight="45.0" prefWidth="485.0" />
+                                                <Label fx:id="EndDelayLabel" layoutX="14.0" layoutY="164.0" text="End of Stage Delay" />
+                                                <TextArea fx:id="timeField2" layoutX="195.0" layoutY="161.0" maxWidth="441.0" prefHeight="30.0" prefWidth="441.0" />
+                                                <Label fx:id="DisablebuttonLabel" layoutX="14.0" layoutY="202.0" text="Disabled Button Color" />
+                                                <Button fx:id="ChangeButton3" layoutX="195.0" layoutY="202.0" mnemonicParsing="false" text="Change" />
+                                             </children>
+                                          </AnchorPane>
+                                       </content>
+                                    </ScrollPane>
+                                 </content>
                               </ScrollPane>
                            </children>
                         </AnchorPane>
+                        <AnchorPane fx:id="Properties" layoutX="8.0" layoutY="74.0" maxHeight="397.0" maxWidth="898.0" minHeight="144.0" minWidth="518.0" prefHeight="397.0" prefWidth="810.0" />
                      </children>
                   </AnchorPane>
                </children>

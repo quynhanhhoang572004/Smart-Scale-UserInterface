@@ -71,7 +71,6 @@
                               <Label fx:id="labelEditExperiment" layoutX="115.0" layoutY="-17.0" prefHeight="53.0" prefWidth="292.0" text="Edit Experiment">
                               </Label>
                               <Button fx:id="menuButton" layoutX="61.0" layoutY="-10.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="39.0" text=" " />
-
                            </children>
                         </AnchorPane>
                      </children>
@@ -97,7 +96,7 @@
                <children>
                   <AnchorPane maxHeight="664.0" maxWidth="812.0" minHeight="664.0" minWidth="812.0" prefHeight="644.0" prefWidth="812.0">
                      <children>
-                        <TextArea fx:id="textResult" layoutX="22.0" layoutY="51.0" maxHeight="644.0" minHeight="644.0" minWidth="812.0" prefHeight="644.0" prefWidth="667.0" promptText="demo" text="demo" />
+                        <TextArea fx:id="textResult" layoutX="12.0" layoutY="14.0" maxHeight="644.0" minHeight="514.0" minWidth="765.0" prefHeight="514.0" prefWidth="788.0" promptText="demo" text="demo" />
                      </children>
                   </AnchorPane>
                </children>
