@@ -89,10 +89,13 @@
     -fx-border: 1px 0px 0px 0px;
 
 }
-.headPanel{
+#headPanel{
 
-    -fx-background-color: rgba(202, 209, 208, 0.25);
+    -fx-background-color: #CAD1D040;
 
+}
+#dashboardPanel,#DashBoard{
+    -fx-background-color: #FFFFFF;
 }
 .root {
     -fx-font-family: 'Inter';

@@ -15,7 +15,7 @@
    <children>
       <AnchorPane prefHeight="839.0" prefWidth="1280.0">
          <children>
-            <AnchorPane fx:id="IDLabel" layoutX="28.0" layoutY="157.0" prefHeight="690.0" prefWidth="1279.0">
+            <AnchorPane fx:id="DashBoard" layoutX="7.0" layoutY="141.0" maxHeight="696.0" maxWidth="1279.0" minHeight="696.0" minWidth="1279.0" prefHeight="696.0" prefWidth="1279.0">
                <children>
                   <TextField fx:id="searchBar" layoutX="225.0" layoutY="14.0" stylesheets="@/css/EditExp_CSS.css" />
                   <MenuButton fx:id="DropDown" layoutX="99.0" layoutY="14.0" mnemonicParsing="false" prefWidth="55.0" text="10">
@@ -28,8 +28,8 @@
                   <Label fx:id="entriesLabel" layoutX="166.0" layoutY="21.0" prefHeight="18.0" prefWidth="96.0" text="entries" />
                   <Button fx:id="addExperimentButton" layoutX="1090.0" layoutY="14.0" mnemonicParsing="false" stylesheets="@../css/EditExp_CSS.css" text="+ Add Experiment" />
                   <Label fx:id="IDLabel" layoutX="64.0" layoutY="82.0" stylesheets="@/css/EditExp_CSS.css" text="ID" />
-                  <Label fx:id="CreatorLabel" layoutX="181.0" layoutY="82.0" text="Creator" />
-                  <Label fx:id="CreatorLabel1" layoutX="322.0" layoutY="82.0" text="Expriment Name" />
+                  <Label fx:id="CreatorLabel" layoutX="181.0" layoutY="82.0" stylesheets="@../css/EditExp_CSS.css" text="Creator" />
+                  <Label fx:id="CreatorLabel1" layoutX="322.0" layoutY="82.0" stylesheets="@../css/EditExp_CSS.css" text="Expriment Name" />
                   <Label fx:id="CreatorLabel11" layoutX="720.0" layoutY="82.0" text="Number of results" />
                   <Label fx:id="CreatorLabel111" layoutX="526.0" layoutY="82.0" text="Current Version" />
                   <Label fx:id="CreatorLabel112" layoutX="961.0" layoutY="72.0" text="Create Date" />
@@ -41,15 +41,15 @@
                   <URL value="@../css/EditExp_CSS.css" />
                </stylesheets>
             </AnchorPane>
-            <AnchorPane layoutX="14.0" layoutY="74.0" prefHeight="83.0" prefWidth="1294.0" styleClass="root">
+            <AnchorPane fx:id="dashboardPanel" layoutX="7.0" layoutY="58.0" maxHeight="83.0" maxWidth="1279.0" minHeight="83.0" minWidth="1279.0" prefHeight="83.0" prefWidth="1279.0" styleClass="root">
                <children>
-                  <Label fx:id="labelDashBoard" layoutX="124.0" layoutY="15.0" styleClass="dashBoardText" text="DashBoard">
+                  <Label fx:id="labelDashBoard" layoutX="102.0" layoutY="15.0" styleClass="dashBoardText" text="DashBoard">
                      <stylesheets>
                         <URL value="@EditExp_CSS.css" />
                         <URL value="@../css/EditExp_CSS.css" />
                         <URL value="@../css/Style.css" />
                      </stylesheets></Label>
-                  <ImageView fitHeight="47.0" fitWidth="46.0" layoutX="64.0" layoutY="18.0">
+                  <ImageView fitHeight="47.0" fitWidth="46.0" layoutX="34.0" layoutY="18.0">
                      <image>
                         <Image url="@picture/menu.png" />
                      </image>
@@ -60,10 +60,14 @@
                   <URL value="@../css/EditExp_CSS.css" />
                </stylesheets>
             </AnchorPane>
-            <AnchorPane fx:id="headPanel" layoutX="57.0" prefHeight="57.0" prefWidth="1279.0" styleClass="headPanel" stylesheets="@EditExp_CSS.css">
+            <AnchorPane fx:id="headPanel" layoutX="7.0" maxHeight="57.0" maxWidth="1279.0" minHeight="57.0" minWidth="1279.0" prefHeight="57.0" prefWidth="1279.0" styleClass="headPanel">
                <children>
-                  <Label fx:id="labelSenseXP" layoutX="49.0" layoutY="15.0" stylesheets="@../css/EditExp_CSS.css" text="SENSE XP" />
+                  <Label fx:id="labelSenseXP" layoutX="27.0" layoutY="-1.0" stylesheets="@../css/EditExp_CSS.css" text="SENSE XP" />
                </children>
+               <stylesheets>
+                  <URL value="@EditExp_CSS.css" />
+                  <URL value="@../css/EditExp_CSS.css" />
+               </stylesheets>
             </AnchorPane>
          </children>
       </AnchorPane>
