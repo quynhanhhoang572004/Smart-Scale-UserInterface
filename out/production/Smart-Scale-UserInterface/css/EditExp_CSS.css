@@ -89,3 +89,198 @@
     -fx-border: 1px 0px 0px 0px;
 
 }
+.headPanel{
+
+    -fx-background-color: rgba(202, 209, 208, 0.25);
+
+}
+.root {
+    -fx-font-family: 'Inter';
+    -fx-font-size: 14;
+}
+#labelSenseXP{
+    -fx-text-fill: #624DE3;
+    -fx-font-weight: bold;
+    -fx-font-size: 40;
+
+}
+#labelDashBoard{
+    -fx-text-fill: #624DE3;
+    -fx-font-size: 36;
+}
+#searchBar{
+
+
+    -fx-pref-width: 441px;
+    -fx-pref-height: 32px;
+    -fx-border-color: #9E9E9E;
+    -fx-border-style: solid ;
+
+
+    -fx-border-radius: 8px;
+
+
+
+}
+#DropDown{
+
+    -fx-font-weight: normal;
+    -fx-font-size: 12px;
+
+    -fx-pref-width: 46px;
+    -fx-pref-height: 31px;
+
+
+}
+#showLabel,#entriesLabel{
+    /* Show */
+
+    -fx-pref-width: 40px;
+    -fx-pref-height: 15px;
+
+    -fx-font-family: 'Montserrat';
+    -fx-font-style: normal;
+    -fx-font-weight: 500;
+    -fx-font-size: 12px;
+    -fx-line-height: 15px;
+    /* identical to box height */
+
+    -fx-text-fill: #000000;
+
+
+
+
+}
+#addExperimentButton{
+    /* Frame 17 */
+
+    /* Auto layout */
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+
+    -fx-pref-width: 151px;
+    -fx-pref-height: 32px;
+
+    -fx-background-color: #624DE3;
+    -fx-border-radius: 8px;
+
+
+
+}
+#IDLabel{
+
+
+    -fx-font-family: 'Montserrat';
+    -fx-font-style: normal;
+
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+    -FX-font-size: 14px;
+    /* ID */
+
+}
+#textFrame{
+    -fx-min-width: 806px;
+    -fx-max-width: 806px;
+    -fx-min-height: 311px;
+    -fx-max-height: 311px;
+    -fx-padding: 5px 0px 5px 0px;
+    -fx-border-radius: 20px 0px 0px 0px;
+    -fx-border: 1px 0px 0px 0px;
+
+}
+#Properties{
+    /* Frame 26937 */
+
+    -fx-box-sizing: border-box;
+
+    -fx-min-width: 810px;
+    -fx-max-width: 810px;
+    -fx-min-height: 275px;
+    -fx-max-height: 275px;
+
+
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+#BackGroundColorLabel,#textColorlabel,#fontLabel,#StartDelayLabel, #EndDelayLabel, #DisablebuttonLabel{
+    /* Background Colour */
+
+    -fx-pref-width: 201px;
+    -fx-pref-height: 21px;
+
+    -fx-font-family: 'Poppins';
+    -fx-font-style: normal;
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    line-height: 24px;
+    -fx-letter-spacing: 0.03em;
+
+    -fx-text-color: #181818;
+
+
+}
+#ChangeButton,#ChangeButton1,#ChangeButton2,#ChangeButton3{
+    /* Frame 26919 */
+    /* Change */
+
+
+
+    -fx-font-family: 'Poppins';
+    -fx-font-style: normal;
+    -fx-font-weight: 500;
+    -fx-font-size: 16px;
+    line-height: 24px;
+    -fx-text-alignment: center;
+
+
+    -fx-text-fill: #636364;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    -fx-align-items: flex-start;
+    -fx-padding: 0px 27px 0px 0px;
+
+    -fx-pref-width: 110px;
+    -fx-pref-height: 30px;
+    -fx-border:  1px 0px 0px 0px;
+
+    -fx-border-color: #696969;
+    -fx-border-radius: 5px 5px 5px 5px;
+    -fx-alignment: center;
+
+}
+#textField1{
+
+
+
+
+    -fx-border-color: #696969;
+    -fx-border-radius: 5px 5px 5px 5px;
+    -fx-alignment: center;
+
+
+
+}
+#timeField,#timeField2
+{
+
+    -fx-border-color: #696969;
+    -fx-border-radius: 5px 5px 5px 5px;
+    -fx-alignment: center;
+}
