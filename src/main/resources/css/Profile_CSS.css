@@ -42,6 +42,10 @@
     -fx-background-color: #CCCCCC;
     -fx-text-fill: white;
 }
+#changeAvatarBtn:hover{
+    -fx-background-color: transparent;
+    -fx-text-fill: black;
+}
 
 #labelSenseXP{
     -fx-text-fill: #624DE3;
