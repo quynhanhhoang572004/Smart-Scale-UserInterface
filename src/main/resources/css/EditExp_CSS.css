@@ -211,10 +211,11 @@
     flex-grow: 0;
 
 }
-#BackGroundColorLabel,#textColorlabel,#fontLabel,#StartDelayLabel, #EndDelayLabel, #DisablebuttonLabel{
+#BackGroundColorLabel,#textColorlabel,#fontLabel,#StartDelayLabel, #EndDelayLabel, #DisablebuttonLabel,#InstructionLabel1,#TimeToWaitLablel,
+#SoundDisplayLabel{
     /* Background Colour */
 
-    -fx-pref-width: 201px;
+    -fx-pref-width: 375px;
     -fx-pref-height: 21px;
 
     -fx-font-family: 'Poppins';
