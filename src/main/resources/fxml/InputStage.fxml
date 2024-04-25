@@ -2,9 +2,12 @@
 
 <?import java.net.URL?>
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
 <?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.StackPane?>
@@ -51,7 +54,7 @@
                                         </Button>
                                         <Button fx:id="addInputButton" layoutX="36.0" layoutY="217.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" stylesheets="@../css/EditExp_CSS.css" text="Add Input Stage">
                                         </Button>
-                                        <Button fx:id="addTimerButton" layoutX="36.0" layoutY="259.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" text="Add Timer Stage">
+                                        <Button fx:id="addTimerButton" layoutX="36.0" layoutY="259.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" stylesheets="@../css/EditExp_CSS.css" text="Add Timer Stage">
                                         </Button>
                                         <Button fx:id="addTasteTestButton" layoutX="36.0" layoutY="301.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" text="Add Taste Test">
                                         </Button>
@@ -104,27 +107,25 @@
                                         <ScrollPane layoutX="-6.0" layoutY="15.0" prefHeight="289.0" prefWidth="810.0">
                                             <content>
                                                 <ScrollPane prefHeight="571.0" prefWidth="811.0">
-                                       <content>
+                                                    <content>
                                                         <AnchorPane minHeight="30.0" minWidth="0.0" prefHeight="228.0" prefWidth="792.0">
                                                             <children>
-                                                                <Label fx:id="BackGroundColorLabel" layoutX="14.0" layoutY="14.0" stylesheets="@../css/EditExp_CSS.css" text="Background Color " />
-                                                                <Button fx:id="ChangeButton0" layoutX="184.0" layoutY="11.0" minHeight="30.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="106.0" stylesheets="@../css/EditExp_CSS.css" text="Change" />
-                                                                <Label fx:id="textColorlabel" layoutX="14.0" layoutY="51.0" stylesheets="@../css/EditExp_CSS.css" text="Text Color" />
-                                                                <Button fx:id="ChangeButton2" layoutX="184.0" layoutY="51.0" minHeight="30.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="106.0" text="Change" />
-                                                                <Label fx:id="fontLabel" layoutX="14.0" layoutY="87.0" stylesheets="@../css/EditExp_CSS.css" text="Font " />
-                                                                <Button fx:id="ChangeButton" layoutX="184.0" layoutY="97.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="106.0" text="Change" />
-                                                                <Label fx:id="StartDelayLabel" layoutX="14.0" layoutY="137.0" stylesheets="@../css/EditExp_CSS.css" text="Start of Stage Delay " />
-                                                                <TextArea fx:id="timeField" layoutX="184.0" layoutY="135.0" minHeight="30.0" prefHeight="30.0" prefWidth="485.0" stylesheets="@../css/EditExp_CSS.css" />
-                                                                <Label fx:id="EndDelayLabel" layoutX="14.0" layoutY="178.0" stylesheets="@../css/EditExp_CSS.css" text="End of Stage Delay" />
-                                                                <TextArea fx:id="timeField2" layoutX="184.0" layoutY="175.0" maxWidth="485.0" minHeight="30.0" prefHeight="30.0" prefWidth="485.0" />
-                                                                <Label fx:id="DisablebuttonLabel" layoutX="14.0" layoutY="215.0" stylesheets="@../css/EditExp_CSS.css" text="Disabled Button Color" />
-                                                                <Button fx:id="ChangeButton3" layoutX="184.0" layoutY="212.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="106.0" text="Change" />
-                                                <TextArea fx:id="textField1" layoutX="304.0" layoutY="11.0" maxHeight="30.0" minHeight="30.0" prefHeight="30.0" prefWidth="370.0" stylesheets="@../css/EditExp_CSS.css" />
-                                                <TextArea fx:id="textField11" layoutX="304.0" layoutY="51.0" maxHeight="30.0" minHeight="30.0" prefHeight="30.0" prefWidth="370.0" stylesheets="@../css/EditExp_CSS.css" />
-                                                <TextArea fx:id="textField111" layoutX="304.0" layoutY="97.0" maxHeight="30.0" minHeight="30.0" prefHeight="30.0" prefWidth="370.0" stylesheets="@../css/EditExp_CSS.css" />
+                                                                <Label fx:id="BackGroundColorLabel" layoutX="14.0" layoutY="14.0" stylesheets="@../css/EditExp_CSS.css" text="Question" />
+                                                                <Label fx:id="textColorlabel" layoutX="14.0" layoutY="51.0" stylesheets="@../css/EditExp_CSS.css" text="Store response in A" />
+                                                                <TextArea fx:id="textField1" layoutX="304.0" layoutY="11.0" maxHeight="30.0" minHeight="30.0" prefHeight="30.0" prefWidth="370.0" stylesheets="@../css/EditExp_CSS.css" />
+                                                <RadioButton layoutX="216.0" layoutY="83.0" mnemonicParsing="false" text="Available" />
+                                                <ComboBox layoutX="304.0" layoutY="77.0" minHeight="30.0" minWidth="370.0" prefHeight="30.0" prefWidth="370.0" />
+                                                <RadioButton layoutX="216.0" layoutY="124.0" mnemonicParsing="false" text="New" />
+                                                <TextField layoutX="304.0" layoutY="120.0" minHeight="30.0" prefHeight="30.0" prefWidth="370.0" />
+                                                <Label layoutX="26.0" layoutY="150.0" text="Button Text" />
+                                                <TextField layoutX="304.0" layoutY="159.0" minHeight="30.0" prefHeight="30.0" prefWidth="370.0" />
+                                                <Label layoutX="31.0" layoutY="198.0" text="Help Text" />
+                                                <TextArea layoutX="304.0" layoutY="207.0" minWidth="370.0" prefHeight="200.0" prefWidth="370.0" />
+                                                <Label layoutX="31.0" layoutY="425.0" text="Play alert sound on screen display ?" />
+                                                <TextField layoutX="304.0" layoutY="425.0" minHeight="30.0" prefHeight="30.0" prefWidth="370.0" />
                                                             </children>
                                                         </AnchorPane>
-                                       </content>
+                                                    </content>
                                                 </ScrollPane>
                                             </content>
                                         </ScrollPane>

@@ -15,7 +15,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/NoticeStage_1.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/InputStage.fxml"));
         ProfileController controller = new ProfileController();
         /*loader.setController(controller);*/
         Parent root = loader.load();
