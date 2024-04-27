@@ -33,23 +33,9 @@
     -fx-color: #624DE3;
 
 }
-.dashbar{
-    /* Frame 26924 */
+#Dashboard1,#mainBar{
 
-    /* Auto layout */
-    -fx-display: flex;
-    -fx-flex-direction: row;
-    -fx-align-items: center;
-    -fx-padding: 0px 14px;
-    -fx-gap: 20px;
-
-    -fx-position: absolute;
-    -fx-width: 1309px;
-    -fx-height: 92px;
-    -fx-left: 0px;
-    -fx-top: 56px;
-
-    -fx-background-color: #FFFFFF;
+    -fx-background-color: #624DE3;
 
 }
 .dashBoardText{
@@ -118,5 +104,12 @@
 
     -fx-background-color: #FFFFFF;
     -fx-border-radius: 5px;
+
+}
+#SenseXPBar{
+    /* Frame 26924 */
+
+
+    -fx-background-color: rgba(202, 209, 208, 0.25);
 
 }
