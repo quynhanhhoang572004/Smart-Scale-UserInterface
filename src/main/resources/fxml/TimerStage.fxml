@@ -103,7 +103,7 @@
                                 <TextArea fx:id="textFrame" layoutX="3.0" layoutY="56.0" maxHeight="311.0" maxWidth="806.0" minHeight="311.0" minWidth="806.0" prefHeight="644.0" prefWidth="667.0" promptText="demo" stylesheets="@/css/EditExp_CSS.css" />
                                 <AnchorPane layoutX="14.0" layoutY="380.0" prefHeight="288.0" prefWidth="798.0" stylesheets="@/css/EditExp_CSS.css">
                                     <children>
-                                        <ScrollPane layoutX="-6.0" layoutY="15.0" prefHeight="289.0" prefWidth="810.0">
+                                        <ScrollPane layoutX="-6.0" layoutY="15.0" prefHeight="289.0" prefWidth="810.0" stylesheets="@../css/EditExp_CSS.css">
                                             <content>
                                                 <ScrollPane prefHeight="571.0" prefWidth="811.0">
                                                     <content>
