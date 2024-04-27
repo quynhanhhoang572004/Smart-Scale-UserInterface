@@ -17,13 +17,7 @@
 }
 
 
-#noticeStageButton,
-#audibleInstructionButton,
-#assignSoundButton,
-#addInputButton,
-#addTimerButton,
-#addTasteTestButton,
-#addFoodAndTasteButton,
+#noticeStageButton, #audibleInstructionButton, #assignSoundButton, #addInputButton, #addTimerButton, #addTasteTestButton, #addFoodAndTasteButton,
 #addRatingsContainerButton,
 #addVASStageButton,
 #addGLMSStageButton,
@@ -386,6 +380,23 @@
     -fx-background-insets: 2,0,0;
     -fx-background-radius: 2em;
 }
+.check-box {
+    /* Checkbox */
 
+    -fx-max-width: 28px;
+    -fx-max-height: 28px;
+    -fx-background-color: white;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+.check-box .box{
+    -fx-background-color: white;
+    -fx-border-color: grey;
+    -fx-border-radius: 3px;
+}
 
 
