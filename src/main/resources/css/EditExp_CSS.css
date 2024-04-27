@@ -164,6 +164,10 @@
 
 
 }
+.stack pane{
+    -fx-background-color: white;
+    -fx-background-color: white;
+}
 #IDLabel{
 
 
@@ -206,7 +210,7 @@
 
 }
 #BackGroundColorLabel,#textColorlabel,#fontLabel,#StartDelayLabel, #EndDelayLabel, #DisablebuttonLabel,#InstructionLabel1,#TimeToWaitLablel,
-#SoundDisplayLabel,#QuestionLabel,#StoreResponseLabel,#ButtonTextLabel,#HelpTextLabel,#PlaySoundLabel{
+#SoundDisplayLabel,#QuestionLabel,#StoreResponseLabel,#ButtonTextLabel,#HelpTextLabel,#PlaySoundLabel, #HelpTextLabel{
     /* Background Colour */
 
     -fx-pref-width: 375px;
@@ -268,19 +272,11 @@
 
 
 
-    -fx-border-color: #696969;
-    -fx-border-radius: 5px 5px 5px 5px;
-    -fx-alignment: center;
-
 
 
 }
 #timeField,#timeField2
 {
-
-    -fx-border-color: #696969;
-    -fx-border-radius: 5px 5px 5px 5px;
-    -fx-alignment: center;
 }
 #mainBar{
 
@@ -398,5 +394,9 @@
     -fx-border-color: grey;
     -fx-border-radius: 3px;
 }
-
+.text-field{
+    -fx-border-color: black;
+    -fx-border-radius: 5px 5px 5px 5px;
+    -fx-alignment: center;
+}
 
