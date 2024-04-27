@@ -118,11 +118,11 @@
                                                 <ComboBox layoutX="304.0" layoutY="77.0" minHeight="30.0" minWidth="370.0" prefHeight="30.0" prefWidth="370.0" />
                                                 <RadioButton layoutX="216.0" layoutY="124.0" mnemonicParsing="false" text="New" />
                                                 <TextField layoutX="304.0" layoutY="120.0" minHeight="30.0" prefHeight="30.0" prefWidth="370.0" />
-                                                <Label layoutX="31.0" layoutY="150.0" text="Button Text" />
+                                                <Label fx:id="ButtonTextLabel" layoutX="14.0" layoutY="146.0" stylesheets="@../css/EditExp_CSS.css" text="Button Text" />
                                                 <TextField layoutX="304.0" layoutY="159.0" minHeight="30.0" prefHeight="30.0" prefWidth="370.0" />
-                                                <Label layoutX="31.0" layoutY="198.0" text="Help Text" />
+                                                <Label fx:id="HelpTextLabel" layoutX="14.0" layoutY="201.0" stylesheets="@../css/EditExp_CSS.css" text="Help Text" />
                                                 <TextArea layoutX="304.0" layoutY="207.0" minWidth="370.0" prefHeight="200.0" prefWidth="370.0" />
-                                                <Label layoutX="31.0" layoutY="425.0" text="Play alert sound on screen display ?" />
+                                                <Label fx:id="PlaySoundLabel" layoutX="14.0" layoutY="425.0" stylesheets="@../css/EditExp_CSS.css" text="Play alert sound on screen display ?" />
                                                 <CheckBox layoutX="304.0" layoutY="425.0" mnemonicParsing="false" />
                                                             </children>
                                                         </AnchorPane>

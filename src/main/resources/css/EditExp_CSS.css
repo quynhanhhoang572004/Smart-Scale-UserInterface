@@ -212,7 +212,7 @@
 
 }
 #BackGroundColorLabel,#textColorlabel,#fontLabel,#StartDelayLabel, #EndDelayLabel, #DisablebuttonLabel,#InstructionLabel1,#TimeToWaitLablel,
-#SoundDisplayLabel{
+#SoundDisplayLabel,#QuestionLabel,#StoreResponseLabel,#ButtonTextLabel,#HelpTextLabel,#PlaySoundLabel{
     /* Background Colour */
 
     -fx-pref-width: 375px;

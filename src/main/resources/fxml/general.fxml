@@ -41,13 +41,13 @@
                               <Label fx:id="entriesLabel" layoutX="166.0" layoutY="21.0" prefHeight="18.0" prefWidth="96.0" text="entries" />
                               <Button fx:id="addExperimentButton" layoutX="1090.0" layoutY="14.0" mnemonicParsing="false" stylesheets="@../css/EditExp_CSS.css" text="+ Add Experiment" />
                               <Label fx:id="IDLabel" layoutX="64.0" layoutY="82.0" stylesheets="@/css/EditExp_CSS.css" text="ID" />
-                              <Label fx:id="CreatorLabel" layoutX="181.0" layoutY="82.0" stylesheets="@../css/EditExp_CSS.css" text="Creator" />
-                              <Label fx:id="CreatorLabel1" layoutX="322.0" layoutY="82.0" stylesheets="@../css/EditExp_CSS.css" text="Expriment Name" />
-                              <Label fx:id="CreatorLabel11" layoutX="720.0" layoutY="82.0" text="Number of results" />
-                              <Label fx:id="CreatorLabel111" layoutX="526.0" layoutY="82.0" text="Current Version" />
-                              <Label fx:id="CreatorLabel112" layoutX="961.0" layoutY="72.0" text="Create Date" />
-                              <Label fx:id="CreatorLabel1121" layoutX="955.0" layoutY="92.0" text="Last Modified" />
-                              <Label fx:id="CreatorLabel113" layoutX="1144.0" layoutY="82.0" text="Action" />
+                              <Label fx:id="CreatorLabel" layoutX="142.0" layoutY="62.0" stylesheets="@../css/EditExp_CSS.css" text="Creator" />
+                              <Label fx:id="ExprimentNameLabel" layoutX="287.0" layoutY="63.0" stylesheets="@../css/EditExp_CSS.css" text="Expriment Name" />
+                              <Label fx:id="ResultLabel" layoutX="722.0" layoutY="61.0" text="Number of results" />
+                              <Label fx:id="CurrentVersionLabel" layoutX="502.0" layoutY="62.0" text="Current Version" />
+                              <Label fx:id="DateMLabel" layoutX="945.0" layoutY="53.0" text="Create Date" />
+                              <Label fx:id="LastMLabel" layoutX="937.0" layoutY="82.0" text="Last Modified" />
+                              <Label fx:id="OptionLabel" layoutX="1135.0" layoutY="63.0" text="Action" />
                            </children>
                            <stylesheets>
                               <URL value="@../css/Style.css" />
@@ -63,7 +63,8 @@
                                     <URL value="@../css/Style.css" />
                                  </stylesheets>
                               </Label>
-                              <ImageView fitHeight="47.0" fitWidth="46.0" layoutX="34.0" layoutY="18.0">
+                              <Button layoutX="34.0" layoutY="22.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="39.0" />
+                              <ImageView fitHeight="39.0" fitWidth="39.0" layoutX="34.0" layoutY="22.0">
                                  <image>
                                     <Image url="@picture/menu.png" />
                                  </image>
