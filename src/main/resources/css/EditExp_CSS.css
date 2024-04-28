@@ -1,6 +1,9 @@
 #SideBar{
     -fx-background-color: #F7F6FE
 }
+#SideBar2{
+    -fx-background-color: #FFFF
+}
 .root {
     -fx-font-family: 'Inter';
     -fx-font-size: 14;
@@ -449,6 +452,79 @@
         -fx-border-color: black;
         -fx-border-radius: 5px 5px 5px 5px;
         -fx-alignment: center;
+    }
+    #AddFoodPane{
+
+
+
+        -fx-background-color: #FFFFFF;
+
+        -fx-box-shadow: inset 0px -20px 0px rgba(0, 0, 0, 0.25);
+        -fx-border-radius: 14px 14px 14px 14px;
+        -fx-border-color: #000;
+
+
+
+    }
+    #AddFoodLabel{
+        /* Add Food */
+
+
+        -fx-font-family: 'Montserrat';
+        -fx-font-style: normal;
+        -fx-font-weight: 400;
+        -fx-font-size: 30px;
+        line-height: 41px;
+        /* identical to box height */
+        -fx-text-align: center;
+
+        -fx-text-fill: #1E1E1E;
+
+
+    }
+    #please1Label{
+        /* Please type the name of the new food below: */
+
+
+
+        -fx-font-family: 'Montserrat';
+        -fx-font-style: normal;
+        -fx-font-weight: 400;
+        -fx-font-size: 15px;
+        line-height: 41px;
+        /* identical to box height */
+        -fx-text-align: center;
+
+        -fx-text-fill: #1E1E1E;
+
+    }
+    #SaveButton1,#CancelButton1{
+        /* Button 15 */
+
+
+
+        -fx-background-color: #624DE3;
+
+
+
+
+        -fx-border-radius: 20px 20px 20px 20px;
+        /* Add */
+
+
+        -fx-font-family: 'Montserrat';
+        -fx-font-style: normal;
+        -fx-font-weight: 400;
+        -fx-font-size: 13px;
+        -fx-line-height: 16px;
+        -fx-display: flex;
+        -fx-align-items: center;
+
+        -fx-text-fill: #F7F6FE;
+        -fx-padding: 4px 23px, 4px 23px;
+        -fx-background-radius: 20px 20px 20px 20px;
+
+
     }
 
 

@@ -85,9 +85,9 @@
                               <Button fx:id="addRatingsContainerButton" layoutX="19.0" layoutY="292.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" stylesheets="@../css/EditExp_CSS.css" text="Add Rating Container" />
                               <Button fx:id="addVASStageButton" layoutX="19.0" layoutY="334.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" stylesheets="@../css/EditExp_CSS.css" text="Add Vas Stage " />
                               <Button fx:id="addGLMSStageButton" layoutX="19.0" layoutY="375.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" stylesheets="@../css/EditExp_CSS.css" text="Add GLMS Stage " />
-                              <Button fx:id="addGLMSStageButton" layoutX="19.0" layoutY="415.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" stylesheets="@../css/EditExp_CSS.css" text="Add Course" />
-                              <Button fx:id="addGLMSStageButton" layoutX="19.0" layoutY="455.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" stylesheets="@../css/EditExp_CSS.css" text="Add Periodic Stage" />
-                              <Button fx:id="addGLMSStageButton" layoutX="19.0" layoutY="496.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" stylesheets="@../css/EditExp_CSS.css" text="Add Conditional Statement" />
+                              <Button fx:id="addCourseButton" layoutX="19.0" layoutY="415.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" stylesheets="@../css/EditExp_CSS.css" text="Add Course" />
+                              <Button fx:id="addPeriodicStageButton" layoutX="19.0" layoutY="455.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" stylesheets="@../css/EditExp_CSS.css" text="Add Periodic Stage" />
+                              <Button fx:id="addConditionalStatementButton" layoutX="19.0" layoutY="496.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" stylesheets="@../css/EditExp_CSS.css" text="Add Conditional Statement" />
                            </children>
                         </AnchorPane>
                         <Label fx:id="labelEditExperiment" layoutX="15.0" layoutY="46.0" stylesheets="@../css/EditExp_CSS.css" text="Edit Experiment" />
