@@ -2,7 +2,10 @@
 
 <?import java.net.URL?>
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
 <?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -10,7 +13,7 @@
 <?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.text.Font?>
 
-<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="839.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="839.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
     <stylesheets>
         <URL value="@/css/EditExp_CSS.css" />
     </stylesheets>
@@ -19,7 +22,7 @@
             <top>
                 <AnchorPane prefHeight="35.0" prefWidth="1000.0" BorderPane.alignment="CENTER">
                     <children>
-                        <AnchorPane layoutX="97.0" layoutY="-77.0" maxHeight="92.0" maxWidth="1280.0" minHeight="92.0" minWidth="1280.0" prefHeight="92.0" prefWidth="1280.0" stylesheets="@../css/EditExp_CSS.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                        <AnchorPane layoutX="97.0" layoutY="-77.0" maxHeight="92.0" maxWidth="1300.0" minHeight="92.0" minWidth="1300.0" prefHeight="92.0" prefWidth="1300.0" stylesheets="@../css/EditExp_CSS.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                             <children>
                                 <Label fx:id="labelSenseXP" layoutX="7.0" layoutY="1.0" text="SENSE XP" textFill="#141414">
                                     <font>
@@ -103,28 +106,36 @@
                                     <children>
                                         <ScrollPane layoutX="-6.0" layoutY="15.0" prefHeight="289.0" prefWidth="810.0" stylesheets="@../css/EditExp_CSS.css">
                                             <content>
-                                                <ScrollPane prefHeight="571.0" prefWidth="811.0">
-                                       <content>
+                                                <ScrollPane prefHeight="700.0" prefWidth="811.0">
+                                                    <content>
                                                         <AnchorPane minHeight="30.0" minWidth="0.0" prefHeight="228.0" prefWidth="792.0">
                                                             <children>
-                                                                <Label fx:id="BackGroundColorLabel" layoutX="14.0" layoutY="14.0" stylesheets="@../css/EditExp_CSS.css" text="Background Color :" />
-                                                                <Button fx:id="ChangeButton0" layoutX="197.0" layoutY="11.0" minHeight="30.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="106.0" stylesheets="@../css/EditExp_CSS.css" text="Change" />
-                                                                <Label fx:id="textColorlabel" layoutX="14.0" layoutY="51.0" stylesheets="@../css/EditExp_CSS.css" text="Text Color :" />
-                                                                <Button fx:id="ChangeButton2" layoutX="197.0" layoutY="51.0" minHeight="30.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="106.0" text="Change" />
-                                                                <Label fx:id="fontLabel" layoutX="14.0" layoutY="87.0" stylesheets="@../css/EditExp_CSS.css" text="Font :" />
-                                                                <Button fx:id="ChangeButton" layoutX="197.0" layoutY="97.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="106.0" text="Change" />
-                                                                <Label fx:id="StartDelayLabel" layoutX="14.0" layoutY="137.0" stylesheets="@../css/EditExp_CSS.css" text="Start of Stage Delay : " />
-                                                                <TextArea fx:id="timeField" layoutX="202.0" layoutY="134.0" minHeight="30.0" prefHeight="30.0" prefWidth="485.0" stylesheets="@../css/EditExp_CSS.css" />
-                                                                <Label fx:id="EndDelayLabel" layoutX="14.0" layoutY="178.0" stylesheets="@../css/EditExp_CSS.css" text="End of Stage Delay :" />
-                                                                <TextArea fx:id="timeField2" layoutX="202.0" layoutY="175.0" maxWidth="485.0" minHeight="30.0" prefHeight="30.0" prefWidth="485.0" />
-                                                                <Label fx:id="DisablebuttonLabel" layoutX="14.0" layoutY="215.0" stylesheets="@../css/EditExp_CSS.css" text="Disabled Button Color :" />
-                                                                <Button fx:id="ChangeButton3" layoutX="202.0" layoutY="212.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="106.0" text="Change" />
-                                                <TextArea fx:id="textField1" layoutX="317.0" layoutY="11.0" maxHeight="30.0" minHeight="30.0" prefHeight="30.0" prefWidth="370.0" stylesheets="@../css/EditExp_CSS.css" />
-                                                <TextArea fx:id="textField11" layoutX="317.0" layoutY="51.0" maxHeight="30.0" minHeight="30.0" prefHeight="30.0" prefWidth="370.0" stylesheets="@../css/EditExp_CSS.css" />
-                                                <TextArea fx:id="textField111" layoutX="317.0" layoutY="97.0" maxHeight="30.0" minHeight="30.0" prefHeight="30.0" prefWidth="370.0" stylesheets="@../css/EditExp_CSS.css" />
+                                                                <Label id="propertiesLabel" layoutX="14.0" layoutY="13.0" prefHeight="26.0" prefWidth="188.0" stylesheets="@../css/EditExp_CSS.css" text="Question" />
+                                                                <Label id="propertiesLabel" layoutX="14.0" layoutY="54.0" prefHeight="26.0" prefWidth="188.0" stylesheets="@../css/EditExp_CSS.css" text="Low Anchor Text" />
+                                                                <Label id="propertiesLabel" layoutX="14.0" layoutY="95.0" stylesheets="@../css/EditExp_CSS.css" text="High Anchor Text" />
+                                                                <TextArea fx:id="lowAncTxtField" layoutX="300.0" layoutY="52.0" minHeight="30.0" prefHeight="30.0" prefWidth="410.0" styleClass="propertiesTextField" stylesheets="@../css/EditExp_CSS.css" />
+                                                                <Label id="propertiesLabel" layoutX="14.0" layoutY="136.0" stylesheets="@../css/EditExp_CSS.css" text="Low Anchor Value" />
+                                                                <TextArea fx:id="highAncTxtField" layoutX="300.0" layoutY="93.0" maxWidth="410.0" minHeight="30.0" prefHeight="30.0" prefWidth="410.0" styleClass="propertiesTextField" />
+                                                                <Label id="propertiesLabel" layoutX="14.0" layoutY="177.0" stylesheets="@../css/EditExp_CSS.css" text="High Anchor Value" />
+                                                                <TextArea fx:id="questionField" layoutX="300.0" layoutY="11.0" maxHeight="30.0" minHeight="30.0" prefHeight="30.0" prefWidth="410.0" styleClass="propertiesTextField" stylesheets="@../css/EditExp_CSS.css" />
+                                                                <TextArea fx:id="lowAncValField" layoutX="300.0" layoutY="134.0" maxWidth="410.0" minHeight="30.0" prefHeight="30.0" prefWidth="410.0" styleClass="propertiesTextField" />
+                                                                <TextArea fx:id="highAncValField" layoutX="300.0" layoutY="175.0" maxWidth="410.0" minHeight="30.0" prefHeight="30.0" prefWidth="410.0" styleClass="propertiesTextField" />
+                                                                <Label id="propertiesLabel" layoutX="14.0" layoutY="218.0" text="Button Text" />
+                                                                <TextArea fx:id="buttonTxtField" layoutX="300.0" layoutY="216.0" maxWidth="410.0" minHeight="30.0" prefHeight="30.0" prefWidth="410.0" styleClass="propertiesTextField" />
+                                                                <Label id="propertiesLabel" layoutX="14.0" layoutY="259.0" text="Store Response In A Variable?" />
+                                                                <RadioButton fx:id="radioButtonAvailable" layoutX="150.0" layoutY="300.0" mnemonicParsing="false" stylesheets="@../css/EditExp_CSS.css" text="Available" />
+                                                                <ChoiceBox fx:id="choiceBoxAvail" layoutX="300.0" layoutY="298.0" prefHeight="27.0" prefWidth="410.0" styleClass="propertiesTextField" />
+                                                                <RadioButton id="propertiesLabel" fx:id="radioButtonYes" layoutX="150.0" layoutY="341.0" mnemonicParsing="false" stylesheets="@../css/EditExp_CSS.css" text="Yes" />
+                                                                <TextArea fx:id="yesField" layoutX="300.0" layoutY="339.0" maxWidth="410.0" minHeight="30.0" prefHeight="30.0" prefWidth="410.0" />
+                                                                <Label id="propertiesLabel" layoutX="14.0" layoutY="382.0" text="Swap Poles (ticked for yes) " />
+                                                                <CheckBox fx:id="checkBoxSwap" layoutX="300.0" layoutY="384.0" mnemonicParsing="false" />
+                                                                <Label id="propertiesLabel" layoutX="14.0" layoutY="418.0" text="Help Text" />
+                                                                <TextArea layoutX="300.0" layoutY="418.0" minWidth="377.0" prefHeight="200.0" prefWidth="410.0" styleClass="propertiesTextField" />
+                                                                <Label fx:id="PlaySoundLabel" layoutX="14.0" layoutY="635.0" stylesheets="@../css/EditExp_CSS.css" text="Play alert sound on screen display ?" />
+                                                                <CheckBox layoutX="300.0" layoutY="637.0" mnemonicParsing="false" />
                                                             </children>
                                                         </AnchorPane>
-                                       </content>
+                                                    </content>
                                                 </ScrollPane>
                                             </content>
                                         </ScrollPane>

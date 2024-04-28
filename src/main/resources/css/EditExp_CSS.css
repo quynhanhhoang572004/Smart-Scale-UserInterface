@@ -210,8 +210,8 @@
 
 }
 #BackGroundColorLabel,#textColorlabel,#fontLabel,#StartDelayLabel, #EndDelayLabel, #DisablebuttonLabel,#InstructionLabel1,#TimeToWaitLablel,
-#SoundDisplayLabel,#QuestionLabel,#StoreResponseLabel,#ButtonTextLabel,#HelpTextLabel,#PlaySoundLabel, #HelpTextLabel{
-    /* Background Colour */
+#SoundDisplayLabel,#QuestionLabel,#StoreResponseLabel,#ButtonTextLabel,#HelpTextLabel,#PlaySoundLabel, #propertiesLabel, #radioButtonAvailable{
+
 
     -fx-pref-width: 375px;
     -fx-pref-height: 21px;
@@ -224,7 +224,6 @@
     -fx-letter-spacing: 0.03em;
 
     -fx-text-color: #181818;
-
 
 }
 #ChangeButton,#ChangeButton1,#ChangeButton2,#ChangeButton3{
@@ -277,6 +276,14 @@
 }
 #timeField,#timeField2
 {
+    -fx-border-color: #696969;
+    -fx-border-radius: 5px 5px 5px 5px;
+    -fx-alignment: center;}
+.propertiesTextField{
+    -fx-border-color: #696969;
+    -fx-border-radius: 5px 5px 5px 5px;
+    -fx-alignment: center;
+
 }
 #mainBar{
 
@@ -347,9 +354,6 @@
     -fx-border-color: transparent
 
 
-
-
-
 }
 .scroll-pane .scroll-bar:horizontal .decrement-button{
     -fx-padding: 0 ,0 ,10,0;
@@ -375,6 +379,7 @@
     -fx-background-color: #655E95;
     -fx-background-insets: 2, 0, 0;
     -fx-background-radius: 2em;
+}
 
     #TasteTestItemLable {
         /* Taste Test Item Selection */
@@ -419,8 +424,7 @@
     }
 
     .check-box {
-        /* Checkbox */
-    >>> >>> > origin / jenny -fx-max-width: 28 px;
+        -fx-max-width: 28px;
         -fx-max-height: 28px;
         -fx-background-color: white;
 
@@ -442,6 +446,6 @@
         -fx-border-radius: 5px 5px 5px 5px;
         -fx-alignment: center;
     }
-}
+
 
 

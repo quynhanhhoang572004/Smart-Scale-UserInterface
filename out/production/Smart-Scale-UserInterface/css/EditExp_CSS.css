@@ -212,7 +212,7 @@
 
 }
 #BackGroundColorLabel,#textColorlabel,#fontLabel,#StartDelayLabel, #EndDelayLabel, #DisablebuttonLabel,#InstructionLabel1,#TimeToWaitLablel,
-#SoundDisplayLabel,#QuestionLabel,#StoreResponseLabel,#ButtonTextLabel,#HelpTextLabel,#PlaySoundLabel{
+#SoundDisplayLabel,#QuestionLabel,#StoreResponseLabel,#ButtonTextLabel,#HelpTextLabel,#PlaySoundLabel, #propertiesLabel, #radioButtonAvailable{
     /* Background Colour */
 
     -fx-pref-width: 375px;
@@ -226,7 +226,6 @@
     -fx-letter-spacing: 0.03em;
 
     -fx-text-color: #181818;
-
 
 }
 #ChangeButton,#ChangeButton1,#ChangeButton2,#ChangeButton3{
@@ -281,9 +280,7 @@
 
 
 }
-#timeField,#timeField2
-{
-
+.propertiesTextField{
     -fx-border-color: #696969;
     -fx-border-radius: 5px 5px 5px 5px;
     -fx-alignment: center;
@@ -357,9 +354,6 @@
     -fx-border-color: transparent
 
 
-
-
-
 }
 .scroll-pane .scroll-bar:horizontal .decrement-button{
     -fx-padding: 0 ,0 ,10,0;
@@ -386,6 +380,4 @@
     -fx-background-insets: 2,0,0;
     -fx-background-radius: 2em;
 }
-
-
 
