@@ -17,13 +17,7 @@
 }
 
 
-#noticeStageButton,
-#audibleInstructionButton,
-#assignSoundButton,
-#addInputButton,
-#addTimerButton,
-#addTasteTestButton,
-#addFoodAndTasteButton,
+#noticeStageButton, #audibleInstructionButton, #assignSoundButton, #addInputButton, #addTimerButton, #addTasteTestButton, #addFoodAndTasteButton,
 #addRatingsContainerButton,
 #addVASStageButton,
 #addGLMSStageButton,
@@ -170,6 +164,10 @@
 
 
 }
+.stackpane{
+    -fx-background-color: white;
+
+}
 #IDLabel{
 
 
@@ -212,7 +210,7 @@
 
 }
 #BackGroundColorLabel,#textColorlabel,#fontLabel,#StartDelayLabel, #EndDelayLabel, #DisablebuttonLabel,#InstructionLabel1,#TimeToWaitLablel,
-#SoundDisplayLabel,#QuestionLabel,#StoreResponseLabel,#ButtonTextLabel,#HelpTextLabel,#PlaySoundLabel{
+#SoundDisplayLabel,#QuestionLabel,#StoreResponseLabel,#ButtonTextLabel,#HelpTextLabel,#PlaySoundLabel, #HelpTextLabel{
     /* Background Colour */
 
     -fx-pref-width: 375px;
@@ -274,19 +272,11 @@
 
 
 
-    -fx-border-color: #696969;
-    -fx-border-radius: 5px 5px 5px 5px;
-    -fx-alignment: center;
-
 
 
 }
 #timeField,#timeField2
 {
-
-    -fx-border-color: #696969;
-    -fx-border-radius: 5px 5px 5px 5px;
-    -fx-alignment: center;
 }
 #mainBar{
 
@@ -381,55 +371,77 @@
     -fx-padding: -2;
 
 }
-.scroll-pane .scroll-bar:vertical .thumb{
+.scroll-pane .scroll-bar:vertical .thumb {
     -fx-background-color: #655E95;
-    -fx-background-insets: 2,0,0;
+    -fx-background-insets: 2, 0, 0;
     -fx-background-radius: 2em;
+
+    #TasteTestItemLable {
+        /* Taste Test Item Selection */
+
+
+        -fx-font-family: 'Inter';
+        -fx-font-style: normal;
+        -fx-font-weight: bold;
+        -fx-font-size: 32px;
+
+        align-items: center;
+
+        -fx-text-fill: #624DE3;
+
+
+    }
+
+    #AddButton {
+        /* Button 6 */
+
+
+        -fx-background-color: #624DE3;
+        /* Button 6 */
+
+        /* Auto layout */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        -fx-padding: 18px 20px;
+        gap: 20px;
+
+
+        -fx-border-radius: 20px 20px 20px 9px;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+
+
+    }
+
+    .check-box {
+        /* Checkbox */
+    >>> >>> > origin / jenny -fx-max-width: 28 px;
+        -fx-max-height: 28px;
+        -fx-background-color: white;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+
+    }
+
+    .check-box .box {
+        -fx-background-color: white;
+        -fx-border-color: grey;
+        -fx-border-radius: 3px;
+    }
+
+    .text-field {
+        -fx-border-color: black;
+        -fx-border-radius: 5px 5px 5px 5px;
+        -fx-alignment: center;
+    }
 }
-#TasteTestItemLable{
-    /* Taste Test Item Selection */
-
-
-
-    -fx-font-family: 'Inter';
-    -fx-font-style: normal;
-    -fx-font-weight: bold;
-    -fx-font-size: 32px;
-
-    align-items: center;
-
-    -fx-text-fill: #624DE3;
-
-
-}
-#AddButton{
-    /* Button 6 */
-
-
-
-    -fx-background-color: #624DE3;
-    /* Button 6 */
-
-    /* Auto layout */
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    -fx-padding: 18px 20px;
-    gap: 20px;
-
-
-
-    -fx-border-radius: 20px 20px 20px 9px ;
-
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-
-
-
-}
-
 
 
