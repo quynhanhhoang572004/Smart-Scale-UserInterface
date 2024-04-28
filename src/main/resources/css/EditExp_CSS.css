@@ -397,28 +397,32 @@
 
     }
 
-    #AddButton {
+    #AddButton,#SelectAllButton,#SelectNoneButton,#CloseButton {
         /* Button 6 */
 
 
         -fx-background-color: #624DE3;
-        /* Button 6 */
-
-        /* Auto layout */
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        -fx-padding: 18px 20px;
-        gap: 20px;
 
 
-        -fx-border-radius: 20px 20px 20px 9px;
 
-        /* Inside auto layout */
-        flex: none;
-        order: 0;
-        flex-grow: 0;
+
+        -fx-border-radius: 20px 20px 20px 20px;
+        /* Add */
+
+
+        -fx-font-family: 'Montserrat';
+        -fx-font-style: normal;
+        -fx-font-weight: 400;
+        -fx-font-size: 13px;
+        -fx-line-height: 16px;
+        -fx-display: flex;
+        -fx-align-items: center;
+
+        -fx-text-fill: #F7F6FE;
+        -fx-padding: 4px 23px, 4px 23px;
+        -fx-background-radius: 10px 10px 10px 10px;
+
+
 
 
     }
