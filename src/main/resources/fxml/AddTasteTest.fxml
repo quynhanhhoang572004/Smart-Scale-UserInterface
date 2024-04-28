@@ -2,10 +2,11 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.StackPane?>
-
 
 <StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="839.0" prefWidth="1279.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
    <children>
@@ -15,7 +16,7 @@
                <children>
                   <AnchorPane fx:id="SenseXPBar" prefHeight="200.0" prefWidth="1279.2" stylesheets="@../css/EditExp_CSS.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                      <children>
-                        <Label fx:id="labelSenseXP" layoutX="14.0" layoutY="9.0" text="Sense XP" />
+                        <Label fx:id="labelSenseXP" layoutX="24.0" layoutY="14.0" text="Sense XP" />
                      </children>
                   </AnchorPane>
                </children>
@@ -24,25 +25,55 @@
          <left>
             <AnchorPane prefHeight="774.0" prefWidth="244.0" stylesheets="@../css/EditExp_CSS.css" BorderPane.alignment="CENTER">
                <children>
-                  <AnchorPane fx:id="SideBar" prefHeight="774.0" prefWidth="244.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                  <AnchorPane fx:id="SideBar" layoutX="-8.8" prefHeight="774.0" prefWidth="262.0" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="-9.0" AnchorPane.rightAnchor="-9.0" AnchorPane.topAnchor="0.0">
                      <children>
-                        <Button fx:id="DashBoardButton1" layoutX="13.0" layoutY="28.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="217.0" text="DashBoard" />
-                        <Button fx:id="DashBoardButton2" layoutX="13.0" layoutY="108.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="217.0" text="Share Experiment" />
-                        <Button fx:id="DashBoardButton3" layoutX="13.0" layoutY="192.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="217.0" text="Import Experiment" />
-                        <Button fx:id="DashBoardButton4" layoutX="13.0" layoutY="274.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="217.0" text="Export Experiment " />
-                        <Button fx:id="DashBoardButton5" layoutX="13.0" layoutY="357.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="217.0" text="Configure " />
+                        <Button fx:id="DashBoardButton1" layoutX="22.0" layoutY="28.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="217.0" text="DashBoard" />
+                        <Button fx:id="DashBoardButton2" layoutX="22.0" layoutY="108.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="217.0" text="Share Experiment" />
+                        <Button fx:id="DashBoardButton3" layoutX="22.0" layoutY="191.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="217.0" text="Import Experiment" />
+                        <Button fx:id="DashBoardButton4" layoutX="22.0" layoutY="273.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="217.0" text="Export Experiment " />
+                        <Button fx:id="DashBoardButton5" layoutX="22.0" layoutY="346.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="217.0" text="Configure " />
                         <Button fx:id="DashBoardButton6" layoutX="13.0" layoutY="670.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="217.0" text="Logout" />
+                        <ImageView layoutX="23.0" layoutY="45.0">
+                           <image>
+                              <Image url="@picture/Frame%2013.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView layoutX="16.0" layoutY="108.0">
+                           <image>
+                              <Image url="@picture/Frame%2014.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView layoutX="23.0" layoutY="363.0">
+                           <image>
+                              <Image url="@picture/grommet-icons_configure.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView layoutX="62.0" layoutY="687.0">
+                           <image>
+                              <Image url="@picture/ic_outline-logout.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView layoutX="23.0" layoutY="206.0">
+                           <image>
+                              <Image url="@picture/lucide_import.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView layoutX="23.0" layoutY="288.0">
+                           <image>
+                              <Image url="@picture/uil_export.png" />
+                           </image>
+                        </ImageView>
                      </children>
                   </AnchorPane>
                </children>
             </AnchorPane>
          </left>
          <center>
-            <StackPane fx:id="DashBoard" prefHeight="774.0" prefWidth="1036.0" BorderPane.alignment="CENTER">
+            <StackPane prefHeight="774.0" prefWidth="1036.0" BorderPane.alignment="CENTER">
                <children>
-                  <AnchorPane prefHeight="774.0" prefWidth="1036.0">
+                  <AnchorPane fx:id="mainBar" prefHeight="766.0" prefWidth="1070.0" stylesheets="@../css/EditExp_CSS.css">
                      <children>
-                        <AnchorPane layoutY="103.0" prefHeight="668.0" prefWidth="279.0">
+                        <AnchorPane layoutX="-9.0" layoutY="103.0" prefHeight="668.0" prefWidth="292.0">
                            <children>
                               <Button fx:id="noticeStageButton" layoutX="19.0" layoutY="14.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" stylesheets="@../css/EditExp_CSS.css" text="Add Notice Stage " />
                               <Button fx:id="audibleInstructionButton" layoutX="19.0" layoutY="53.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" stylesheets="@../css/EditExp_CSS.css" text="Add Audible instruction" />
@@ -60,8 +91,15 @@
                            </children>
                         </AnchorPane>
                         <Label fx:id="labelEditExperiment" layoutX="22.0" layoutY="49.0" stylesheets="@../css/EditExp_CSS.css" text="Edit Experiment" />
-                        <AnchorPane layoutX="264.0" layoutY="76.0" prefHeight="697.0" prefWidth="795.0" />
-                        <Label layoutX="294.0" layoutY="58.0" text="Taste test item selection" />
+                        <AnchorPane layoutX="264.0" layoutY="76.0" prefHeight="698.0" prefWidth="770.0">
+                           <children>
+                              <Button fx:id="AddButton" layoutX="116.0" layoutY="617.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="103.0" text="Add" />
+                              <Button layoutX="262.0" layoutY="617.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="103.0" text="Select All" />
+                              <Button layoutX="405.0" layoutY="617.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="103.0" text="Select None" />
+                              <Button layoutX="553.0" layoutY="617.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="103.0" text="Close" />
+                           </children>
+                        </AnchorPane>
+                        <Label fx:id="TasteTestItemLable" layoutX="311.0" layoutY="49.0" stylesheets="@../css/EditExp_CSS.css" text="Taste test item selection" />
                      </children>
                   </AnchorPane>
                </children>

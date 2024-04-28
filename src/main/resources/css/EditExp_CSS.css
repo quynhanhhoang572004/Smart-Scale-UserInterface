@@ -386,6 +386,50 @@
     -fx-background-insets: 2,0,0;
     -fx-background-radius: 2em;
 }
+#TasteTestItemLable{
+    /* Taste Test Item Selection */
+
+
+
+    -fx-font-family: 'Inter';
+    -fx-font-style: normal;
+    -fx-font-weight: bold;
+    -fx-font-size: 32px;
+
+    align-items: center;
+
+    -fx-text-fill: #624DE3;
+
+
+}
+#AddButton{
+    /* Button 6 */
+
+
+
+    -fx-background-color: #624DE3;
+    /* Button 6 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    -fx-padding: 18px 20px;
+    gap: 20px;
+
+
+
+    -fx-border-radius: 20px 20px 20px 9px ;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+
+}
 
 
 
