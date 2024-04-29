@@ -329,7 +329,7 @@
     -fx-text-fill: #000;
     -fx-background-color: #F7F6FE
 }
-#IDlabel,#CreatorLabel,#ExprimentNameLabel,#CurrentVersionLabel,#ResultLabel,#LastMLabel,#DateMLabel,#OptionLabel,#ExperimentdesLabel,#AdditionNoteLabel{
+#IDlabel,#CreatorLabel,#ExprimentNameLabel,#CurrentVersionLabel,#ResultLabel,#LastMLabel,#DateMLabel,#OptionLabel,#ExperimentdesLabel,#AdditionNoteLabel,#FileLabel,#NameLabel{
     -fx-font-family: 'Montserrat';
     -fx-font-weight: 700;
     -fx-align-items: center;
@@ -390,7 +390,7 @@
     -fx-background-radius: 2em;
 }
 
-    #TasteTestItemLable {
+    #TasteTestItemLable,#SoundSelectTionLabel {
         /* Taste Test Item Selection */
 
 
@@ -406,7 +406,7 @@
 
     }
 
-    #AddButton,#SelectAllButton,#SelectNoneButton,#CloseButton {
+    #AddButton,#SelectAllButton,#SelectNoneButton,#CloseButton,#SaveButton2,#RefreshButton,#StopButton,#RemoveButton,#PlayButton{
         /* Button 6 */
 
 
@@ -459,7 +459,7 @@
         -fx-border-radius: 5px 5px 5px 5px;
         -fx-alignment: center;
     }
-    #AddFoodPane,#NewExPane{
+    #AddFoodPane,#NewExPane,#AddsoundPane,#ImportSoundPane{
 
 
 
@@ -553,6 +553,25 @@
         flex-grow: 0;
 
     }
+    #ImportSoundLabel{
+        -fx-font-family: 'Montserrat';
+        -fx-font-style: normal;
+        -fx-font-weight: 400;
+        -fx-font-size: 30px;
+        line-height: 41px;
+        /* identical to box height */
+        -fx-text-align: center;
 
+        -fx-text-fill: #655E95;
+    }
+    #Browsebutton{
+
+        -fx-text-fill: #624DE3;
+
+        -fx-padding: 4px 23px, 4px 23px;
+        -fx-background-radius: 10px 10px 10px 10px;
+        -fx-background-color: derive(#85858540,90%);
+
+    }
 
 
