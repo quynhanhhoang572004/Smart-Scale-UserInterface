@@ -288,6 +288,12 @@
     -fx-alignment: center;
 
 }
+.text-area{
+    -fx-border-color: #696969;
+    -fx-border-radius: 5px 5px 5px 5px;
+    -fx-alignment: center;
+    -fx-box-sizing: border-box;
+}
 #mainBar{
 
     -fx-background-color: #FFFF;
@@ -323,7 +329,7 @@
     -fx-text-fill: #000;
     -fx-background-color: #F7F6FE
 }
-#IDlabel,#CreatorLabel,#ExprimentNameLabel,#CurrentVersionLabel,#ResultLabel,#LastMLabel,#DateMLabel,#OptionLabel{
+#IDlabel,#CreatorLabel,#ExprimentNameLabel,#CurrentVersionLabel,#ResultLabel,#LastMLabel,#DateMLabel,#OptionLabel,#ExperimentdesLabel,#AdditionNoteLabel{
     -fx-font-family: 'Montserrat';
     -fx-font-weight: 700;
     -fx-align-items: center;
@@ -453,7 +459,7 @@
         -fx-border-radius: 5px 5px 5px 5px;
         -fx-alignment: center;
     }
-    #AddFoodPane{
+    #AddFoodPane,#NewExPane{
 
 
 
@@ -524,6 +530,27 @@
         -fx-padding: 4px 23px, 4px 23px;
         -fx-background-radius: 20px 20px 20px 20px;
 
+
+    }
+    #NewExLabel{
+        /* New experiment */
+
+
+
+        -fx-font-family: 'Poppins';
+        -fx-font-style: bold;
+        -fx-font-weight: 700;
+        -fx-font-size: 32px;
+        line-height: 48px;
+        letter-spacing: 0.03em;
+
+      -fx-text-fill: #655E95;
+
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
 
     }
 

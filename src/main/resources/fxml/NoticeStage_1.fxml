@@ -119,7 +119,11 @@
                                                                 <TextArea fx:id="timeField2" layoutX="202.0" layoutY="175.0" maxWidth="485.0" minHeight="30.0" prefHeight="30.0" prefWidth="485.0" />
                                                                 <Label fx:id="DisablebuttonLabel" layoutX="14.0" layoutY="215.0" stylesheets="@../css/EditExp_CSS.css" text="Disabled Button Color :" />
                                                                 <Button fx:id="ChangeButton3" layoutX="202.0" layoutY="212.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="106.0" text="Change" />
-                                                <TextArea fx:id="textField1" layoutX="317.0" layoutY="11.0" maxHeight="30.0" minHeight="30.0" prefHeight="30.0" prefWidth="370.0" stylesheets="@../css/EditExp_CSS.css" />
+                                                <TextArea fx:id="textField1" layoutX="317.0" layoutY="11.0" maxHeight="30.0" minHeight="30.0" prefHeight="30.0" prefWidth="370.0">
+                                                   <stylesheets>
+                                                      <URL value="@../css/EditExp_CSS.css" />
+                                                      <URL value="@../css/EditExp_CSS.css" />
+                                                   </stylesheets></TextArea>
                                                 <TextArea fx:id="textField11" layoutX="317.0" layoutY="51.0" maxHeight="30.0" minHeight="30.0" prefHeight="30.0" prefWidth="370.0" stylesheets="@../css/EditExp_CSS.css" />
                                                 <TextArea fx:id="textField111" layoutX="317.0" layoutY="97.0" maxHeight="30.0" minHeight="30.0" prefHeight="30.0" prefWidth="370.0" stylesheets="@../css/EditExp_CSS.css" />
                                                             </children>
