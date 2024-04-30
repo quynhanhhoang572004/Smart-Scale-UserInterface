@@ -573,5 +573,77 @@
         -fx-background-color: derive(#85858540,90%);
 
     }
+#frame {
+    -fx-box-sizing: border-box;
+
+    -fx-position: absolute;
+    -fx-width: 906px;
+    -fx-height: 576px;
+    -fx-left: 322px;
+    -fx-top: 168px;
+
+    -fx-border-color: #000000;
+    -fx-border-radius: 20px;
+    -fx-background-color: white;
+}
+#labelPreview{
+    -fx-text-fill: #655E95;
+    -fx-font-size: 36;
+    -fx-font-weight: bold;
+}
+#normalLabel{
+    -fx-width: 250px;
+    -fx-height: 30px;
+
+    -fx-font-family: 'Poppins';
+    -fx-font-style: normal;
+    -fx-font-weight: 500;
+    -fx-font-size: 20px;
+    -fx-line-height: 30px;
+    -fx-letter-spacing: 0.03em;
+
+    -fx-color: #181818;
+}
+#highlightLabel{
+    -fx-width: 250px;
+    -fx-height: 30px;
+
+    -fx-font-family: 'Poppins';
+    -fx-font-style: normal;
+    -fx-font-weight: 900;
+    -fx-font-size: 20px;
+    -fx-line-height: 30px;
+    -fx-letter-spacing: 0.03em;
+
+    -fx-color: #181818;
+}
+#importButton, #CancelButton1{
+    -fx-display: flex;
+    -fx-flex-direction: row;
+    -fx-justify-content: center;
+    -fx-align-items: center;
+    -fx-padding: 8px 12px;
+    -fx-gap: 8px;
+    -fx-max-width: 139px;
+    -fx-height: 32px;
+    -fx-font-family: 'Montserrat';
+    -fx-font-style: normal;
+    -fx-font-weight: 700;
+    -fx-font-size: 15px;
+    -fx-line-height: 17px;
+    -fx-background-color:
+            #624DE3
+;
+    -fx-text-fill: white;
+    -fx-border-radius: 50px 50px 50px 50px;
+    -fx-background-radius: 20;
+
+    /* Inside auto layout */
+    -fx-flex: none;
+    -fx-order: 1;
+    -fx-flex-grow: 0;
+
+}
+
 
 

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="839.0" prefWidth="1279.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <BorderPane prefHeight="839.0" prefWidth="1279.0">
+            <top>
+                <AnchorPane prefHeight="56.0" prefWidth="1278.0" BorderPane.alignment="CENTER">
+                    <children>
+                        <AnchorPane fx:id="SenseXPBar" prefHeight="200.0" prefWidth="1279.2" stylesheets="@../css/EditExp_CSS.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                            <children>
+                                <Label fx:id="labelSenseXP" layoutX="14.0" layoutY="4.0" text="Sense XP" />
+                            </children>
+                        </AnchorPane>
+                    </children>
+                </AnchorPane>
+            </top>
+            <left>
+                <AnchorPane prefHeight="774.0" prefWidth="244.0" stylesheets="@../css/EditExp_CSS.css" BorderPane.alignment="CENTER">
+               <children>
+                          <AnchorPane layoutX="1.0" layoutY="80.0" prefHeight="668.0" prefWidth="292.0">
+                              <children>
+                                  <Button fx:id="noticeStageButton" layoutX="19.0" layoutY="14.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" stylesheets="@../css/EditExp_CSS.css" text="Add Notice Stage " />
+                                  <Button fx:id="audibleInstructionButton" layoutX="19.0" layoutY="53.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" stylesheets="@../css/EditExp_CSS.css" text="Add Audible instruction" />
+                                  <Button fx:id="assignSoundButton" layoutX="19.0" layoutY="93.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" stylesheets="@../css/EditExp_CSS.css" text="Assign Sound" />
+                                  <Button fx:id="addInputButton" layoutX="19.0" layoutY="132.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" stylesheets="@../css/EditExp_CSS.css" text="Add Input Stage " />
+                                  <Button fx:id="addTimerButton" layoutX="19.0" layoutY="174.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" stylesheets="@../css/EditExp_CSS.css" text="Add Timer Stage" />
+                                  <Button fx:id="addTasteTestButton" layoutX="19.0" layoutY="215.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" stylesheets="@../css/EditExp_CSS.css" text="Add Taste Test" />
+                                  <Button fx:id="addFoodAndTasteButton" layoutX="19.0" layoutY="255.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" stylesheets="@../css/EditExp_CSS.css" text="Add Foods &amp; Tastes" />
+                                  <Button fx:id="addRatingsContainerButton" layoutX="19.0" layoutY="292.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" stylesheets="@../css/EditExp_CSS.css" text="Add Rating Container" />
+                                  <Button fx:id="addVASStageButton" layoutX="19.0" layoutY="334.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" stylesheets="@../css/EditExp_CSS.css" text="Add Vas Stage " />
+                                  <Button fx:id="addGLMSStageButton" layoutX="19.0" layoutY="375.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" stylesheets="@../css/EditExp_CSS.css" text="Add GLMS Stage " />
+                                  <Button fx:id="addCourseButton" layoutX="19.0" layoutY="415.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" stylesheets="@../css/EditExp_CSS.css" text="Add Course" />
+                                  <Button fx:id="addPeriodicStageButton" layoutX="19.0" layoutY="455.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" stylesheets="@../css/EditExp_CSS.css" text="Add Periodic Stage" />
+                                  <Button fx:id="addConditionalStatementButton" layoutX="19.0" layoutY="496.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" stylesheets="@../css/EditExp_CSS.css" text="Add Conditional Statement" />
+                              </children>
+                          </AnchorPane>
+                          <Label fx:id="labelEditExperiment" layoutX="23.0" layoutY="26.0" stylesheets="@../css/EditExp_CSS.css" text="Edit Experiment" />
+               </children>
+                </AnchorPane>
+            </left>
+            <center>
+                <StackPane prefHeight="774.0" prefWidth="1036.0" BorderPane.alignment="CENTER">
+                    <children>
+                        <AnchorPane fx:id="mainBar" prefHeight="766.0" prefWidth="1070.0" stylesheets="@../css/EditExp_CSS.css">
+                            <children>
+                                <AnchorPane layoutX="264.0" layoutY="88.0" prefHeight="786.4" prefWidth="1034.4" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                    <children>
+                                        <AnchorPane fx:id="AddFoodPane" layoutX="248.0" layoutY="225.0" prefHeight="246.0" prefWidth="405.0">
+                                            <children>
+                                                <Label fx:id="AddFoodLabel" layoutX="27.0" layoutY="14.0" stylesheets="@../css/EditExp_CSS.css" text="ADD FOOD" />
+                                                <Label fx:id="please1Label" layoutX="29.0" layoutY="60.0" text="Please type the name of the new food below:" />
+                                                <TextField layoutX="31.0" layoutY="108.0" prefHeight="30.0" prefWidth="344.0" />
+                                                <Button fx:id="SaveButton1" layoutX="149.0" layoutY="178.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="106.0" text="Save" />
+                                                <Button fx:id="CancelButton1" layoutX="276.0" layoutY="178.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="102.0" text="Cancel" />
+                                            </children>
+                                        </AnchorPane>
+                                      <Label fx:id="TasteTestItemLable" layoutX="41.0" layoutY="28.0" stylesheets="@../css/EditExp_CSS.css" text="Taste test item selection" />
+                                    </children>
+                                </AnchorPane>
+                            </children>
+                        </AnchorPane>
+                    </children>
+                </StackPane>
+            </center>
+        </BorderPane>
+    </children>
+</StackPane>

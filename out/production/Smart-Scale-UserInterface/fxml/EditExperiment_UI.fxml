@@ -62,11 +62,11 @@
                                  </Button>
                               <Button fx:id="addGLMSStageButton" layoutX="36.0" layoutY="469.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" text="Add GLMS Stage">
                                  </Button>
-                              <Button fx:id="addCourseButton" layoutX="36.0" layoutY="511.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" text="Add Course">
+                              <Button fx:id="addGLMSStageButton" layoutX="36.0" layoutY="511.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" text="Add Course">
                                  </Button>
-                              <Button fx:id="addPeriodicStageButton" layoutX="36.0" layoutY="553.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" text="Add Periodic Stage">
+                              <Button fx:id="addPeriodicStageButtoaddGLMSStageButtonn" layoutX="36.0" layoutY="553.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" text="Add Periodic Stage">
                                  </Button>
-                              <Button fx:id="addConditionalStatementButton" layoutX="36.0" layoutY="595.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" text="Add Conditional Statement">
+                              <Button fx:id="addConditionalStatemeaddGLMSStageButtonntButton" layoutX="36.0" layoutY="595.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" text="Add Conditional Statement">
                                  </Button>
                               <Label fx:id="labelEditExperiment" layoutX="115.0" layoutY="-17.0" prefHeight="53.0" prefWidth="292.0" text="Edit Experiment">
                               </Label>
