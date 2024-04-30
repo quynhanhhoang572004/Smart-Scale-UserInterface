@@ -105,12 +105,12 @@
                         </ImageView>
                         <TableView layoutY="155.0" prefHeight="546.0" prefWidth="1029.0">
                           <columns>
-                            <TableColumn maxWidth="42.0" minWidth="42.0" prefWidth="75.0" text=" " />
-                            <TableColumn maxWidth="42.0" minWidth="42.0" prefWidth="75.0" text="Type" />
+                            <TableColumn maxWidth="62.0" minWidth="62.0" prefWidth="62.0" text=" " />
+                            <TableColumn maxWidth="62.0" minWidth="62.0" prefWidth="62.0" text="Type" />
                               <TableColumn maxWidth="600.0" minWidth="600.0" prefWidth="75.0" text="Name" />
                               <TableColumn maxWidth="152.0" minWidth="152.0" prefWidth="75.0" text="User" />
                               <TableColumn maxWidth="64.0" minWidth="64.0" prefWidth="75.0" text="Size" />
-                              <TableColumn prefWidth="126.0" text="Date" />
+                              <TableColumn minWidth="100.0" prefWidth="100.0" text="Date" />
                           </columns>
                         </TableView>
                                 <Button fx:id="previous" layoutX="400.0" layoutY="730.0" mnemonicParsing="false" stylesheets="@../css/EditExp_CSS.css" text="Previous" />
