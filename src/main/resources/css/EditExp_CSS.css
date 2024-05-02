@@ -538,7 +538,7 @@
 
 
         -fx-font-family: 'Poppins';
-        -fx-font-style: bold;
+        -fx-font-style: normal;
         -fx-font-weight: 700;
         -fx-font-size: 32px;
         line-height: 48px;

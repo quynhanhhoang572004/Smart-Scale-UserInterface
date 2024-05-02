@@ -15,9 +15,9 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/VasStage.fxml"));
-        ProfileController controller = new ProfileController();
-        /*loader.setController(controller);*/
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/AddFood.fxml"));
+//        ProfileController controller = new ProfileController();
+//        /*loader.setController(controller);*/
         Parent root = loader.load();
         // Get the scene size from the loaded FXML file
         Scene scene = new Scene(root);
