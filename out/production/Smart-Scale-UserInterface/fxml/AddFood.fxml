@@ -26,7 +26,7 @@
             <left>
                 <AnchorPane prefHeight="774.0" prefWidth="244.0" stylesheets="@../css/EditExp_CSS.css" BorderPane.alignment="CENTER">
                     <children>
-                        <AnchorPane fx:id="SideBar" layoutX="-8.8" prefHeight="774.0" prefWidth="262.0" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="-9.0" AnchorPane.rightAnchor="-9.0" AnchorPane.topAnchor="0.0">
+                        <AnchorPane fx:id="SideBar" layoutX="-8.8" minHeight="774.0" minWidth="262.0" prefHeight="774.0" prefWidth="262.0" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="-9.0" AnchorPane.rightAnchor="-100.0" AnchorPane.topAnchor="0.0">
                             <children>
                                 <Button fx:id="DashBoardButton1" layoutX="22.0" layoutY="28.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="217.0" text="DashBoard" />
                                 <Button fx:id="DashBoardButton2" layoutX="22.0" layoutY="108.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="217.0" text="Share Experiment" />
