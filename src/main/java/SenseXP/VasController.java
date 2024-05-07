@@ -145,4 +145,18 @@ public class VasController {
 
     }
 
+
+    @FXML
+    void AddTastTestButton(ActionEvent event) throws IOException {
+        new ScenseSwitch(VasStackPane,"/fxml/AddTasteTest.fxml");
+
+
+    }
+    @FXML
+    void AssignSoundButton(ActionEvent event) throws IOException {
+        new ScenseSwitch(VasStackPane,"/fxml/AddSound.fxml");
+
+
+    }
+
 }

@@ -106,6 +106,9 @@ public class EditExperimentController {
 
     @FXML
     void AddTimerStageButton(ActionEvent event) throws IOException {
+        new ScenseSwitch(EditStackPane,"/fxml/Timer.fxml");
+
+
 
     }
 

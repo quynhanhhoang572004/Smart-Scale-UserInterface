@@ -50,13 +50,13 @@
                                         </Button>
                                         <Button fx:id="audibleInstructionButton" layoutX="36.0" layoutY="133.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" stylesheets="@../css/EditExp_CSS.css" text="Add Audible Instruction">
                                         </Button>
-                                        <Button fx:id="assignSoundButton" layoutX="36.0" layoutY="175.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" stylesheets="@../css/EditExp_CSS.css" text="Assign Sound">
+                                        <Button fx:id="assignSoundButton" layoutX="36.0" layoutY="175.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" onAction="#AssignSoundButton" prefHeight="30.0" prefWidth="250.0" stylesheets="@../css/EditExp_CSS.css" text="Assign Sound">
                                         </Button>
                                         <Button fx:id="addInputButton" layoutX="36.0" layoutY="217.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" onAction="#AddInputStage" prefHeight="30.0" prefWidth="250.0" stylesheets="@../css/EditExp_CSS.css" text="Add Input Stage">
                                         </Button>
                                         <Button fx:id="addTimerButton" layoutX="36.0" layoutY="259.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" onAction="#AddTimerButton" prefHeight="30.0" prefWidth="250.0" text="Add Timer Stage">
                                         </Button>
-                                        <Button fx:id="addTasteTestButton" layoutX="36.0" layoutY="301.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" text="Add Taste Test">
+                                        <Button fx:id="addTasteTestButton" layoutX="36.0" layoutY="301.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" onAction="#AddTastTestButton" prefHeight="30.0" prefWidth="250.0" text="Add Taste Test">
                                         </Button>
                                         <Button fx:id="addFoodAndTasteButton" layoutX="36.0" layoutY="343.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" text="Add Food &amp; Taste">
                                         </Button>

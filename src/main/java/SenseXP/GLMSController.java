@@ -113,6 +113,13 @@ public class GLMSController {
 
 
     }
+    @FXML
+    void AddTasteButton(ActionEvent event) throws IOException {
+        new ScenseSwitch(GLMSStackPane,"/fxml/AddTasteTest.fxml");
+
+
+
+    }
 
     @FXML
     void AddVasButton(ActionEvent event) throws IOException {
