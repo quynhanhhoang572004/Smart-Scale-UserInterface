@@ -139,7 +139,7 @@ public class VasController {
 
     @FXML
     void AddTimerButton(ActionEvent event) throws IOException {
-        new ScenseSwitch(VasStackPane,"/fxml/TimerStage.fxml");
+        new statScenseSwitch(VasStackPane,"/fxml/TimerStage.fxml");
 
 
 
