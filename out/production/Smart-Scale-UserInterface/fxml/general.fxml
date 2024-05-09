@@ -30,7 +30,7 @@
                      <children>
                         <AnchorPane fx:id="DashBoard" layoutX="7.0" layoutY="141.0" maxHeight="696.0" maxWidth="1279.0" minHeight="696.0" minWidth="1279.0" prefHeight="696.0" prefWidth="1279.0">
                            <children>
-                              <TextField fx:id="searchBar" layoutX="225.0" layoutY="14.0" stylesheets="@/css/EditExp_CSS.css" />
+                              <TextField fx:id="searchBar" layoutX="225.0" layoutY="14.0" onInputMethodTextChanged="#searchQuery" stylesheets="@/css/EditExp_CSS.css" />
                               <MenuButton fx:id="DropDown" layoutX="99.0" layoutY="14.0" mnemonicParsing="false" prefWidth="55.0" text="10">
                                 <items>
                                   <MenuItem mnemonicParsing="false" text="Action 1" />
@@ -75,6 +75,7 @@
                               <URL value="@../css/EditExp_CSS.css" />
                            </stylesheets>
                         </AnchorPane>
+                        <Label fx:id="UserName" layoutX="1226.0" layoutY="25.0" text="${query}" />
                      </children>
                   </AnchorPane>
                </children>

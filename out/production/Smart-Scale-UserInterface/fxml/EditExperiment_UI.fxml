@@ -66,7 +66,7 @@
                                  </Button>
                               <Button fx:id="addPeriodicStageButton" layoutX="36.0" layoutY="553.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" stylesheets="@../css/EditExp_CSS.css" text="Add Periodic Stage" AnchorPane.leftAnchor="36.0" AnchorPane.rightAnchor="19.19999999999999">
                                  </Button>
-                              <Button fx:id="addConditionalStatement" layoutX="36.0" layoutY="595.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" text="Add Conditional Statement" AnchorPane.leftAnchor="36.0" AnchorPane.rightAnchor="19.19999999999999">
+                              <Button fx:id="addConditionalStatementButton" layoutX="36.0" layoutY="595.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" text="Add Conditional Statement" AnchorPane.leftAnchor="36.0" AnchorPane.rightAnchor="19.19999999999999">
                                  <stylesheets>
                                     <URL value="@../css/EditExp_CSS.css" />
                                     <URL value="@../css/EditExp_CSS.css" />

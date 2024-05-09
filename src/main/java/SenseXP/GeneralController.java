@@ -8,13 +8,17 @@ import javafx.scene.control.MenuButton;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.StackPane;
+import javafx.scene.input.InputMethodEvent;
+
 
 import java.io.IOException;
 
 public class GeneralController {
 
+
     @FXML
     private Label CreatorLabel;
+    private int Random = 4;
 
     @FXML
     private Label CurrentVersionLabel;
@@ -72,11 +76,24 @@ public class GeneralController {
 
     @FXML
     private Label showLabel;
+    private String query = "1,2,3";
+
+
+    @FXML
+    private Label UserName;
 
     @FXML
     void DashBoardButtonClick(ActionEvent event) throws IOException {
-        new ScenseSwitch(GeneralStackPane,"/fxml/DashBoard.fxml");
+//        new ScenseSwitch(GeneralStackPane,"/fxml/DashBoard.fxml");
+        UserName.setText(query);
 
     }
+    @FXML
+    void searchQuery(InputMethodEvent event) {
+        UserName.setText(searchBar.getText());
+
+    }
+
+
 
 }
