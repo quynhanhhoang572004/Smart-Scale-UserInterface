@@ -17,7 +17,7 @@
                     <children>
                         <AnchorPane fx:id="SenseXPBar" prefHeight="200.0" prefWidth="1279.2" stylesheets="@../css/EditExp_CSS.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                             <children>
-                                <Label fx:id="labelSenseXP" layoutX="24.0" layoutY="14.0" text="Sense XP" />
+                                <Label fx:id="lbl_SenseXP" layoutX="24.0" layoutY="14.0" text="Sense XP" />
                             </children>
                         </AnchorPane>
                     </children>
@@ -91,7 +91,7 @@
                                         <Button fx:id="addConditionalStatementButton" layoutX="19.0" layoutY="496.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" stylesheets="@../css/EditExp_CSS.css" text="Add Conditional Statement" />
                                     </children>
                                 </AnchorPane>
-                                <Label fx:id="labelEditExperiment" layoutX="15.0" layoutY="46.0" stylesheets="@../css/EditExp_CSS.css" text="Edit Experiment" />
+                                <Label fx:id="lbl_EditExperiment" layoutX="15.0" layoutY="46.0" stylesheets="@../css/EditExp_CSS.css" text="Edit Experiment" />
                                 <AnchorPane layoutX="264.0" layoutY="88.0" prefHeight="698.0" prefWidth="770.0">
                            <children>
                               <AnchorPane fx:id="AddFoodPane" layoutX="182.0" layoutY="226.0" prefHeight="246.0" prefWidth="405.0">
@@ -105,7 +105,7 @@
                               </AnchorPane>
                            </children>
                                 </AnchorPane>
-                                <Label fx:id="TasteTestItemLable" layoutX="311.0" layoutY="49.0" stylesheets="@../css/EditExp_CSS.css" text="Taste test item selection" />
+                                <Label fx:id="lbl_TasteTestItemLable" layoutX="311.0" layoutY="49.0" stylesheets="@../css/EditExp_CSS.css" text="Taste test item selection" />
                             </children>
                         </AnchorPane>
                     </children>

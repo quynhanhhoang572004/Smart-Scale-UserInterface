@@ -9,24 +9,24 @@
     -fx-font-size: 14;
 }
 
-#labelSenseXP{
+#lbl_SenseXP{
     -fx-text-fill: #624DE3;
     -fx-font-weight: bold;
     -fx-font-size: 40;
 }
-#labelEditExperiment{
+#lbl_EditExperiment{
     -fx-text-fill: #624DE3;
     -fx-font-size: 36;
 }
 
 
-#noticeStageButton, #audibleInstructionButton, #assignSoundButton, #addInputButton, #addTimerButton, #addTasteTestButton, #addFoodAndTasteButton,
-#addRatingsContainerButton,
-#addVASStageButton,
-#addGLMSStageButton,
-#addCourseButton,
-#addPeriodicStageButton,
-#addConditionalStatementButton, #addQuestionStage {
+#btn_noticeStage, #btn_addAudibleInstruction, #btn_assignSoundButton, #btn_addInput, #btn_addTimer, #addTasteTestButton, #btn_addFoodAndTaste,
+#btn_addRatingContainer,
+#btn_addVasStage,
+#btn_AddGLMS,
+#btn_AddCourse,
+#btn_AddPeriodicStage,
+#btn_AddConditionalStatement, #btn_AddQuestionStage {
     -fx-background-color: #624DE3;
     -fx-text-fill: white;
     -fx-font-weight: bold;
@@ -39,7 +39,7 @@
     -fx-opacity: 10;
     -fx-gap: 10;
 }
-#upButton{
+#btn_up{
     -fx-pref-height: 55;
     -fx-pref-width: 55;
     -fx-background-image: url('images/upward.png');
@@ -47,7 +47,7 @@
     -fx-background-position: center;
     -fx-background-size: cover; /* or contain depending on your preference */
 }
-#downButton{
+#btn_down{
     -fx-pref-height: 55;
     -fx-pref-width: 55;
     -fx-background-image: url('images/downward.png');
@@ -55,7 +55,7 @@
     -fx-background-position: center;
     -fx-background-size: cover; /* or contain depending on your preference */
 }
-#crossButton{
+#btn_cross{
     -fx-pref-height: 55;
     -fx-pref-width: 55;
     -fx-background-image: url('images/cross.png');
@@ -390,7 +390,7 @@
     -fx-background-radius: 2em;
 }
 
-    #TasteTestItemLable,#SoundSelectTionLabel {
+    #lbl_TasteTestItemLable,#SoundSelectTionLabel {
         /* Taste Test Item Selection */
 
 
