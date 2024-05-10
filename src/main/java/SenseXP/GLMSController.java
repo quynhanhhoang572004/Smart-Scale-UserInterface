@@ -135,4 +135,11 @@ public class GLMSController {
 
     }
 
+    @FXML
+    void AddQuestionButton(ActionEvent event) throws IOException {
+        new ScenseSwitch(GLMSStackPane,"/fxml/QuestionStage.fxml");
+
+    }
+
+
 }

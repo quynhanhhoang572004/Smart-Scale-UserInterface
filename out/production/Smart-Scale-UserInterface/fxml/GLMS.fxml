@@ -73,7 +73,7 @@
                                         <Label fx:id="labelEditExperiment" layoutX="115.0" layoutY="-17.0" prefHeight="53.0" prefWidth="292.0" stylesheets="@../css/EditExp_CSS.css" text="Edit Experiment">
                                         </Label>
                                         <Button fx:id="menuButton" layoutX="61.0" layoutY="-10.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="39.0" stylesheets="@../css/EditExp_CSS.css" text=" " />
-                              <Button fx:id="addQuestionStage" layoutX="36.0" layoutY="637.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" onAction="#AddQuestonButton" prefHeight="30.0" prefWidth="250.0" stylesheets="@../css/EditExp_CSS.css" text="Add Question Stage" />
+                              <Button fx:id="addQuestionStage" layoutX="36.0" layoutY="637.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" onAction="#AddQuestionButton" prefHeight="30.0" prefWidth="250.0" stylesheets="@../css/EditExp_CSS.css" text="Add Question Stage" />
 
                                     </children>
                                 </AnchorPane>

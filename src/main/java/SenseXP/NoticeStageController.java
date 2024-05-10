@@ -166,5 +166,10 @@ public class NoticeStageController {
 
 
     }
+    @FXML
+    void AddQuestionButton(ActionEvent event) throws IOException {
+        new ScenseSwitch(NoticeStagePane,"/fxml/QuestionStage.fxml");
+
+    }
 
 }

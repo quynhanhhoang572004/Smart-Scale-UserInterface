@@ -146,4 +146,13 @@ public class TimerController {
 
     }
 
+    @FXML
+    void AddQuestionButton(ActionEvent event) throws IOException {
+        new ScenseSwitch(TimerStackPane,"/fxml/QuestionStage.fxml");
+
+
+
+    }
+
+
 }

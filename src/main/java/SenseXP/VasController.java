@@ -159,4 +159,12 @@ public class VasController {
 
     }
 
+    @FXML
+    void AddQuestionStage(ActionEvent event) throws IOException {
+        new ScenseSwitch(VasStackPane,"/fxml/QuestionStage.fxml");
+
+
+
+    }
+
 }
