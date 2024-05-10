@@ -75,6 +75,7 @@
       
                                                                                           </children>
                                 </AnchorPane>
+                        <Button fx:id="addQuestionStage" layoutX="34.0" layoutY="657.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" stylesheets="@../css/EditExp_CSS.css" text="Add Question Stage" />
                      </children>
                   </AnchorPane>
                </children>

@@ -149,5 +149,10 @@ public class InputStageController {
 
 
     }
+    @FXML
+    void AddQuestionStageButton(ActionEvent event) throws IOException {
+        new ScenseSwitch(InputStackPane,"/fxml/QuestionStage.fxml");
+
+    }
 
 }
