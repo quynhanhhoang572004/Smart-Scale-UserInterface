@@ -20,7 +20,7 @@
 }
 
 
-#btn_noticeStage, #btn_addAudibleInstruction, #btn_assignSoundButton, #btn_addInput, #btn_addTimer, #addTasteTestButton, #btn_addFoodAndTaste,
+#btn_noticeStage, #btn_addAudibleInstruction, #btn_assignSound, #btn_addInput, #btn_addTimer, #btn_addTasteTest, #btn_addFoodAndTaste,
 #btn_addRatingContainer,
 #btn_addVasStage,
 #btn_AddGLMS,
@@ -98,13 +98,7 @@
     -fx-font-family: 'Inter';
     -fx-font-size: 14;
 }
-#labelSenseXP{
-    -fx-text-fill: #624DE3;
-    -fx-font-weight: bold;
-    -fx-font-size: 40;
-
-}
-#labelDashBoard{
+#lbl_DashBoard{
     -fx-text-fill: #624DE3;
     -fx-font-size: 36;
 }
@@ -151,7 +145,7 @@
 
 
 }
-#addExperimentButton{
+#btn_AddExperiment{
     /* Frame 17 */
 
     /* Auto layout */
@@ -171,7 +165,7 @@
     -fx-background-color: white;
 
 }
-#IDLabel{
+#lbl_ID{
 
 
     -fx-font-family: 'Montserrat';
@@ -329,7 +323,8 @@
     -fx-text-fill: #000;
     -fx-background-color: #F7F6FE
 }
-#IDlabel,#CreatorLabel,#ExprimentNameLabel,#CurrentVersionLabel,#ResultLabel,#LastMLabel,#DateMLabel,#OptionLabel,#ExperimentdesLabel,#AdditionNoteLabel,#FileLabel,#NameLabel{
+#lbl_iD,#lbl_creator,#lbl_experimentName,#lbl_currentVersion,#lbl_result,#lbl_lastM,#lbl_createDate,#lbl_Option
+,#ExperimentdesLabel,#AdditionNoteLabel,#FileLabel,#NameLabel{
     -fx-font-family: 'Montserrat';
     -fx-font-weight: 700;
     -fx-align-items: center;
@@ -338,7 +333,7 @@
     -fx-text-alignment: center;
     -fx-font-size: 16px;
 }
-#ShowLabel,#EntriesLabel{
+#lbl_show,#lbl_entries{
     -fx-font-family: 'Montserrat';
     -fx-font-weight: 500;
     -fx-font-size: 12px;

@@ -19,7 +19,7 @@
                <children>
                   <AnchorPane fx:id="headPanel" maxHeight="57.0" maxWidth="1279.0" minHeight="57.0" minWidth="1279.0" prefHeight="57.0" prefWidth="1279.0" styleClass="headPanel">
                      <children>
-                        <Label fx:id="labelSenseXP" layoutX="27.0" layoutY="-1.0" stylesheets="@../css/EditExp_CSS.css" text="SENSE XP" />
+                        <Label fx:id="lbl_SenseXP" layoutX="27.0" layoutY="-1.0" stylesheets="@../css/EditExp_CSS.css" text="SENSE XP" />
                      </children>
                      <stylesheets>
                         <URL value="@../css/EditExp_CSS.css" />
@@ -37,16 +37,16 @@
                                   <MenuItem mnemonicParsing="false" text="Action 2" />
                                 </items>
                               </MenuButton>
-                              <Label fx:id="showLabel" layoutX="52.0" layoutY="21.0" text="show" />
-                              <Label fx:id="entriesLabel" layoutX="166.0" layoutY="21.0" prefHeight="18.0" prefWidth="96.0" text="entries" />
-                              <Button fx:id="addExperimentButton" layoutX="1090.0" layoutY="14.0" mnemonicParsing="false" stylesheets="@../css/EditExp_CSS.css" text="+ Add Experiment" />
-                              <Label fx:id="IDLabel" layoutX="64.0" layoutY="82.0" stylesheets="@/css/EditExp_CSS.css" text="ID" />
-                              <Label fx:id="CreatorLabel" layoutX="142.0" layoutY="62.0" stylesheets="@../css/EditExp_CSS.css" text="Creator" />
-                              <Label fx:id="ExprimentNameLabel" layoutX="287.0" layoutY="63.0" stylesheets="@../css/EditExp_CSS.css" text="Expriment Name" />
-                              <Label fx:id="ResultLabel" layoutX="722.0" layoutY="61.0" text="Number of results" />
-                              <Label fx:id="CurrentVersionLabel" layoutX="502.0" layoutY="62.0" text="Current Version" />
-                              <Label fx:id="DateMLabel" layoutX="945.0" layoutY="53.0" text="Create Date" />
-                              <Label fx:id="LastMLabel" layoutX="937.0" layoutY="82.0" text="Last Modified" />
+                              <Label fx:id="lbl_show" layoutX="52.0" layoutY="21.0" text="show" />
+                              <Label fx:id="lbl_entries" layoutX="166.0" layoutY="21.0" prefHeight="18.0" prefWidth="96.0" text="entries" />
+                              <Button fx:id="btn_AddExperiment" layoutX="1090.0" layoutY="14.0" mnemonicParsing="false" stylesheets="@../css/EditExp_CSS.css" text="+ Add Experiment" />
+                              <Label fx:id="lbl_iD" layoutX="47.0" layoutY="63.0" stylesheets="@/css/EditExp_CSS.css" text="ID" />
+                              <Label fx:id="lbl_creator" layoutX="142.0" layoutY="63.0" stylesheets="@../css/EditExp_CSS.css" text="Creator" />
+                              <Label fx:id="lbl_experimentName" layoutX="287.0" layoutY="63.0" stylesheets="@../css/EditExp_CSS.css" text="Expriment Name" />
+                              <Label fx:id="lbl_result" layoutX="722.0" layoutY="61.0" text="Number of results" />
+                              <Label fx:id="lbl_currentVersion" layoutX="502.0" layoutY="62.0" text="Current Version" />
+                              <Label fx:id="lbl_createDate" layoutX="945.0" layoutY="53.0" text="Create Date" />
+                              <Label fx:id="lbl_lastM" layoutX="937.0" layoutY="82.0" text="Last Modified" />
                               <Label fx:id="OptionLabel" layoutX="1135.0" layoutY="63.0" text="Action" />
                            </children>
                            <stylesheets>
@@ -56,7 +56,7 @@
                         </AnchorPane>
                         <AnchorPane fx:id="dashboardPanel" layoutX="7.0" layoutY="58.0" maxHeight="83.0" maxWidth="1279.0" minHeight="83.0" minWidth="1279.0" prefHeight="83.0" prefWidth="1279.0" styleClass="root">
                            <children>
-                              <Label fx:id="labelDashBoard" layoutX="102.0" layoutY="15.0" styleClass="dashBoardText" text="DashBoard">
+                              <Label fx:id="lbl_DashBoard" layoutX="102.0" layoutY="15.0" styleClass="dashBoardText" text="DashBoard">
                                  <stylesheets>
                                     <URL value="@../css/EditExp_CSS.css" />
                                     <URL value="@../css/EditExp_CSS.css" />
