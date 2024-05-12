@@ -153,7 +153,7 @@ public class VasController {
     }
 
     @FXML
-    void AddInputStage(ActionEvent event) throws IOException {
+    void AddInputButton(ActionEvent event) throws IOException {
         new ScenseSwitch(VasStackPane,"/fxml/InputStage.fxml");
     }
 

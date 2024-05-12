@@ -65,9 +65,9 @@
                                         </Button>
                                         <Button fx:id="btn_addVasStage" layoutX="36.0" layoutY="427.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" onAction="#AddVasButton" prefHeight="30.0" prefWidth="250.0" text="Add VAS Stage">
                                         </Button>
-                                        <Button fx:id="btn_AddCourse" layoutX="36.0" layoutY="469.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" onAction="#AddGLMSButton" prefHeight="30.0" prefWidth="250.0" text="Add GLMS Stage">
+                                        <Button fx:id="btn_AddGLMS" layoutX="36.0" layoutY="469.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" onAction="#AddGLMSButton" prefHeight="30.0" prefWidth="250.0" text="Add GLMS Stage">
                                         </Button>
-                                        <Button fx:id="addCourseButton" layoutX="36.0" layoutY="511.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" text="Add Course">
+                                        <Button fx:id="btn_AddCourse" layoutX="36.0" layoutY="511.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" text="Add Course">
                                         </Button>
                                         <Button fx:id="btn_AddPeriodicStage" layoutX="36.0" layoutY="553.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" text="Add Periodic Stage">
                                         </Button>

@@ -112,27 +112,27 @@
                                                         <AnchorPane minHeight="30.0" minWidth="0.0" prefHeight="228.0" prefWidth="792.0">
                                                             <children>
                                                                 <Label id="propertiesLabel" layoutX="14.0" layoutY="13.0" prefHeight="26.0" prefWidth="188.0" stylesheets="@../css/EditExp_CSS.css" text="Question" />
-                                                                <Label id="propertiesLabel" layoutX="14.0" layoutY="54.0" prefHeight="26.0" prefWidth="188.0" stylesheets="@../css/EditExp_CSS.css" text="Low Anchor Text" />
-                                                                <Label id="propertiesLabel" layoutX="14.0" layoutY="95.0" stylesheets="@../css/EditExp_CSS.css" text="High Anchor Text" />
+                                                                <Label id="propertiesLabel" fx:id="lbl_highAnchorText" layoutX="14.0" layoutY="54.0" prefHeight="26.0" prefWidth="188.0" stylesheets="@../css/EditExp_CSS.css" text="Low Anchor Text" />
+                                                                <Label id="propertiesLabel" fx:id="lbl_highAnchortext" layoutX="14.0" layoutY="95.0" stylesheets="@../css/EditExp_CSS.css" text="High Anchor Text" />
                                                                 <TextArea fx:id="lowAncTxtField" layoutX="300.0" layoutY="52.0" minHeight="30.0" prefHeight="30.0" prefWidth="410.0" styleClass="propertiesTextField" stylesheets="@../css/EditExp_CSS.css" />
-                                                                <Label id="propertiesLabel" layoutX="14.0" layoutY="136.0" stylesheets="@../css/EditExp_CSS.css" text="Low Anchor Value" />
+                                                                <Label id="propertiesLabel" fx:id="lbl_lowAnchorValue" layoutX="14.0" layoutY="136.0" stylesheets="@../css/EditExp_CSS.css" text="Low Anchor Value" />
                                                                 <TextArea fx:id="highAncTxtField" layoutX="300.0" layoutY="93.0" maxWidth="410.0" minHeight="30.0" prefHeight="30.0" prefWidth="410.0" styleClass="propertiesTextField" />
-                                                                <Label id="propertiesLabel" layoutX="14.0" layoutY="177.0" stylesheets="@../css/EditExp_CSS.css" text="High Anchor Value" />
+                                                                <Label id="propertiesLabel" fx:id="lbl_highAnchorValue" layoutX="14.0" layoutY="177.0" stylesheets="@../css/EditExp_CSS.css" text="High Anchor Value" />
                                                                 <TextArea fx:id="questionField" layoutX="300.0" layoutY="11.0" maxHeight="30.0" minHeight="30.0" prefHeight="30.0" prefWidth="410.0" styleClass="propertiesTextField" stylesheets="@../css/EditExp_CSS.css" />
                                                                 <TextArea fx:id="lowAncValField" layoutX="300.0" layoutY="134.0" maxWidth="410.0" minHeight="30.0" prefHeight="30.0" prefWidth="410.0" styleClass="propertiesTextField" />
                                                                 <TextArea fx:id="highAncValField" layoutX="300.0" layoutY="175.0" maxWidth="410.0" minHeight="30.0" prefHeight="30.0" prefWidth="410.0" styleClass="propertiesTextField" />
-                                                                <Label id="propertiesLabel" layoutX="14.0" layoutY="218.0" text="Button Text" />
+                                                                <Label id="propertiesLabel" fx:id="lbl_buttonText" layoutX="14.0" layoutY="218.0" text="Button Text" />
                                                                 <TextArea fx:id="buttonTxtField" layoutX="300.0" layoutY="216.0" maxWidth="410.0" minHeight="30.0" prefHeight="30.0" prefWidth="410.0" styleClass="propertiesTextField" />
-                                                                <Label id="propertiesLabel" layoutX="14.0" layoutY="259.0" text="Store Response In A Variable?" />
+                                                                <Label id="propertiesLabel" fx:id="lbl_storeResponse" layoutX="14.0" layoutY="259.0" text="Store Response In A Variable?" />
                                                                 <RadioButton fx:id="radioButtonAvailable" layoutX="150.0" layoutY="300.0" mnemonicParsing="false" stylesheets="@../css/EditExp_CSS.css" text="Available" />
                                                                 <ChoiceBox fx:id="choiceBoxAvail" layoutX="300.0" layoutY="298.0" prefHeight="27.0" prefWidth="410.0" styleClass="propertiesTextField" />
                                                                 <RadioButton id="propertiesLabel" fx:id="radioButtonYes" layoutX="150.0" layoutY="341.0" mnemonicParsing="false" stylesheets="@../css/EditExp_CSS.css" text="Yes" />
                                                                 <TextArea fx:id="yesField" layoutX="300.0" layoutY="339.0" maxWidth="410.0" minHeight="30.0" prefHeight="30.0" prefWidth="410.0" />
-                                                                <Label id="propertiesLabel" layoutX="14.0" layoutY="382.0" text="Swap Poles (ticked for yes) " />
+                                                                <Label id="propertiesLabel" fx:id="lbl_swapPole" layoutX="14.0" layoutY="382.0" text="Swap Poles (ticked for yes) " />
                                                                 <CheckBox fx:id="checkBoxSwap" layoutX="300.0" layoutY="384.0" mnemonicParsing="false" />
-                                                                <Label id="propertiesLabel" layoutX="14.0" layoutY="418.0" text="Help Text" />
+                                                                <Label id="propertiesLabel" fx:id="lbl_help" layoutX="14.0" layoutY="418.0" text="Help Text" />
                                                                 <TextArea layoutX="300.0" layoutY="418.0" minWidth="377.0" prefHeight="200.0" prefWidth="410.0" styleClass="propertiesTextField" />
-                                                                <Label fx:id="PlaySoundLabel" layoutX="14.0" layoutY="635.0" stylesheets="@../css/EditExp_CSS.css" text="Play alert sound on screen display ?" />
+                                                                <Label fx:id="lbl_playSound" layoutX="14.0" layoutY="635.0" stylesheets="@../css/EditExp_CSS.css" text="Play alert sound on screen display ?" />
                                                                 <CheckBox layoutX="300.0" layoutY="637.0" mnemonicParsing="false" />
                                                             </children>
                                                         </AnchorPane>

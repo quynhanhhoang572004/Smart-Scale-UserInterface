@@ -12,15 +12,11 @@ import javafx.scene.layout.StackPane;
 import java.io.IOException;
 
 public class InputStageController {
-
     @FXML
     private StackPane InputStackPane;
 
     @FXML
     private AnchorPane Properties;
-
-    @FXML
-    private Button addCourseButton;
 
     @FXML
     private Label avatarLabel;
@@ -30,6 +26,9 @@ public class InputStageController {
 
     @FXML
     private Button btn_AddCourse;
+
+    @FXML
+    private Button btn_AddGLMS;
 
     @FXML
     private Button btn_AddPeriodicStage;
