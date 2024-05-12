@@ -43,43 +43,49 @@ public class NoticeStageController {
     private Label StartDelayLabel;
 
     @FXML
-    private Button addConditionalStatementButton;
-
-    @FXML
-    private Button addCourseButton;
-
-    @FXML
-    private Button addFoodAndTasteButton;
-
-    @FXML
-    private Button addGLMSStageButton;
-
-    @FXML
-    private Button addInputButton;
-
-    @FXML
-    private Button addPeriodicStageButton;
-
-    @FXML
-    private Button addRatingsContainerButton;
-
-    @FXML
-    private Button addTasteTestButton;
-
-    @FXML
-    private Button addTimerButton;
-
-    @FXML
-    private Button addVASStageButton;
-
-    @FXML
-    private Button assignSoundButton;
-
-    @FXML
-    private Button audibleInstructionButton;
-
-    @FXML
     private Label avatarLabel;
+
+    @FXML
+    private Button btn_AddConditionalStatement;
+
+    @FXML
+    private Button btn_AddCourse;
+
+    @FXML
+    private Button btn_AddGLMS;
+
+    @FXML
+    private Button btn_AddPeriodicStage;
+
+    @FXML
+    private Button btn_AddQuestionStage;
+
+    @FXML
+    private Button btn_addAudibleInstruction;
+
+    @FXML
+    private Button btn_addFoodAndTaste;
+
+    @FXML
+    private Button btn_addInput;
+
+    @FXML
+    private Button btn_addRatingContainer;
+
+    @FXML
+    private Button btn_addTasteTest;
+
+    @FXML
+    private Button btn_addTimer;
+
+    @FXML
+    private Button btn_addVasStage;
+
+    @FXML
+    private Button btn_assignSound;
+
+    @FXML
+    private Button btn_noticeStage;
 
     @FXML
     private Button crossButton;
@@ -91,16 +97,13 @@ public class NoticeStageController {
     private Label fontLabel;
 
     @FXML
-    private Label labelEditExperiment;
+    private Label lbl_EditExperiment;
 
     @FXML
-    private Label labelSenseXP;
+    private Label lbl_SenseXP;
 
     @FXML
     private Button menuButton;
-
-    @FXML
-    private Button noticeStageButton;
 
     @FXML
     private Label textColorlabel;
@@ -125,7 +128,6 @@ public class NoticeStageController {
 
     @FXML
     private Button upButton;
-
     @FXML
     void AddGLMSButton(ActionEvent event) {
 

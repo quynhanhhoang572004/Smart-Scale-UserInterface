@@ -17,70 +17,70 @@ public class GeneralController {
 
 
     @FXML
-    private Label CreatorLabel;
-    private int Random = 4;
-
-    @FXML
-    private Label CurrentVersionLabel;
-
-    @FXML
     private AnchorPane DashBoard;
 
     @FXML
     private Button DashBoardButton;
 
     @FXML
-    private Label DateMLabel;
-
-    @FXML
     private MenuButton DropDown;
-
-    @FXML
-    private Label ExprimentNameLabel;
 
     @FXML
     private StackPane GeneralStackPane;
 
     @FXML
-    private Label IDLabel;
-
-    @FXML
-    private Label LastMLabel;
-
-    @FXML
     private Label OptionLabel;
 
     @FXML
-    private Label ResultLabel;
+    private Label UserName;
 
     @FXML
-    private Button addExperimentButton;
+    private Button btn_AddExperiment;
 
     @FXML
     private AnchorPane dashboardPanel;
 
     @FXML
-    private Label entriesLabel;
-
-    @FXML
     private AnchorPane headPanel;
 
     @FXML
-    private Label labelDashBoard;
+    private Label lbl_DashBoard;
 
     @FXML
-    private Label labelSenseXP;
+    private Label lbl_SenseXP;
+
+    @FXML
+    private Label lbl_createDate;
+
+    @FXML
+    private Label lbl_creator;
+
+    @FXML
+    private Label lbl_currentVersion;
+
+    @FXML
+    private Label lbl_entries;
+
+    @FXML
+    private Label lbl_experimentName;
+
+    @FXML
+    private Label lbl_iD;
+
+    @FXML
+    private Label lbl_lastM;
+
+    @FXML
+    private Label lbl_result;
+
+    @FXML
+    private Label lbl_show;
 
     @FXML
     private TextField searchBar;
-
-    @FXML
-    private Label showLabel;
     private String query = "1,2,3";
 
 
-    @FXML
-    private Label UserName;
 
     @FXML
     void DashBoardButtonClick(ActionEvent event) throws IOException {
