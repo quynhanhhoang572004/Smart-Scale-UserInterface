@@ -60,13 +60,13 @@ public class EditExperimentController {
     private Button btn_cross;
 
     @FXML
+    private Button btn_down;
+
+    @FXML
     private Button btn_noticeStage;
 
     @FXML
     private Button btn_up;
-
-    @FXML
-    private Button downButton;
 
     @FXML
     private Label lbl_EditExperiment;

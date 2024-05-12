@@ -20,16 +20,13 @@ public class GeneralController {
     private AnchorPane DashBoard;
 
     @FXML
-    private Button DashBoardButton;
+    private Button btn_dashBoard;
 
     @FXML
-    private MenuButton DropDown;
+    private MenuButton btn_dropDown;
 
     @FXML
     private StackPane GeneralStackPane;
-
-    @FXML
-    private Label OptionLabel;
 
     @FXML
     private Label UserName;
@@ -45,6 +42,9 @@ public class GeneralController {
 
     @FXML
     private Label lbl_DashBoard;
+
+    @FXML
+    private Label lbl_Option;
 
     @FXML
     private Label lbl_SenseXP;
@@ -77,7 +77,7 @@ public class GeneralController {
     private Label lbl_show;
 
     @FXML
-    private TextField searchBar;
+    private TextField txt_searchBar;
     private String query = "1,2,3";
 
 
@@ -90,7 +90,7 @@ public class GeneralController {
     }
     @FXML
     void searchQuery(InputMethodEvent event) {
-        UserName.setText(searchBar.getText());
+        UserName.setText(txt_searchBar.getText());
 
     }
 

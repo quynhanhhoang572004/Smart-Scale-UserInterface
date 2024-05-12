@@ -72,7 +72,7 @@
                                         </Button>
                                         <Label fx:id="lbl_EditExperiment" layoutX="115.0" layoutY="-17.0" prefHeight="53.0" prefWidth="292.0" stylesheets="@../css/EditExp_CSS.css" text="Edit Experiment">
                                         </Label>
-                                        <Button fx:id="menuButton" layoutX="61.0" layoutY="-10.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="39.0" stylesheets="@../css/EditExp_CSS.css" text=" " />
+                                        <Button fx:id="btn_menu" layoutX="61.0" layoutY="-10.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="39.0" stylesheets="@../css/EditExp_CSS.css" text=" " />
                               <Button fx:id="btn_AddQuestionStage" layoutX="36.0" layoutY="637.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" onAction="#AddQuestionButton" prefHeight="30.0" prefWidth="250.0" stylesheets="@../css/EditExp_CSS.css" text="Add Question Stage" />
 
                                     </children>
@@ -87,9 +87,9 @@
                     <center>
                         <AnchorPane maxHeight="513.0" maxWidth="79.0" minHeight="513.0" minWidth="79.0" prefHeight="513.0" prefWidth="79.0" BorderPane.alignment="CENTER">
                             <children>
-                                <Button fx:id="upButton" layoutX="10.0" layoutY="91.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="59.0" text=" " />
-                                <Button fx:id="downButton" layoutX="10.0" layoutY="247.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="59.0" text=" " />
-                                <Button fx:id="crossButton" layoutX="10.0" layoutY="172.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="59.0" text=" " />
+                                <Button fx:id="btn_up" layoutX="10.0" layoutY="91.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="59.0" text=" " />
+                                <Button fx:id="btn_down" layoutX="10.0" layoutY="247.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="59.0" text=" " />
+                                <Button fx:id="btn_cross" layoutX="10.0" layoutY="172.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="59.0" text=" " />
                             </children>
                         </AnchorPane>
                     </center>
@@ -109,8 +109,8 @@
                                                     <content>
                                                         <AnchorPane minHeight="30.0" minWidth="0.0" prefHeight="228.0" prefWidth="792.0">
                                                             <children>
-                                                                <Label fx:id="BackGroundColorLabel" layoutX="14.0" layoutY="14.0" stylesheets="@../css/EditExp_CSS.css" text="Contained stages appear in a random order ? " />
-                                                                <Label fx:id="textColorlabel" layoutX="14.0" layoutY="51.0" prefHeight="25.0" prefWidth="347.0" stylesheets="@../css/EditExp_CSS.css" text="Minimum time for stage to run (in minutes) :" />
+                                                                <Label fx:id="lbl_containStage" layoutX="14.0" layoutY="14.0" stylesheets="@../css/EditExp_CSS.css" text="Contained stages appear in a random order ? " />
+                                                                <Label fx:id="lbl_minimumTime" layoutX="14.0" layoutY="51.0" prefHeight="25.0" prefWidth="347.0" stylesheets="@../css/EditExp_CSS.css" text="Minimum time for stage to run (in minutes) :" />
                                                                 <TextArea fx:id="timeField" layoutX="380.0" layoutY="51.0" minHeight="30.0" prefHeight="30.0" prefWidth="275.0" stylesheets="@../css/EditExp_CSS.css" />
                                                 <CheckBox layoutX="380.0" layoutY="14.0" mnemonicParsing="false" />
                                                             </children>

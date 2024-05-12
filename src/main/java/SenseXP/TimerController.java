@@ -13,17 +13,9 @@ import java.io.IOException;
 public class TimerController {
 
 
-    @FXML
-    private Label InstructionLabel1;
 
     @FXML
     private AnchorPane Properties;
-
-    @FXML
-    private Label SoundDisplayLabel;
-
-    @FXML
-    private Label TimeToWaitLablel;
 
     @FXML
     private StackPane TimerStackPane;
@@ -71,13 +63,19 @@ public class TimerController {
     private Button btn_assignSound;
 
     @FXML
+    private Button btn_cross;
+
+    @FXML
+    private Button btn_down;
+
+    @FXML
+    private Button btn_menu;
+
+    @FXML
     private Button btn_noticeStage;
 
     @FXML
-    private Button crossButton;
-
-    @FXML
-    private Button downButton;
+    private Button btn_up;
 
     @FXML
     private Label lbl_EditExperiment;
@@ -86,16 +84,19 @@ public class TimerController {
     private Label lbl_SenseXP;
 
     @FXML
-    private Button menuButton;
+    private Label lbl_instruction;
+
+    @FXML
+    private Label lbl_soundDisplay;
+
+    @FXML
+    private Label lbl_timeToWait;
 
     @FXML
     private TextArea textField1;
 
     @FXML
     private TextArea textFrame;
-
-    @FXML
-    private Button upButton;
 
     @FXML
     void AddGLMSbutton(ActionEvent event) throws IOException {

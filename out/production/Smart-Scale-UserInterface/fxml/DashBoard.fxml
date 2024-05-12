@@ -19,7 +19,7 @@
                <children>
                   <AnchorPane layoutX="81.0" prefHeight="57.0" prefWidth="1279.0" AnchorPane.bottomAnchor="0.7999999999999972" AnchorPane.leftAnchor="81.0" AnchorPane.rightAnchor="1019.8" AnchorPane.topAnchor="0.0">
                      <children>
-                        <Label fx:id="labelSenseXP" layoutX="-61.0" layoutY="27.0" stylesheets="@../css/EditExp_CSS.css" text="Sense XP" />
+                        <Label fx:id="lbl_SenseXP" layoutX="-61.0" layoutY="27.0" stylesheets="@../css/EditExp_CSS.css" text="Sense XP" />
                      </children>
                   </AnchorPane>
                   <ImageView layoutX="991.0" layoutY="23.0">
@@ -89,7 +89,7 @@
                      <children>
                         <AnchorPane fx:id="DashBoard1" prefHeight="83.0" prefWidth="1029.0" stylesheets="@../css/EditExp_CSS.css" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="2.400000000000091">
                            <children>
-                              <Label fx:id="labelDashBoard" layoutX="101.0" layoutY="15.0" text="Dashboard" />
+                              <Label fx:id="lbl_DashBoard" layoutX="101.0" layoutY="15.0" text="Dashboard" />
                               <Button layoutX="29.0" layoutY="21.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="39.0" />
                               <ImageView layoutX="29.0" layoutY="21.0">
                                  <image>
@@ -100,19 +100,19 @@
                         </AnchorPane>
                         <AnchorPane fx:id="DashBoard" layoutY="83.0" prefHeight="783.0" prefWidth="1027.0" stylesheets="@../css/EditExp_CSS.css" AnchorPane.bottomAnchor="4.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="2.3999999999998636" AnchorPane.topAnchor="83.0">
                            <children>
-                              <Label fx:id="IDlabel" layoutX="28.0" layoutY="57.0" text="ID" />
-                              <Label fx:id="CreatorLabel" layoutX="103.0" layoutY="57.0" text="Creator" />
-                              <Label fx:id="ExprimentNameLabel" layoutX="212.0" layoutY="57.0" text="Experiment Name" />
-                              <Label fx:id="CurrentVersionLabel" layoutX="414.0" layoutY="57.0" text="Current version" />
-                              <Label fx:id="ResultLabel" layoutX="593.0" layoutY="57.0" text="Number of result" />
-                              <Label fx:id="DateMLabel" layoutX="770.0" layoutY="42.0" text="Create Date" />
-                              <Label fx:id="LastMLabel" layoutX="764.0" layoutY="71.0" text="Last modifies" />
-                              <Label fx:id="OptionLabel" layoutX="919.0" layoutY="57.0" text="Option" />
+                              <Label fx:id="lbl_iD" layoutX="28.0" layoutY="57.0" text="ID" />
+                              <Label fx:id="lbl_creator" layoutX="103.0" layoutY="57.0" text="Creator" />
+                              <Label fx:id="lbl_experimentName" layoutX="212.0" layoutY="57.0" text="Experiment Name" />
+                              <Label fx:id="lbl_currentVersion" layoutX="414.0" layoutY="57.0" text="Current version" />
+                              <Label fx:id="lbl_result" layoutX="593.0" layoutY="57.0" text="Number of result" />
+                              <Label fx:id="lbl_createDate" layoutX="770.0" layoutY="42.0" text="Create Date" />
+                              <Label fx:id="lbl_lastM" layoutX="764.0" layoutY="71.0" text="Last modifies" />
+                              <Label fx:id="lbl_Option" layoutX="919.0" layoutY="57.0" text="Option" />
                               <ComboBox fx:id="DropDown" layoutX="103.0" layoutY="12.0" prefHeight="31.0" prefWidth="63.0" />
                               <Label fx:id="ShowLabel" layoutX="53.0" layoutY="19.0" text="Show" />
                               <Label fx:id="EntriesLabel" layoutX="194.0" layoutY="19.0" text="entries" />
                               <TextField fx:id="searchBar" layoutX="256.0" layoutY="12.0" prefHeight="32.0" prefWidth="441.0" />
-                              <Button fx:id="addExperimentButton" layoutX="843.0" layoutY="12.0" mnemonicParsing="false" text="+ Add Experiment" />
+                              <Button fx:id="btn_AddExperiment" layoutX="843.0" layoutY="12.0" mnemonicParsing="false" text="+ Add Experiment" />
                            </children>
                         </AnchorPane>
                      </children>

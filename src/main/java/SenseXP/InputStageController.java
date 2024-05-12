@@ -14,25 +14,10 @@ import java.io.IOException;
 public class InputStageController {
 
     @FXML
-    private Label ButtonTextLabel;
-
-    @FXML
-    private Label HelpTextLabel;
-
-    @FXML
     private StackPane InputStackPane;
 
     @FXML
-    private Label PlaySoundLabel;
-
-    @FXML
     private AnchorPane Properties;
-
-    @FXML
-    private Label QuestionLabel;
-
-    @FXML
-    private Label StoreResponseLabel;
 
     @FXML
     private Button addCourseButton;
@@ -62,6 +47,9 @@ public class InputStageController {
     private Button btn_addInput;
 
     @FXML
+    private Button btn_addRatingContainer;
+
+    @FXML
     private Button btn_addTasteTest;
 
     @FXML
@@ -74,13 +62,22 @@ public class InputStageController {
     private Button btn_assignSound;
 
     @FXML
+    private Button btn_cross;
+
+    @FXML
+    private Button btn_down;
+
+    @FXML
+    private Button btn_menu;
+
+    @FXML
     private Button btn_noticeStage;
 
     @FXML
-    private Button crossButton;
+    private Button btn_up;
 
     @FXML
-    private Button downButton;
+    private Label lbl_ButtonText;
 
     @FXML
     private Label lbl_EditExperiment;
@@ -89,16 +86,19 @@ public class InputStageController {
     private Label lbl_SenseXP;
 
     @FXML
-    private Button menuButton;
+    private Label lbl_help;
 
     @FXML
-    private TextArea textField1;
+    private Label lbl_playSound;
+
+    @FXML
+    private Label lbl_question;
+
+    @FXML
+    private Label lbl_storeResponse;
 
     @FXML
     private TextArea textFrame;
-
-    @FXML
-    private Button upButton;
 
     @FXML
     void AddGLMSButton(ActionEvent event) throws IOException {

@@ -13,9 +13,6 @@ import java.io.IOException;
 public class NoticeStageController {
 
     @FXML
-    private Label BackGroundColorLabel;
-
-    @FXML
     private Button ChangeButton;
 
     @FXML
@@ -28,19 +25,10 @@ public class NoticeStageController {
     private Button ChangeButton3;
 
     @FXML
-    private Label DisablebuttonLabel;
-
-    @FXML
-    private Label EndDelayLabel;
-
-    @FXML
     private StackPane NoticeStagePane;
 
     @FXML
     private AnchorPane Properties;
-
-    @FXML
-    private Label StartDelayLabel;
 
     @FXML
     private Label avatarLabel;
@@ -85,6 +73,12 @@ public class NoticeStageController {
     private Button btn_assignSound;
 
     @FXML
+    private Button btn_down;
+
+    @FXML
+    private Button btn_menu;
+
+    @FXML
     private Button btn_noticeStage;
 
     @FXML
@@ -94,19 +88,28 @@ public class NoticeStageController {
     private Button downButton;
 
     @FXML
-    private Label fontLabel;
-
-    @FXML
     private Label lbl_EditExperiment;
 
     @FXML
     private Label lbl_SenseXP;
 
     @FXML
-    private Button menuButton;
+    private Label lbl_backgroundColor;
 
     @FXML
-    private Label textColorlabel;
+    private Label lbl_disable;
+
+    @FXML
+    private Label lbl_endDelay;
+
+    @FXML
+    private Label lbl_font;
+
+    @FXML
+    private Label lbl_startDelay;
+
+    @FXML
+    private Label lbl_textColor;
 
     @FXML
     private TextArea textField1;
@@ -126,8 +129,6 @@ public class NoticeStageController {
     @FXML
     private TextArea timeField2;
 
-    @FXML
-    private Button upButton;
     @FXML
     void AddGLMSButton(ActionEvent event) {
 

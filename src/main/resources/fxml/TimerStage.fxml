@@ -73,7 +73,7 @@
                                         </Button>
                                         <Label fx:id="lbl_EditExperiment" layoutX="115.0" layoutY="-17.0" prefHeight="53.0" prefWidth="292.0" stylesheets="@../css/EditExp_CSS.css" text="Edit Experiment">
                                         </Label>
-                                        <Button fx:id="menuButton" layoutX="61.0" layoutY="-10.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="39.0" stylesheets="@../css/EditExp_CSS.css" text=" " />
+                                        <Button fx:id="btn_menu" layoutX="61.0" layoutY="-10.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="39.0" stylesheets="@../css/EditExp_CSS.css" text=" " />
                               <Button fx:id="btn_AddQuestionStage" layoutX="36.0" layoutY="636.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" onAction="#AddQuestionButton" prefHeight="30.0" prefWidth="250.0" stylesheets="@../css/EditExp_CSS.css" text="Add Question Stage" />
 
                                     </children>
@@ -88,9 +88,9 @@
                     <center>
                         <AnchorPane maxHeight="513.0" maxWidth="79.0" minHeight="513.0" minWidth="79.0" prefHeight="513.0" prefWidth="79.0" BorderPane.alignment="CENTER">
                             <children>
-                                <Button fx:id="upButton" layoutX="10.0" layoutY="91.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="59.0" text=" " />
-                                <Button fx:id="downButton" layoutX="10.0" layoutY="247.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="59.0" text=" " />
-                                <Button fx:id="crossButton" layoutX="10.0" layoutY="172.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="59.0" text=" " />
+                                <Button fx:id="btn_up" layoutX="10.0" layoutY="91.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="59.0" text=" " />
+                                <Button fx:id="btn_down" layoutX="10.0" layoutY="247.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="59.0" text=" " />
+                                <Button fx:id="btn_cross" layoutX="10.0" layoutY="172.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="59.0" text=" " />
                             </children>
                         </AnchorPane>
                     </center>
@@ -111,10 +111,10 @@
                                                         <AnchorPane minHeight="30.0" minWidth="0.0" prefHeight="228.0" prefWidth="792.0" stylesheets="@../css/EditExp_CSS.css">
                                                             <children>
                                                                 <TextArea fx:id="textField1" layoutX="304.0" layoutY="11.0" maxHeight="30.0" minHeight="30.0" prefHeight="30.0" prefWidth="370.0" stylesheets="@../css/EditExp_CSS.css" />
-                                                <Label fx:id="InstructionLabel1" layoutX="31.0" layoutY="13.0" prefHeight="26.0" prefWidth="352.0" stylesheets="@../css/EditExp_CSS.css" text="Instruction to whilist waiting" />
-                                                <Label fx:id="TimeToWaitLablel" layoutX="31.0" layoutY="64.0" stylesheets="@../css/EditExp_CSS.css" text="Time to wait in minutes" />
+                                                <Label fx:id="lbl_instruction" layoutX="31.0" layoutY="13.0" prefHeight="26.0" prefWidth="352.0" stylesheets="@../css/EditExp_CSS.css" text="Instruction to whilist waiting" />
+                                                <Label fx:id="lbl_timeToWait" layoutX="31.0" layoutY="64.0" stylesheets="@../css/EditExp_CSS.css" text="Time to wait in minutes" />
                                                 <TextField layoutX="304.0" layoutY="62.0" minHeight="30.0" prefHeight="30.0" prefWidth="250.0" />
-                                                <Label fx:id="SoundDisplayLabel" layoutX="31.0" layoutY="105.0" prefHeight="26.0" prefWidth="375.0" text="Play alert sound on screen display?" />
+                                                <Label fx:id="lbl_soundDisplay" layoutX="31.0" layoutY="105.0" prefHeight="26.0" prefWidth="375.0" text="Play alert sound on screen display?" />
                                                 <CheckBox layoutX="304.0" layoutY="109.0" mnemonicParsing="false" />
                                                             </children>
                                                         </AnchorPane>

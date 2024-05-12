@@ -30,8 +30,8 @@
                      <children>
                         <AnchorPane fx:id="DashBoard" layoutX="7.0" layoutY="141.0" maxHeight="696.0" maxWidth="1279.0" minHeight="696.0" minWidth="1279.0" prefHeight="696.0" prefWidth="1279.0">
                            <children>
-                              <TextField fx:id="searchBar" layoutX="225.0" layoutY="14.0" onInputMethodTextChanged="#searchQuery" stylesheets="@/css/EditExp_CSS.css" />
-                              <MenuButton fx:id="DropDown" layoutX="99.0" layoutY="14.0" mnemonicParsing="false" prefWidth="55.0" text="10">
+                              <TextField fx:id="txt_searchBar" layoutX="225.0" layoutY="14.0" onInputMethodTextChanged="#searchQuery" stylesheets="@/css/EditExp_CSS.css" />
+                              <MenuButton fx:id="btn_dropDown" layoutX="99.0" layoutY="14.0" mnemonicParsing="false" prefWidth="55.0" text="10">
                                 <items>
                                   <MenuItem mnemonicParsing="false" text="Action 1" />
                                   <MenuItem mnemonicParsing="false" text="Action 2" />
@@ -47,7 +47,7 @@
                               <Label fx:id="lbl_currentVersion" layoutX="502.0" layoutY="62.0" text="Current Version" />
                               <Label fx:id="lbl_createDate" layoutX="945.0" layoutY="53.0" text="Create Date" />
                               <Label fx:id="lbl_lastM" layoutX="937.0" layoutY="82.0" text="Last Modified" />
-                              <Label fx:id="OptionLabel" layoutX="1135.0" layoutY="63.0" text="Action" />
+                              <Label fx:id="lbl_Option" layoutX="1135.0" layoutY="63.0" text="Option" />
                            </children>
                            <stylesheets>
                               <URL value="@../css/Style.css" />
@@ -63,7 +63,7 @@
                                     <URL value="@../css/Style.css" />
                                  </stylesheets>
                               </Label>
-                              <Button fx:id="DashBoardButton" layoutX="34.0" layoutY="22.0" mnemonicParsing="false" onAction="#DashBoardButtonClick" prefHeight="39.0" prefWidth="39.0" />
+                              <Button fx:id="btn_dashBoard" layoutX="34.0" layoutY="22.0" mnemonicParsing="false" onAction="#DashBoardButtonClick" prefHeight="39.0" prefWidth="39.0" />
                               <ImageView fitHeight="39.0" fitWidth="39.0" layoutX="34.0" layoutY="22.0">
                                  <image>
                                     <Image url="@picture/menu.png" />

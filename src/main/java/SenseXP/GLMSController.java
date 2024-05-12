@@ -14,9 +14,6 @@ public class GLMSController {
 
 
     @FXML
-    private Label BackGroundColorLabel;
-
-    @FXML
     private StackPane GLMSStackPane;
 
     @FXML
@@ -65,13 +62,16 @@ public class GLMSController {
     private Button btn_assignSound;
 
     @FXML
+    private Button btn_cross;
+
+    @FXML
+    private Button btn_down;
+
+    @FXML
     private Button btn_noticeStage;
 
     @FXML
-    private Button crossButton;
-
-    @FXML
-    private Button downButton;
+    private Button btn_up;
 
     @FXML
     private Label lbl_EditExperiment;
@@ -80,19 +80,20 @@ public class GLMSController {
     private Label lbl_SenseXP;
 
     @FXML
-    private Button menuButton;
+    private Label lbl_containStage;
 
     @FXML
-    private Label textColorlabel;
+    private Label lbl_minimumTime;
+
+
+    @FXML
+    private Button btn_menu;
 
     @FXML
     private TextArea textFrame;
 
     @FXML
     private TextArea timeField;
-
-    @FXML
-    private Button upButton;
 
     @FXML
     void AddGLMSbutton(ActionEvent event) {

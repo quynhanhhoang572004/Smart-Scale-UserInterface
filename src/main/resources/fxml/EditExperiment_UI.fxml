@@ -88,7 +88,7 @@
                   <AnchorPane maxHeight="513.0" maxWidth="79.0" minHeight="513.0" minWidth="79.0" prefHeight="513.0" prefWidth="79.0">
                      <children>
                         <Button fx:id="btn_up" layoutX="10.0" layoutY="91.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="59.0" text=" " AnchorPane.leftAnchor="9.599999999999994" AnchorPane.rightAnchor="10.0" />
-                        <Button fx:id="downButton" layoutX="10.0" layoutY="247.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="59.0" text=" " AnchorPane.leftAnchor="9.6" AnchorPane.rightAnchor="10.399999999999999" />
+                        <Button fx:id="btn_down" layoutX="10.0" layoutY="247.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="59.0" text=" " AnchorPane.leftAnchor="9.6" AnchorPane.rightAnchor="10.399999999999999" />
                         <Button fx:id="btn_cross" layoutX="10.0" layoutY="172.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="59.0" text=" " AnchorPane.leftAnchor="9.6" AnchorPane.rightAnchor="10.399999999999999" />
                      </children>
                   </AnchorPane>

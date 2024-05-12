@@ -20,7 +20,7 @@
 }
 
 
-#btn_noticeStage, #btn_addAudibleInstruction, #btn_assignSoundButton, #btn_addInput, #btn_addTimer, #btn_addTasteTest, #btn_addFoodAndTaste,
+#btn_noticeStage, #btn_addAudibleInstruction, #btn_assignSound, #btn_addInput, #btn_addTimer, #btn_addTasteTest, #btn_addFoodAndTaste,
 #btn_addRatingContainer,
 #btn_addVasStage,
 #btn_AddGLMS,
@@ -323,7 +323,8 @@
     -fx-text-fill: #000;
     -fx-background-color: #F7F6FE
 }
-#lbl_iD,#lbl_creator,#lbl_experimentName,#lbl_currentVersion,#lbl_result,#lbl_lastM,#lbl_createDate,#OptionLabel,#ExperimentdesLabel,#AdditionNoteLabel,#FileLabel,#NameLabel{
+#lbl_iD,#lbl_creator,#lbl_experimentName,#lbl_currentVersion,#lbl_result,#lbl_lastM,#lbl_createDate,#lbl_Option
+,#ExperimentdesLabel,#AdditionNoteLabel,#FileLabel,#NameLabel{
     -fx-font-family: 'Montserrat';
     -fx-font-weight: 700;
     -fx-align-items: center;
