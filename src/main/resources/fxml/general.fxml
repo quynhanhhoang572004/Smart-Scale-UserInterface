@@ -5,9 +5,9 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.MenuButton?>
 <?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
 <?import javafx.scene.control.TextField?>
-<?import javafx.scene.image.Image?>
-<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.StackPane?>
 
@@ -40,14 +40,17 @@
                               <Label fx:id="lbl_show" layoutX="52.0" layoutY="21.0" text="show" />
                               <Label fx:id="lbl_entries" layoutX="166.0" layoutY="21.0" prefHeight="18.0" prefWidth="96.0" text="entries" />
                               <Button fx:id="btn_AddExperiment" layoutX="1090.0" layoutY="14.0" mnemonicParsing="false" stylesheets="@../css/EditExp_CSS.css" text="+ Add Experiment" />
-                              <Label fx:id="lbl_iD" layoutX="47.0" layoutY="63.0" stylesheets="@/css/EditExp_CSS.css" text="ID" />
-                              <Label fx:id="lbl_creator" layoutX="142.0" layoutY="63.0" stylesheets="@../css/EditExp_CSS.css" text="Creator" />
-                              <Label fx:id="lbl_experimentName" layoutX="287.0" layoutY="63.0" stylesheets="@../css/EditExp_CSS.css" text="Expriment Name" />
-                              <Label fx:id="lbl_result" layoutX="722.0" layoutY="61.0" text="Number of results" />
-                              <Label fx:id="lbl_currentVersion" layoutX="502.0" layoutY="62.0" text="Current Version" />
-                              <Label fx:id="lbl_createDate" layoutX="945.0" layoutY="53.0" text="Create Date" />
-                              <Label fx:id="lbl_lastM" layoutX="937.0" layoutY="82.0" text="Last Modified" />
-                              <Label fx:id="lbl_Option" layoutX="1135.0" layoutY="63.0" text="Option" />
+                              <TableView layoutX="18.0" layoutY="100.0" prefHeight="526.0" prefWidth="1242.0">
+                                <columns>
+                                  <TableColumn fx:id="lbl_iD" prefWidth="148.0" text="ID" />
+                                  <TableColumn fx:id="lbl_creator" prefWidth="150.4000244140625" text="Creator" />
+                                    <TableColumn fx:id="lbl_experimentName" prefWidth="181.59994506835938" text="Experiment Name" />
+                                    <TableColumn fx:id="lbl_currentVersion" prefWidth="213.60003662109375" text="Current Version" />
+                                    <TableColumn fx:id="lbl_result" prefWidth="167.20001220703125" text="Result" />
+                                    <TableColumn fx:id="lbl_createDate" prefWidth="179.99993896484375" text="Create Date" />
+                                    <TableColumn fx:id="lbl_Option" prefWidth="198.39996337890625" text="Option" />
+                                </columns>
+                              </TableView>
                            </children>
                            <stylesheets>
                               <URL value="@../css/Style.css" />
@@ -63,12 +66,7 @@
                                     <URL value="@../css/Style.css" />
                                  </stylesheets>
                               </Label>
-                              <Button fx:id="btn_dashBoard" layoutX="34.0" layoutY="22.0" mnemonicParsing="false" onAction="#DashBoardButtonClick" prefHeight="39.0" prefWidth="39.0" />
-                              <ImageView fitHeight="39.0" fitWidth="39.0" layoutX="34.0" layoutY="22.0">
-                                 <image>
-                                    <Image url="@picture/menu.png" />
-                                 </image>
-                              </ImageView>
+                              <Button fx:id="btn_menu" layoutX="34.0" layoutY="22.0" mnemonicParsing="false" onAction="#DashBoardButtonClick" prefHeight="39.0" prefWidth="39.0" />
                            </children>
                            <stylesheets>
                               <URL value="@../css/EditExp_CSS.css" />

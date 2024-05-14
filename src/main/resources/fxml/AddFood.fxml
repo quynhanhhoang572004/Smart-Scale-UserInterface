@@ -36,12 +36,12 @@
                                 <Button fx:id="DashBoardButton6" layoutX="13.0" layoutY="670.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="217.0" text="Logout" />
                                 <ImageView layoutX="23.0" layoutY="45.0">
                                     <image>
-                                        <Image url="@picture/Frame%2013.png" />
+                                        <Image url="@picture/Frame 13.png" />
                                     </image>
                                 </ImageView>
                                 <ImageView layoutX="16.0" layoutY="108.0">
                                     <image>
-                                        <Image url="@picture/Frame%2014.png" />
+                                        <Image url="@picture/Frame 14.png" />
                                     </image>
                                 </ImageView>
                                 <ImageView layoutX="23.0" layoutY="363.0">

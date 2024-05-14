@@ -4,17 +4,12 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
+import javafx.scene.control.TableColumn;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.StackPane;
 
 public class DashBoardController {
-
-    @FXML
-    private Label CreatorLabel;
-
-    @FXML
-    private Label CurrentVersionLabel;
 
     @FXML
     private AnchorPane DashBoard;
@@ -44,28 +39,10 @@ public class DashBoardController {
     private StackPane DashBoardStackPane;
 
     @FXML
-    private Label DateMLabel;
-
-    @FXML
     private ComboBox<?> DropDown;
 
     @FXML
     private Label EntriesLabel;
-
-    @FXML
-    private Label ExprimentNameLabel;
-
-    @FXML
-    private Label IDlabel;
-
-    @FXML
-    private Label LastMLabel;
-
-    @FXML
-    private Label OptionLabel;
-
-    @FXML
-    private Label ResultLabel;
 
     @FXML
     private AnchorPane SenseXPBar;
@@ -77,13 +54,31 @@ public class DashBoardController {
     private AnchorPane SideBar;
 
     @FXML
-    private Button addExperimentButton;
+    private Button btn_AddExperiment;
 
     @FXML
-    private Label labelDashBoard;
+    private Label lbl_DashBoard;
 
     @FXML
-    private Label labelSenseXP;
+    private TableColumn<?, ?> lbl_Option;
+
+    @FXML
+    private Label lbl_SenseXP;
+
+    @FXML
+    private TableColumn<?, ?> lbl_createDate;
+
+    @FXML
+    private TableColumn<?, ?> lbl_creator;
+
+    @FXML
+    private TableColumn<?, ?> lbl_experimentName;
+
+    @FXML
+    private TableColumn<?, ?> lbl_iD;
+
+    @FXML
+    private TableColumn<?, ?> lbl_result;
 
     @FXML
     private TextField searchBar;
