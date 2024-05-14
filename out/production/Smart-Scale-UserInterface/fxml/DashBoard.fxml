@@ -94,7 +94,7 @@
                               </ImageView>
                            </children>
                         </Pane>
-                        <Pane fx:id="btn_Logout" layoutX="16.0" layoutY="711.0">
+                        <Pane layoutX="16.0" layoutY="711.0">
                            <children>
                               <Button fx:id="btn_Logout" mnemonicParsing="false" prefHeight="57.0" prefWidth="217.0" text="Logout" />
                               <ImageView layoutX="39.0" layoutY="17.0">
@@ -118,7 +118,7 @@
                            <children>
                               <Pane layoutX="29.0" layoutY="15.0" prefHeight="54.0" prefWidth="221.0">
                                  <children>
-                                    <Button fx:id="btn_dashboard" layoutY="-8.0" mnemonicParsing="false" prefHeight="68.0" prefWidth="239.0" text="Dashboard" />
+                                    <Button fx:id="btn_dashboard" layoutY="-8.0" mnemonicParsing="false" onAction="#btn_dashboard" prefHeight="68.0" prefWidth="239.0" text="Dashboard" />
                                     <Label fx:id="lbl_DashBoard" layoutX="72.0" />
                                     <ImageView fx:id="img_dashboard" layoutY="6.0">
                                        <image>
@@ -135,7 +135,7 @@
                               <Label fx:id="ShowLabel" layoutX="53.0" layoutY="19.0" text="Show" />
                               <Label fx:id="EntriesLabel" layoutX="194.0" layoutY="19.0" text="entries" />
                               <TextField fx:id="searchBar" layoutX="256.0" layoutY="12.0" prefHeight="32.0" prefWidth="441.0" />
-                              <Button fx:id="btn_AddExperiment" layoutX="843.0" layoutY="12.0" mnemonicParsing="false" text="+ Add Experiment" />
+                              <Button fx:id="btn_AddExperiment" layoutX="843.0" layoutY="12.0" mnemonicParsing="false" onAction="#btn_addEx" text="+ Add Experiment" />
                               <TableView layoutX="33.0" layoutY="78.0" prefHeight="526.0" prefWidth="960.0">
                                 <columns>
                                   <TableColumn fx:id="lbl_iD" prefWidth="75.0" text="ID" />

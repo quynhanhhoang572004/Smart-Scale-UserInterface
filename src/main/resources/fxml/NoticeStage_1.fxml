@@ -69,7 +69,7 @@
                                         </Button>
                                         <Button fx:id="btn_AddConditionalStatement" layoutX="36.0" layoutY="595.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" text="Add Conditional Statement" AnchorPane.leftAnchor="36.0" AnchorPane.rightAnchor="19.19999999999999">
                                         </Button>
-                                        <Button fx:id="btn_menu" layoutX="44.0" layoutY="-14.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="39.0" stylesheets="@../css/EditExp_CSS.css" text=" " AnchorPane.leftAnchor="44.0" AnchorPane.rightAnchor="223.99999999999997" />
+                                        <Button fx:id="btn_menu" layoutX="44.0" layoutY="-14.0" mnemonicParsing="false" onAction="#btn_menu" prefHeight="39.0" prefWidth="39.0" stylesheets="@../css/EditExp_CSS.css" text=" " AnchorPane.leftAnchor="44.0" AnchorPane.rightAnchor="223.99999999999997" />
                                         <Label fx:id="lbl_EditExperiment" layoutX="98.0" layoutY="-21.0" prefHeight="53.0" prefWidth="283.0" stylesheets="@../css/EditExp_CSS.css" text="Edit Experiment" AnchorPane.bottomAnchor="601.8000000000001" AnchorPane.leftAnchor="98.0" AnchorPane.rightAnchor="-75.60000000000002" AnchorPane.topAnchor="-21.0">
                                         </Label>
       
@@ -86,9 +86,9 @@
                <center>
                   <AnchorPane maxHeight="561.0" maxWidth="73.0" minHeight="561.0" minWidth="73.0" prefHeight="561.0" prefWidth="73.0">
                      <children>
-                                <Button fx:id="btn_down" layoutX="9.600000381469727" layoutY="115.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="59.0" text=" " AnchorPane.leftAnchor="9.599999999999994" AnchorPane.rightAnchor="10.400000000000006" />
-                                <Button fx:id="downButton" layoutX="10.399999618530273" layoutY="271.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="59.0" text=" " AnchorPane.leftAnchor="10.4" AnchorPane.rightAnchor="9.600000000000001" />
-                                <Button fx:id="crossButton" layoutX="10.399999618530273" layoutY="196.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="59.0" text=" " AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="9.599999999999994" />
+                                <Button fx:id="btn_up" layoutX="9.600000381469727" layoutY="115.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="59.0" text=" " AnchorPane.leftAnchor="9.599999999999994" AnchorPane.rightAnchor="10.400000000000006" />
+                                <Button fx:id="btn_down" layoutX="10.399999618530273" layoutY="271.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="59.0" text=" " AnchorPane.leftAnchor="10.4" AnchorPane.rightAnchor="9.600000000000001" />
+                                <Button fx:id="btn_cross" layoutX="10.399999618530273" layoutY="196.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="59.0" text=" " AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="9.599999999999994" />
                      </children>
                   </AnchorPane>
                </center>

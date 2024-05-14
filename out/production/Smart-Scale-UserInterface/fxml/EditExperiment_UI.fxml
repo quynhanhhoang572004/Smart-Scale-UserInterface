@@ -3,7 +3,7 @@
 <?import java.net.URL?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TreeView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.StackPane?>
@@ -73,7 +73,7 @@
                                  </stylesheets></Button>
                               <Label fx:id="lbl_EditExperiment" layoutX="115.0" layoutY="-17.0" prefHeight="53.0" prefWidth="292.0" text="Edit Experiment" AnchorPane.leftAnchor="115.0" AnchorPane.rightAnchor="-101.59999999999997">
                               </Label>
-                              <Button fx:id="menuButton" layoutX="61.0" layoutY="-10.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="39.0" text=" " />
+                              <Button fx:id="btn_menu" layoutX="61.0" layoutY="-10.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="39.0" text=" " />
                               <Button fx:id="btn_AddQuestionStage" layoutX="36.0" layoutY="639.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" stylesheets="@../css/EditExp_CSS.css" text="Add Question Stage " AnchorPane.leftAnchor="36.0" AnchorPane.rightAnchor="19.19999999999999" />
                            </children>
                         </AnchorPane>
@@ -100,7 +100,7 @@
                <children>
                   <AnchorPane maxHeight="664.0" maxWidth="812.0" minHeight="664.0" minWidth="812.0" prefHeight="644.0" prefWidth="812.0">
                      <children>
-                        <TextArea fx:id="textResult" layoutX="12.0" layoutY="14.0" maxHeight="644.0" minHeight="514.0" minWidth="765.0" prefHeight="514.0" prefWidth="788.0" promptText="demo" stylesheets="@../css/EditExp_CSS.css" text="demo" AnchorPane.bottomAnchor="5.600000000000023" AnchorPane.leftAnchor="12.0" AnchorPane.rightAnchor="-12.0" AnchorPane.topAnchor="14.0" />
+                        <TreeView fx:id="testResult" prefHeight="664.0" prefWidth="812.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
                      </children>
                   </AnchorPane>
                </children>

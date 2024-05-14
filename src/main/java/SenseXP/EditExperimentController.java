@@ -75,7 +75,7 @@ public class EditExperimentController {
     private Label lbl_SenseXP;
 
     @FXML
-    private Button menuButton;
+    private Button btn_button;
 
     @FXML
     private TextArea textResult;

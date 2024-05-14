@@ -11,7 +11,6 @@ import javafx.scene.layout.StackPane;
 import java.io.IOException;
 
 public class NoticeStageController {
-
     @FXML
     private Button ChangeButton;
 
@@ -73,6 +72,9 @@ public class NoticeStageController {
     private Button btn_assignSound;
 
     @FXML
+    private Button btn_cross;
+
+    @FXML
     private Button btn_down;
 
     @FXML
@@ -82,10 +84,7 @@ public class NoticeStageController {
     private Button btn_noticeStage;
 
     @FXML
-    private Button crossButton;
-
-    @FXML
-    private Button downButton;
+    private Button btn_up;
 
     @FXML
     private Label lbl_EditExperiment;
@@ -128,6 +127,8 @@ public class NoticeStageController {
 
     @FXML
     private TextArea timeField2;
+
+
 
     @FXML
     void AddGLMSButton(ActionEvent event) {
@@ -172,6 +173,11 @@ public class NoticeStageController {
     @FXML
     void AddQuestionButton(ActionEvent event) throws IOException {
         new ScenseSwitch(NoticeStagePane,"/fxml/QuestionStage.fxml");
+
+    }
+    @FXML
+    void btn_menu(ActionEvent event) throws IOException {
+        new ScenseSwitch(NoticeStagePane,"/fxml/EditExperiment_UI.fxml");
 
     }
 

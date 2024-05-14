@@ -1,13 +1,17 @@
 package SenseXP;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TextField;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.StackPane;
+
+import java.io.IOException;
 
 public class DashBoardController {
 
@@ -16,24 +20,6 @@ public class DashBoardController {
 
     @FXML
     private AnchorPane DashBoard1;
-
-    @FXML
-    private Button DashBoardButton1;
-
-    @FXML
-    private Button DashBoardButton2;
-
-    @FXML
-    private Button DashBoardButton3;
-
-    @FXML
-    private Button DashBoardButton4;
-
-    @FXML
-    private Button DashBoardButton5;
-
-    @FXML
-    private Button DashBoardButton6;
 
     @FXML
     private StackPane DashBoardStackPane;
@@ -57,6 +43,30 @@ public class DashBoardController {
     private Button btn_AddExperiment;
 
     @FXML
+    private Button btn_Logout;
+
+    @FXML
+    private Button btn_config;
+
+    @FXML
+    private Button btn_dashboard;
+
+    @FXML
+    private Button btn_dashboard_left;
+
+    @FXML
+    private Button btn_export;
+
+    @FXML
+    private Button btn_import;
+
+    @FXML
+    private Button btn_share_experiment;
+
+    @FXML
+    private ImageView img_dashboard;
+
+    @FXML
     private Label lbl_DashBoard;
 
     @FXML
@@ -72,6 +82,9 @@ public class DashBoardController {
     private TableColumn<?, ?> lbl_creator;
 
     @FXML
+    private TableColumn<?, ?> lbl_currenVersion;
+
+    @FXML
     private TableColumn<?, ?> lbl_experimentName;
 
     @FXML
@@ -82,5 +95,20 @@ public class DashBoardController {
 
     @FXML
     private TextField searchBar;
+
+    @FXML
+    private AnchorPane sidebar_left;
+
+    @FXML
+    void btn_addEx(ActionEvent event) throws IOException {
+
+
+    }
+
+    @FXML
+    void btn_dashboard(ActionEvent event) throws IOException {
+        new ScenseSwitch(DashBoardStackPane,"/fxml/general.fxml");
+
+    }
 
 }

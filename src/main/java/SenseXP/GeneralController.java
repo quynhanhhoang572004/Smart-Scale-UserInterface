@@ -1,7 +1,9 @@
 package SenseXP;
 
+import ViewModel.GeneralVM;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.MenuButton;
@@ -12,8 +14,11 @@ import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.StackPane;
 
 import java.io.IOException;
+import java.net.URL;
+import java.util.ResourceBundle;
 
 public class GeneralController {
+    private GeneralVM generalVM;
 
     @FXML
     private AnchorPane DashBoard;
@@ -86,7 +91,8 @@ public class GeneralController {
         UserName.setText(txt_searchBar.getText());
 
     }
+    public void initialize(GeneralVM generalVM){
+        txt_searchBar.textProperty().bindBidirectional();
 
-
-
+    }
 }
