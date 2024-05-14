@@ -1,4 +1,4 @@
-#SideBar{
+AddFood_CSS.css#SideBar{
     -fx-background-color: #F7F6FE
 }
 #SideBar2{
@@ -20,7 +20,7 @@
     -fx-font-size: 32;
     -fx-font-weight: normal;
     -fx-text-alignment: left;
-    -fx-text-fill: #6952e7;
+    -fx-text-fill: #624DE3;
 }
 #lbl_SenseXP{
     -fx-text-fill: #624DE3;

@@ -11,6 +11,7 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.StackPane?>
 
 <StackPane fx:id="DashBoardStackPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="839.0" prefWidth="1279.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SenseXP.DashBoardController">
@@ -19,7 +20,7 @@
          <top>
             <AnchorPane fx:id="SenseXPBar" prefHeight="57.0" prefWidth="1279.0" stylesheets="@../css/EditExp_CSS.css" BorderPane.alignment="CENTER">
                <children>
-                  <AnchorPane layoutX="81.0" prefHeight="57.0" prefWidth="1279.0" AnchorPane.bottomAnchor="0.7999999999999972" AnchorPane.leftAnchor="81.0" AnchorPane.rightAnchor="1019.8" AnchorPane.topAnchor="0.0">
+                  <AnchorPane layoutX="88.0" prefHeight="85.0" prefWidth="171.0" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="81.0" AnchorPane.rightAnchor="1020.0" AnchorPane.topAnchor="0.0">
                      <children>
                         <Label fx:id="lbl_SenseXP" layoutX="-61.0" layoutY="27.0" stylesheets="@../css/EditExp_CSS.css" text="Sense XP" />
                      </children>
@@ -41,44 +42,68 @@
                   <Insets />
                </BorderPane.margin>
                <children>
-                  <AnchorPane prefHeight="783.0" prefWidth="250.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.8000000000000114" AnchorPane.topAnchor="0.0">
+                  <AnchorPane fx:id="sidebar_left" prefHeight="783.0" prefWidth="250.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.8000000000000114" AnchorPane.topAnchor="0.0">
                      <children>
-                        <Button fx:id="DashBoardButton1" layoutX="14.0" layoutY="37.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="217.0" text="Dashboard" />
-                        <Button fx:id="DashBoardButton2" alignment="CENTER" contentDisplay="RIGHT" layoutX="16.0" layoutY="112.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="217.0" text="Share Experiment " />
-                        <Button fx:id="DashBoardButton3" layoutX="16.0" layoutY="192.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="217.0" text="Import Experiment" />
-                        <Button fx:id="DashBoardButton4" layoutX="16.0" layoutY="266.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="217.0" text="Export Experiment" />
-                        <Button fx:id="DashBoardButton5" layoutX="16.0" layoutY="343.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="217.0" text="Configure" />
-                        <Button fx:id="DashBoardButton6" layoutX="16.0" layoutY="711.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="217.0" text="Logout" />
-                        <ImageView layoutX="16.0" layoutY="121.0">
-                           <image>
-                              <Image url="@picture/Frame 14.png" />
-                           </image>
-                        </ImageView>
-                        <ImageView layoutX="23.0" layoutY="54.0">
-                           <image>
-                              <Image url="@picture/Frame 13.png" />
-                           </image>
-                        </ImageView>
-                        <ImageView layoutX="23.0" layoutY="207.0">
-                           <image>
-                              <Image url="@picture/lucide_import.png" />
-                           </image>
-                        </ImageView>
-                        <ImageView layoutX="23.0" layoutY="281.0">
-                           <image>
-                              <Image url="@picture/uil_export.png" />
-                           </image>
-                        </ImageView>
-                        <ImageView layoutX="23.0" layoutY="357.0">
-                           <image>
-                              <Image url="@picture/grommet-icons_configure.png" />
-                           </image>
-                        </ImageView>
-                        <ImageView layoutX="55.0" layoutY="728.0">
-                           <image>
-                              <Image url="@picture/ic_outline-logout.png" />
-                           </image>
-                        </ImageView>
+                        <Pane layoutX="14.0" layoutY="37.0">
+                           <children>
+                              <Button fx:id="btn_dashboard_left" mnemonicParsing="false" prefHeight="57.0" prefWidth="217.0" text="Dashboard" />
+                              <ImageView layoutX="9.0" layoutY="17.0">
+                                 <image>
+                                    <Image url="@picture/Frame 13.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="16.0" layoutY="112.0">
+                           <children>
+                              <Button fx:id="btn_share_experiment" alignment="CENTER" contentDisplay="RIGHT" mnemonicParsing="false" prefHeight="57.0" prefWidth="217.0" text="Share Experiment " />
+                              <ImageView layoutY="9.0">
+                                 <image>
+                                    <Image url="@picture/Frame 14.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="16.0" layoutY="192.0">
+                           <children>
+                              <Button fx:id="btn_import" mnemonicParsing="false" prefHeight="57.0" prefWidth="217.0" text="Import Experiment" />
+                              <ImageView layoutX="7.0" layoutY="15.0">
+                                 <image>
+                                    <Image url="@picture/lucide_import.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="16.0" layoutY="266.0">
+                           <children>
+                              <Button fx:id="btn_export" mnemonicParsing="false" prefHeight="57.0" prefWidth="217.0" text="Export Experiment" />
+                              <ImageView layoutX="7.0" layoutY="15.0">
+                                 <image>
+                                    <Image url="@picture/uil_export.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="16.0" layoutY="343.0">
+                           <children>
+                              <Button fx:id="btn_config" mnemonicParsing="false" prefHeight="57.0" prefWidth="217.0" text="Configure" />
+                              <ImageView layoutX="7.0" layoutY="14.0">
+                                 <image>
+                                    <Image url="@picture/grommet-icons_configure.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Pane fx:id="btn_Logout" layoutX="16.0" layoutY="711.0">
+                           <children>
+                              <Button fx:id="btn_Logout" mnemonicParsing="false" prefHeight="57.0" prefWidth="217.0" text="Logout" />
+                              <ImageView layoutX="39.0" layoutY="17.0">
+                                 <image>
+                                    <Image url="@picture/ic_outline-logout.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
                      </children>
                   </AnchorPane>
                </children>
@@ -89,15 +114,19 @@
                <children>
                   <AnchorPane minHeight="783.0" prefHeight="783.0" prefWidth="1038.0">
                      <children>
-                        <AnchorPane fx:id="DashBoard1" prefHeight="83.0" prefWidth="1029.0" stylesheets="@../css/EditExp_CSS.css" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="2.400000000000091">
+                        <AnchorPane fx:id="DashBoard1" layoutX="1.0" prefHeight="83.0" prefWidth="1029.0" stylesheets="@../css/EditExp_CSS.css" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="1.0">
                            <children>
-                              <Label fx:id="lbl_DashBoard" layoutX="101.0" layoutY="15.0" text="Dashboard" />
-                              <Button layoutX="29.0" layoutY="21.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="39.0" />
-                              <ImageView layoutX="29.0" layoutY="21.0">
-                                 <image>
-                                    <Image url="@picture/mingcute_menu-fill.png" />
-                                 </image>
-                              </ImageView>
+                              <Pane layoutX="29.0" layoutY="15.0" prefHeight="54.0" prefWidth="221.0">
+                                 <children>
+                                    <Button fx:id="btn_dashboard" layoutY="-8.0" mnemonicParsing="false" prefHeight="68.0" prefWidth="239.0" text="Dashboard" />
+                                    <Label fx:id="lbl_DashBoard" layoutX="72.0" />
+                                    <ImageView fx:id="img_dashboard" layoutY="6.0">
+                                       <image>
+                                          <Image url="@picture/mingcute_menu-fill.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </Pane>
                            </children>
                         </AnchorPane>
                         <AnchorPane fx:id="DashBoard" layoutY="83.0" prefHeight="783.0" prefWidth="1027.0" stylesheets="@../css/EditExp_CSS.css" AnchorPane.bottomAnchor="4.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="2.3999999999998636" AnchorPane.topAnchor="83.0">
