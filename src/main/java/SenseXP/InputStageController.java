@@ -153,5 +153,10 @@ public class InputStageController {
         new ScenseSwitch(InputStackPane,"/fxml/QuestionStage.fxml");
 
     }
+    @FXML
+    void btn_menu(ActionEvent event) throws IOException {
+        new ScenseSwitch(InputStackPane,"/fxml/EditExperiment_UI.fxml");
+
+    }
 
 }

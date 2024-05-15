@@ -193,5 +193,10 @@ public class VasController {
 
 
     }
+    @FXML
+    void btn_menu(ActionEvent event) throws IOException {
+        new ScenseSwitch(VasStackPane,"/fxml/EditExperiment_UI.fxml");
+
+    }
 
 }

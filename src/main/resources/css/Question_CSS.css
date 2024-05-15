@@ -220,7 +220,7 @@
 
 }
 #lbl_backgroundColor,#lbl_textColor,#lbl_font,#lbl_startDelay, #lbl_endDelay, #lbl_disable,#lbl_instruction,#lbl_instruction,#lbl_timeToWait,
-#lbl_soundDisplay,#lbl_question,#lbl_storeResponse,#lbl_ButtonText,#lbl_help,#lbl_playSound, #propertiesLabel, #radioButtonAvailable,#lbl_containStage,#lbl_minimumTime,#lbl_lowAnchor{
+#lbl_soundDisplay,#lbl_question,#lbl_storeResponse,#lbl_ButtonText,#lbl_help,#lbl_playSound, #propertiesLabel, #radioButtonAvailable,#lbl_containStage,#lbl_minimumTime,#lbl_lowAnchor,#lbl_question,#lbl_leftbutton,#lbl_righbutton,#lbl_leftbuttonValue,#lbl_rightButtonValue,#lbl_helpText{
 
 
     -fx-pref-width: 375px;

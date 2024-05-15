@@ -580,12 +580,14 @@
         -fx-background-color: derive(#85858540,90%);
 
     }
-    .body{
-        -fx-background-size: contain;
-        -fx-background-repeat: no-repeat;
-        -fx-background-position: center;
-        -fx-background-size: 100%, 100%;
-    }
+   #btn_edit{
+       -fx-pref-height: 25;
+       -fx-pref-width: 25;
+       -fx-background-image: url('images/img.png');
+       -fx-background-repeat: no-repeat;
+       -fx-background-position: center;
+       -fx-background-size: cover; /* or contain depending on your preference */
+   }
 
 
 

@@ -158,6 +158,11 @@ public class TimerController {
 
 
     }
+    @FXML
+    void btn_menu(ActionEvent event) throws IOException {
+        new ScenseSwitch(TimerStackPane,"/fxml/EditExperiment_UI.fxml");
+
+    }
 
 
 }

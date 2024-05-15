@@ -39,7 +39,6 @@
                               </MenuButton>
                               <Label fx:id="lbl_show" layoutX="52.0" layoutY="21.0" text="show" />
                               <Label fx:id="lbl_entries" layoutX="166.0" layoutY="21.0" prefHeight="18.0" prefWidth="96.0" text="entries" />
-                              <Button fx:id="btn_AddExperiment" layoutX="1090.0" layoutY="14.0" mnemonicParsing="false" stylesheets="@../css/EditExp_CSS.css" text="+ Add Experiment" />
                               <TableView layoutX="18.0" layoutY="100.0" prefHeight="526.0" prefWidth="1242.0">
                                 <columns>
                                   <TableColumn fx:id="lbl_iD" prefWidth="148.0" text="ID" />
@@ -51,6 +50,7 @@
                                     <TableColumn fx:id="lbl_Option" prefWidth="198.39996337890625" text="Option" />
                                 </columns>
                               </TableView>
+                              <Button fx:id="btn_AddExperiment" layoutX="1090.0" layoutY="14.0" mnemonicParsing="false" stylesheets="@../css/EditExp_CSS.css" text="+ Add Experiment" />
                            </children>
                            <stylesheets>
                               <URL value="@../css/Style.css" />
