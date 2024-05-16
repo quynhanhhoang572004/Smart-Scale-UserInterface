@@ -23,17 +23,20 @@
     -fx-text-fill: #624DE3;
 }
 #lbl_SenseXP{
-    -fx-text-fill: #624DE3;
+    -fx-font-family: "Baloo Bhaina 2";
+    -fx-text-fill: #397E82;
     -fx-font-weight: bold;
     -fx-font-size: 40;
 }
-#lbl_EditExperiment{
-    -fx-text-fill: #624DE3;
+.lbl_EditExperiment{
+    -fx-font-family: "Baloo Bhaina 2";
+    -fx-text-fill: #397E82;
     -fx-font-size: 36;
+    -fx-font-weight: 700;
 }
 
 
-#btn_noticeStage, #btn_addAudibleInstruction, #btn_assignSound, #btn_addInput, #btn_addTimer, #btn_addTasteTest, #btn_addFoodAndTaste,
+/*#btn_noticeStage, #btn_addAudibleInstruction, #btn_assignSound, #btn_addInput, #btn_addTimer, #btn_addTasteTest, #btn_addFoodAndTaste,
 #btn_addRatingContainer,
 #btn_addVasStage,
 #btn_AddGLMS,
@@ -52,31 +55,41 @@
     -fx-opacity: 10;
     -fx-gap: 10;
 }
-#btn_up{
+ */
+.btn_up{
     -fx-pref-height: 55;
     -fx-pref-width: 55;
-    -fx-background-image: url('images/upward.png');
+    -fx-background-image: url('images/btn_up.png');
     -fx-background-repeat: no-repeat;
     -fx-background-position: center;
     -fx-background-size: cover; /* or contain depending on your preference */
 }
-#btn_down{
+.btn_down{
     -fx-pref-height: 55;
     -fx-pref-width: 55;
-    -fx-background-image: url('images/downward.png');
+    -fx-background-image: url('images/btn_down.png');
     -fx-background-repeat: no-repeat;
     -fx-background-position: center;
     -fx-background-size: cover; /* or contain depending on your preference */
 }
-#btn_cross{
-    -fx-pref-height: 55;
-    -fx-pref-width: 55;
+.btn_cross {
+    -fx-pref-height: 50;
+    -fx-pref-width: 50;
     -fx-background-image: url('images/cross.png');
     -fx-background-repeat: no-repeat;
     -fx-background-position: center;
-    -fx-background-size: cover; /* or contain depending on your preference */
 }
-#btn_menu{
+.btn_copy{
+    /* gg:copy */
+
+    -fx-pref-width: 50px;
+    -fx-pref-height: 50px;
+    -fx-background-image: url('images/btn_copy.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: cover;
+}
+    #btn_menu{
     -fx-pref-height: 39;
     -fx-pref-width: 39;
     -fx-background-image: url('images/menu.png');
@@ -353,8 +366,10 @@
 }
 .scroll-pane{
     -fx-background-color: transparent;
-    -fx-border-color: derive(gray,100%);
+
     -fx-padding: 0px;
+    -fx-background-radius:0px 5px 0px 0px ;
+
 }
 .scroll-pane .scroll-bar:vertical{
     -fx-background-color: transparent;
@@ -366,9 +381,10 @@
 }
 .scroll-pane .scroll-bar:vertical .track{
     -fx-background-color: transparent;
-    -fx-background-radius:0em;
+    -fx-background-radius:2em;
     -fx-border-radius: 2em;
     -fx-border-color: transparent
+
 
 
 }
@@ -388,12 +404,13 @@
 }
 .scroll-pane .scroll-bar:vertical .increment-arrow,
 .scroll-pane .scroll-bar:vertical .decrement-arrow{
+-fx-padding: -2;
 
-    -fx-padding: -2;
+
 
 }
 .scroll-pane .scroll-bar:vertical .thumb {
-    -fx-background-color: #655E95;
+    -fx-background-color: #397E82;
     -fx-background-insets: 2, 0, 0;
     -fx-background-radius: 2em;
 }
@@ -586,6 +603,99 @@
         -fx-background-position: center;
         -fx-background-size: 100%, 100%;
     }
+.menuButton{
+    -fx-max-width: 250px;
+    -fx-max-height: 30px;
+    -fx-background-color: #D5E9EA;
+    -fx-background-radius: 20px 20px 20px 20px;
+    /* Add Notice Stage */
+
+
+
+    -fx-font-family: 'Montserrat';
+    -fx-font-style: normal;
+    -fx-font-weight: 700;
+    -fx-font-size: 14px;
+
+    -fx-align-items: center;
+    -fx-text-align: center;
+
+    -fx-color-fill: #1E1E1E;
+
+
+
+}
+.btn_bell{
+    -fx-pref-height: 39;
+    -fx-pref-width: 39;
+    -fx-background-image: url('images/bell.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: cover;
+}
+.Name{
+    /* Nguyễn */
+
+
+    -fx-font-family: "Baloo Bhaina 2";
+    -fx-font-style: normal;
+    -fx-font-weight: 700;
+    -fx-font-size: 11px;
+    -fx-line-height: 22px;
+    -fx-text-fill:#0E0E0E;
+
+
+
+
+}
+.Nickname{
+    /* mymia */
+
+
+
+    -fx-font-family: 'Inter';
+    -fx-font-style: normal;
+    -fx-font-weight: 500;
+    -fx-font-size: 14px;
+    -fx-text-fill: #397E82;
+
+    text-shadow: 0px 0px 16px #FFFFFF;
+
+
+
+}
+.btn_copy{
+    /* gg:copy */
+
+    -fx-pref-width: 50px;
+    -fx-pref-height: 50px;
+    -fx-background-image: url('images/btn_copy.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: cover;
+}
+
+.textTreeview{
+    -fx-min-width: 806px;
+    -fx-max-width: 806px;
+    -fx-min-height: 311px;
+    -fx-max-height: 311px;
+    -fx-padding: 5px 5px 5px 5px;
+    -fx-border-radius: 20px 20px 20px 20px;
+    -fx-border-color:#0E0E0E ;
+
+
+
+}
+.PropertiesPane{
+
+    -fx-padding: 3px 3px 3px 3px;
+    -fx-border-radius: 20px 20px 20px 20px;
+    -fx-border-color:#0E0E0E ;
+
+}
+
+
 
 
 
