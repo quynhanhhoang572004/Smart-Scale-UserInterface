@@ -4,24 +4,12 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
-import javafx.scene.control.TextArea;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.StackPane;
 
 import java.io.IOException;
 
 public class NoticeStageController {
-    @FXML
-    private Button ChangeButton;
-
-    @FXML
-    private Button ChangeButton0;
-
-    @FXML
-    private Button ChangeButton2;
-
-    @FXML
-    private Button ChangeButton3;
 
     @FXML
     private StackPane NoticeStagePane;
@@ -48,6 +36,9 @@ public class NoticeStageController {
     private Button btn_AddQuestionStage;
 
     @FXML
+    private Button btn_ChangeTextColor;
+
+    @FXML
     private Button btn_addAudibleInstruction;
 
     @FXML
@@ -72,7 +63,16 @@ public class NoticeStageController {
     private Button btn_assignSound;
 
     @FXML
+    private Button btn_changeBackGroudcolor;
+
+    @FXML
+    private Button btn_changeFont;
+
+    @FXML
     private Button btn_cross;
+
+    @FXML
+    private Button btn_disable;
 
     @FXML
     private Button btn_down;
@@ -93,88 +93,94 @@ public class NoticeStageController {
     private Label lbl_SenseXP;
 
     @FXML
-    private Label lbl_backgroundColor;
-
-    @FXML
-    private Label lbl_disable;
-
-    @FXML
-    private Label lbl_endDelay;
-
-    @FXML
-    private Label lbl_font;
-
-    @FXML
-    private Label lbl_startDelay;
-
-    @FXML
-    private Label lbl_textColor;
-
-    @FXML
-    private TextArea textField1;
-
-    @FXML
-    private TextArea textField11;
-
-    @FXML
-    private TextArea textField111;
-
-    @FXML
-    private TextArea textFrame;
-
-    @FXML
-    private TextArea timeField;
-
-    @FXML
-    private TextArea timeField2;
-
-
-
-    @FXML
-    void AddGLMSButton(ActionEvent event) {
+    void btn_AddConditionalStatement(ActionEvent event) {
 
     }
 
     @FXML
-    void AddInputSoundButton(ActionEvent event) throws IOException {
+    void btn_AddCourse(ActionEvent event) {
+
+    }
+
+    @FXML
+    void btn_AddGLMS(ActionEvent event) throws IOException {
+        new ScenseSwitch(NoticeStagePane,"/fxml/GLMS.fxml");
+
+
+    }
+
+    @FXML
+    void btn_AddPeriodicStage(ActionEvent event) {
+
+    }
+
+    @FXML
+    void btn_AddQuestionStage(ActionEvent event) throws IOException {
+        new ScenseSwitch(NoticeStagePane,"/fxml/QuestionStage.fxml");
+
+
+    }
+
+    @FXML
+    void btn_addAudibleInstruction(ActionEvent event) {
+
+    }
+
+    @FXML
+    void btn_addFoodAndTaste(ActionEvent event) {
+
+    }
+
+    @FXML
+    void btn_addInput(ActionEvent event) throws IOException {
         new ScenseSwitch(NoticeStagePane,"/fxml/InputStage.fxml");
 
 
     }
 
     @FXML
-    void AddTastTestButton(ActionEvent event) throws IOException {
-        new ScenseSwitch(NoticeStagePane,"/fxml/AddTasteTest.fxml");
-
+    void btn_addRatingContainer(ActionEvent event) {
 
     }
 
     @FXML
-    void AddTimerStageButton(ActionEvent event) throws IOException {
-        new ScenseSwitch(NoticeStagePane,"/fxml/TimerStage.fxml");
-
-
+    void btn_addTasteTest(ActionEvent event) {
 
     }
 
     @FXML
-    void AddVasStageButton(ActionEvent event) throws IOException {
+    void btn_addTimer(ActionEvent event) throws IOException {
         new ScenseSwitch(NoticeStagePane,"/fxml/TimerStage.fxml");
 
 
     }
 
     @FXML
-    void AssignSoundButton(ActionEvent event) throws IOException {
-        new ScenseSwitch(NoticeStagePane,"/fxml/TimerStage.fxml");
+    void btn_assignSound(ActionEvent event) {
+
+    }
+
+    @FXML
+    void btn_changeBackGroudcolor(ActionEvent event) {
+
+    }
+
+    @FXML
+    void btn_menu(ActionEvent event) {
+
+    }
+
+    @FXML
+    void btn_noticeStage(ActionEvent event) throws IOException {
+        new ScenseSwitch(NoticeStagePane,"/fxml/NoticeStage_1.fxml");
 
 
     }
     @FXML
-    void AddQuestionButton(ActionEvent event) throws IOException {
-        new ScenseSwitch(NoticeStagePane,"/fxml/QuestionStage.fxml");
+    void btn_addVasStage(ActionEvent event) throws IOException {
+        new ScenseSwitch(NoticeStagePane,"/fxml/NoticeStage_1.fxml");
+
 
     }
-
 
 }
