@@ -17,9 +17,9 @@
          <children>
             <AnchorPane prefHeight="200.0" prefWidth="200.0">
                <children>
-                  <AnchorPane fx:id="headPanel" maxHeight="57.0" maxWidth="1279.0" minHeight="57.0" minWidth="1279.0" prefHeight="57.0" prefWidth="1279.0" styleClass="headPanel">
+                  <AnchorPane fx:id="headPanel" maxHeight="67.0" maxWidth="1279.0" minHeight="57.0" minWidth="1279.0" prefHeight="67.0" prefWidth="1279.0" styleClass="headPanel">
                      <children>
-                        <Label fx:id="lbl_SenseXP" layoutX="27.0" layoutY="-1.0" stylesheets="@../css/EditExp_CSS.css" text="SENSE XP" />
+                        <Label fx:id="lbl_SenseXP" layoutX="27.0" layoutY="-1.0" prefHeight="91.0" prefWidth="286.0" stylesheets="@../css/EditExp_CSS.css" text="Sense XP" />
                      </children>
                      <stylesheets>
                         <URL value="@../css/EditExp_CSS.css" />
@@ -30,7 +30,7 @@
                      <children>
                         <AnchorPane fx:id="DashBoard" layoutX="7.0" layoutY="141.0" maxHeight="696.0" maxWidth="1279.0" minHeight="696.0" minWidth="1279.0" prefHeight="696.0" prefWidth="1279.0">
                            <children>
-                              <TextField fx:id="txt_searchBar" layoutX="225.0" layoutY="14.0" onInputMethodTextChanged="#searchQuery" stylesheets="@/css/EditExp_CSS.css" />
+                              <TextField fx:id="txt_searchBar" layoutX="225.0" layoutY="14.0" onInputMethodTextChanged="#searchQuery" styleClass="text-field" stylesheets="@/css/EditExp_CSS.css" />
                               <MenuButton fx:id="btn_dropDown" layoutX="99.0" layoutY="14.0" mnemonicParsing="false" prefWidth="55.0" text="10">
                                 <items>
                                   <MenuItem mnemonicParsing="false" text="Action 1" />
@@ -50,22 +50,16 @@
                                     <TableColumn fx:id="lbl_Option" prefWidth="198.39996337890625" text="Option" />
                                 </columns>
                               </TableView>
-                              <Button fx:id="btn_AddExperiment" layoutX="1090.0" layoutY="14.0" mnemonicParsing="false" stylesheets="@../css/EditExp_CSS.css" text="+ Add Experiment" />
+                              <Button fx:id="btn_AddExperiment" layoutX="1090.0" layoutY="14.0" mnemonicParsing="false" stylesheets="@../css/General.css" text="+ Add Experiment" />
                            </children>
                            <stylesheets>
                               <URL value="@../css/Style.css" />
                               <URL value="@../css/EditExp_CSS.css" />
                            </stylesheets>
                         </AnchorPane>
-                        <AnchorPane fx:id="dashboardPanel" layoutX="7.0" layoutY="58.0" maxHeight="83.0" maxWidth="1279.0" minHeight="83.0" minWidth="1279.0" prefHeight="83.0" prefWidth="1279.0" styleClass="root">
+                        <AnchorPane fx:id="dashboardPanel" layoutX="3.0" layoutY="68.0" maxHeight="83.0" maxWidth="1279.0" minHeight="83.0" minWidth="1279.0" prefHeight="83.0" prefWidth="1279.0" styleClass="root">
                            <children>
-                              <Label fx:id="lbl_DashBoard" layoutX="102.0" layoutY="15.0" styleClass="dashBoardText" text="DashBoard">
-                                 <stylesheets>
-                                    <URL value="@../css/EditExp_CSS.css" />
-                                    <URL value="@../css/EditExp_CSS.css" />
-                                    <URL value="@../css/Style.css" />
-                                 </stylesheets>
-                              </Label>
+                              <Label fx:id="lbl_DashBoard" layoutX="102.0" layoutY="15.0" styleClass="dashBoardText" stylesheets="@../css/General.css" text="DashBoard" />
                               <Button fx:id="btn_menu" layoutX="34.0" layoutY="22.0" mnemonicParsing="false" onAction="#DashBoardButtonClick" prefHeight="39.0" prefWidth="39.0" />
                            </children>
                            <stylesheets>
