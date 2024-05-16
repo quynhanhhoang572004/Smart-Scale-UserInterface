@@ -59,7 +59,7 @@
                                  </Button>
                               <Button fx:id="btn_addRatingContainer" layoutX="36.0" layoutY="385.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" onAction="#btn_addRatingContainer" prefHeight="30.0" prefWidth="250.0" styleClass="menuButton" text="Add Ratings Container" AnchorPane.leftAnchor="36.0" AnchorPane.rightAnchor="19.19999999999999">
                                  </Button>
-                              <Button fx:id="btn_addVasStage" layoutX="36.0" layoutY="427.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" onAction="#btn_addRatingContainer" prefHeight="30.0" prefWidth="250.0" styleClass="menuButton" text="Add VAS Stage" AnchorPane.leftAnchor="36.0" AnchorPane.rightAnchor="19.19999999999999">
+                              <Button fx:id="btn_addVasStage" layoutX="36.0" layoutY="427.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" onAction="#btn_addVasStage" prefHeight="30.0" prefWidth="250.0" styleClass="menuButton" text="Add VAS Stage" AnchorPane.leftAnchor="36.0" AnchorPane.rightAnchor="19.19999999999999">
                                  </Button>
                               <Button fx:id="btn_AddGLMS" layoutX="36.0" layoutY="469.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" onAction="#btn_AddGLMS" prefHeight="30.0" prefWidth="250.0" styleClass="menuButton" text="Add GLMS Stage" AnchorPane.leftAnchor="36.0" AnchorPane.rightAnchor="19.19999999999999">
                                  </Button>

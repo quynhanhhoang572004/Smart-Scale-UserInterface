@@ -224,8 +224,7 @@
     flex-grow: 0;
 
 }
-#lbl_backgroundColor,#lbl_textColor,#lbl_font,#lbl_startDelay, #lbl_endDelay, #lbl_disable,#lbl_instruction,#lbl_instruction,#lbl_timeToWait,
-#lbl_soundDisplay,#lbl_question,#lbl_storeResponse,#lbl_ButtonText,#lbl_help,#lbl_playSound, #propertiesLabel, #radioButtonAvailable,#lbl_containStage,#lbl_minimumTime,#lbl_lowAnchor{
+.propertiesText{
 
 
     -fx-pref-width: 375px;

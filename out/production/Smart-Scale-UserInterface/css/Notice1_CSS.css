@@ -1,13 +1,4 @@
-#SideBar{
-    -fx-background-color: #F7F6FE
-}
-#SideBar2{
-    -fx-background-color: #FFFF
-}
-.root {
-    -fx-font-family: 'Inter';
-    -fx-font-size: 14;
-}
+
 .button{
     -fx-background-color: transparent;
 }
@@ -36,26 +27,6 @@
 }
 
 
-/*#btn_noticeStage, #btn_addAudibleInstruction, #btn_assignSound, #btn_addInput, #btn_addTimer, #btn_addTasteTest, #btn_addFoodAndTaste,
-#btn_addRatingContainer,
-#btn_addVasStage,
-#btn_AddGLMS,
-#btn_AddCourse,
-#btn_AddPeriodicStage,
-#btn_AddConditionalStatement, #btn_AddQuestionStage {
-    -fx-background-color: #624DE3;
-    -fx-text-fill: white;
-    -fx-font-weight: bold;
-    -fx-min-width: 250px;
-    -fx-max-width: 250px;
-    -fx-min-height: 30px;
-    -fx-max-height: 30px;
-    -fx-padding: 4px 33px, 4px 33px;
-    -fx-background-radius: 40px 40px 40px 40px;
-    -fx-opacity: 10;
-    -fx-gap: 10;
-}
- */
 .btn_up{
     -fx-pref-height: 55;
     -fx-pref-width: 55;
@@ -152,41 +123,7 @@
 
 
 }
-#showLabel,#entriesLabel{
-    /* Show */
 
-    -fx-pref-width: 40px;
-    -fx-pref-height: 15px;
-
-    -fx-font-family: 'Montserrat';
-    -fx-font-style: normal;
-    -fx-font-weight: 500;
-    -fx-font-size: 12px;
-    -fx-line-height: 15px;
-    /* identical to box height */
-
-    -fx-text-fill: #000000;
-
-
-
-
-}
-#btn_AddExperiment{
-    /* Frame 17 */
-
-    /* Auto layout */
-    -fx-text-fill: white;
-    -fx-font-weight: bold;
-
-    -fx-pref-width: 151px;
-    -fx-pref-height: 32px;
-
-    -fx-background-color: #624DE3;
-    -fx-border-radius: 8px;
-
-
-
-}
 .stackpane{
     -fx-background-color: white;
 
@@ -249,54 +186,27 @@
     -fx-text-color: #181818;
 
 }
-#ChangeButton,#ChangeButton1,#ChangeButton2,#ChangeButton3{
-    /* Frame 26919 */
-    /* Change */
-
-
-
+#btn_changeBackGroudcolor,#btn_ChangeTextColor,#btn_changeFont,#btn_disable{
+    -fx-padding: 0px 27px 0px 0px;
+    -fx-alignment: center; /* Aligns both text and node content */
+    -fx-max-width: 110px;
+    -fx-max-height: 30px;
+    -fx-min-width: 110px;
+    -fx-min-height: 30px;
+    -fx-border-color: #494949CC;
+    -fx-border-radius: 5px;
     -fx-font-family: 'Poppins';
     -fx-font-style: normal;
     -fx-font-weight: 500;
     -fx-font-size: 16px;
-    line-height: 24px;
-    -fx-text-alignment: center;
-
-
     -fx-text-fill: #636364;
 
 
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-
-
-    box-sizing: border-box;
-
-    /* Auto layout */
-    display: flex;
-    flex-direction: column;
-    -fx-align-items: flex-start;
-    -fx-padding: 0px 27px 0px 0px;
-
-    -fx-pref-width: 110px;
-    -fx-pref-height: 30px;
-    -fx-border:  1px 0px 0px 0px;
-
-    -fx-border-color: #696969;
-    -fx-border-radius: 5px 5px 5px 5px;
-    -fx-alignment: center;
-
-}
-#textField1{
-
-
-
 
 
 
 }
+
 #timeField,#timeField2
 {
     -fx-border-color: #696969;
@@ -319,51 +229,9 @@
     -fx-background-color: #FFFF;
 
 }
-#DashBoardButton1{
-    -fx-font-family: 'Montserrat';
-    -fx-font-weight: normal;
-    -fx-align-items: center;
-    -fx-padding: 16px;
-    -fx-gap: 16px;
-    -fx-text-alignment: center;
-    -fx-font-size: 16px;
-
-
-    -fx-text-fill: #000;
 
 
 
-    -fx-background-color: #FFFFFF;
-    -fx-border-radius: 5px;
-}
-#DashBoardButton2,#DashBoardButton3,#DashBoardButton4,#DashBoardButton5,#DashBoardButton6{
-    -fx-font-family: 'Montserrat';
-    -fx-font-weight: normal;
-    -fx-align-items: center;
-    -fx-padding: 16px;
-    -fx-gap: 16px;
-    -fx-text-alignment: center;
-    -fx-font-size: 16px;
-
-
-    -fx-text-fill: #000;
-    -fx-background-color: #F7F6FE
-}
-#lbl_iD,#lbl_creator,#lbl_experimentName,#lbl_currentVersion,#lbl_result,#lbl_lastM,#lbl_createDate,#lbl_Option
-,#ExperimentdesLabel,#AdditionNoteLabel,#FileLabel,#NameLabel{
-    -fx-font-family: 'Montserrat';
-    -fx-font-weight: 700;
-    -fx-align-items: center;
-    -fx-padding: 16px;
-    -fx-gap: 14px;
-    -fx-text-alignment: center;
-    -fx-font-size: 16px;
-}
-#lbl_show,#lbl_entries{
-    -fx-font-family: 'Montserrat';
-    -fx-font-weight: 500;
-    -fx-font-size: 12px;
-}
 .scroll-pane{
     -fx-background-color: transparent;
 
@@ -557,27 +425,7 @@
 
 
     }
-    #NewExLabel{
-        /* New experiment */
 
-
-
-        -fx-font-family: 'Poppins';
-        -fx-font-style: normal;
-        -fx-font-weight: 700;
-        -fx-font-size: 32px;
-        line-height: 48px;
-        letter-spacing: 0.03em;
-
-      -fx-text-fill: #655E95;
-
-
-        /* Inside auto layout */
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-
-    }
     #ImportSoundLabel{
         -fx-font-family: 'Montserrat';
         -fx-font-style: normal;

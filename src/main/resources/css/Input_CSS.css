@@ -587,5 +587,26 @@
         -fx-background-size: 100%, 100%;
     }
 
+.textTreeview{
+    -fx-min-width: 806px;
+    -fx-max-width: 806px;
+    -fx-min-height: 311px;
+    -fx-max-height: 311px;
+    -fx-padding: 5px 5px 5px 5px;
+    -fx-border-radius: 20px 20px 20px 20px;
+    -fx-border-color:#0E0E0E ;
+}
+.PropertiesPane{
+
+    -fx-min-width: 806px;
+    -fx-max-width: 806px;
+    -fx-min-height: 311px;
+    -fx-max-height: 311px;
+    -fx-padding: 5px 5px 5px 5px;
+    -fx-border-radius: 20px 20px 20px 20px;
+    -fx-border-color:#0E0E0E ;
+
+}
+
 
 
