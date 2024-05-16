@@ -1,22 +1,17 @@
 package SenseXP;
 
-
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
-import javafx.scene.control.TextArea;
-import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.StackPane;
 
 import java.io.IOException;
 
 public class InputStageController {
-    @FXML
-    private StackPane InputStackPane;
 
     @FXML
-    private AnchorPane Properties;
+    private StackPane InputStackPane;
 
     @FXML
     private Label avatarLabel;
@@ -76,38 +71,53 @@ public class InputStageController {
     private Button btn_up;
 
     @FXML
-    private Label lbl_ButtonText;
-
-    @FXML
     private Label lbl_EditExperiment;
 
     @FXML
     private Label lbl_SenseXP;
 
     @FXML
-    private Label lbl_help;
+    void btn_AddConditionalStatement(ActionEvent event) {
+
+    }
 
     @FXML
-    private Label lbl_playSound;
+    void btn_AddCourse(ActionEvent event) {
+
+    }
 
     @FXML
-    private Label lbl_question;
-
-    @FXML
-    private Label lbl_storeResponse;
-
-    @FXML
-    private TextArea textFrame;
-
-    @FXML
-    void AddGLMSButton(ActionEvent event) throws IOException {
+    void btn_AddGLMS(ActionEvent event) throws IOException {
         new ScenseSwitch(InputStackPane,"/fxml/GLMS.fxml");
 
 
     }
 
     @FXML
-    void AddInputStageButton(ActionEvent event) throws IOException {
+    void btn_AddPeriodicStage(ActionEvent event) {
+
+    }
+
+    @FXML
+    void btn_AddQuestionStage(ActionEvent event) throws IOException {
+        new ScenseSwitch(InputStackPane,"/fxml/QuestionStage.fxml");
+
+
+
+    }
+
+    @FXML
+    void btn_addAudibleInstruction(ActionEvent event) {
+
+    }
+
+    @FXML
+    void btn_addFoodAndTaste(ActionEvent event) {
+
+    }
+
+    @FXML
+    void btn_addInput(ActionEvent event) throws IOException {
         new ScenseSwitch(InputStackPane,"/fxml/InputStage.fxml");
 
 
@@ -115,47 +125,38 @@ public class InputStageController {
     }
 
     @FXML
-    void AddNoticeButton(ActionEvent event) throws IOException {
+    void btn_addRatingContainer(ActionEvent event) {
+
+    }
+
+    @FXML
+    void btn_addTasteTest(ActionEvent event) {
+
+    }
+
+    @FXML
+    void btn_addTimer(ActionEvent event) throws IOException {
+        new ScenseSwitch(InputStackPane,"/fxml/TimerStage.fxml");
+
+
+
+    }
+
+    @FXML
+    void btn_addVasStage(ActionEvent event) {
+
+    }
+
+    @FXML
+    void btn_assignSound(ActionEvent event) {
+
+    }
+
+    @FXML
+    void btn_noticeStage(ActionEvent event) throws IOException {
         new ScenseSwitch(InputStackPane,"/fxml/NoticeStage_1.fxml");
 
-    }
 
-    @FXML
-    void AddTasteTestButton(ActionEvent event) throws IOException {
-        new ScenseSwitch(InputStackPane,"/fxml/TimerStage.fxml");
-
-
-    }
-
-    @FXML
-    void AddTimerStagebutton(ActionEvent event) throws IOException {
-        new ScenseSwitch(InputStackPane,"/fxml/TimerStage.fxml");
-
-
-    }
-
-    @FXML
-    void AddVasButton(ActionEvent event) throws IOException {
-        new ScenseSwitch(InputStackPane,"/fxml/VasStage.fxml");
-
-
-    }
-
-    @FXML
-    void AssignSoundButton(ActionEvent event) throws IOException {
-        new ScenseSwitch(InputStackPane,"/fxml/AddSound.fxml");
-
-
-
-    }
-    @FXML
-    void AddQuestionStageButton(ActionEvent event) throws IOException {
-        new ScenseSwitch(InputStackPane,"/fxml/QuestionStage.fxml");
-
-    }
-    @FXML
-    void btn_menu(ActionEvent event) throws IOException {
-        new ScenseSwitch(InputStackPane,"/fxml/EditExperiment_UI.fxml");
 
     }
 

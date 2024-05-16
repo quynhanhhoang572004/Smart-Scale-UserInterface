@@ -293,12 +293,7 @@
     -fx-border-color: #696969;
     -fx-border-radius: 5px 5px 5px 5px;
     -fx-alignment: center;}
-.propertiesTextField{
-    -fx-border-color: #696969;
-    -fx-border-radius: 5px 5px 5px 5px;
-    -fx-alignment: center;
 
-}
 .text-area{
     -fx-border-color: #696969;
     -fx-border-radius: 5px 5px 5px 5px;
@@ -397,7 +392,7 @@
 
 }
 .scroll-pane .scroll-bar:vertical .thumb {
-    -fx-background-color: #655E95;
+    -fx-background-color: #397E82;
     -fx-background-insets: 2, 0, 0;
     -fx-background-radius: 2em;
 }
@@ -654,6 +649,26 @@
     -fx-background-repeat: no-repeat;
     -fx-background-position: center;
     -fx-background-size: cover;
+}
+.textTreeview{
+    -fx-min-width: 806px;
+    -fx-max-width: 806px;
+    -fx-min-height: 311px;
+    -fx-max-height: 311px;
+    -fx-padding: 5px 5px 5px 5px;
+    -fx-border-radius: 20px 20px 20px 20px;
+    -fx-border-color:#0E0E0E ;
+}
+.PropertiesPane{
+
+    -fx-min-width: 806px;
+    -fx-max-width: 806px;
+    -fx-min-height: 311px;
+    -fx-max-height: 311px;
+    -fx-padding: 5px 5px 5px 5px;
+    -fx-border-radius: 20px 20px 20px 20px;
+    -fx-border-color:#0E0E0E ;
+
 }
 
 
