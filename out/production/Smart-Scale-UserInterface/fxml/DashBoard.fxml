@@ -114,7 +114,7 @@
                            <children>
                               <Pane layoutX="29.0" layoutY="15.0" prefHeight="54.0" prefWidth="221.0">
                                  <children>
-                                    <Button fx:id="lbl_DashBoard" layoutY="-8.0" mnemonicParsing="false" onAction="#btn_dashboard" prefHeight="77.0" prefWidth="261.0" stylesheets="@../css/DashBoard_CSS.css" text="Dashboard" />
+                                    <Button fx:id="btn_DashBoard" layoutY="-8.0" mnemonicParsing="false" onAction="#btn_dashboard" prefHeight="77.0" prefWidth="261.0" styleClass="btn_DashBoard" stylesheets="@../css/DashBoard_CSS.css" text="Dashboard" />
                                     <Button fx:id="btn_menu" layoutY="11.0" mnemonicParsing="false" />
                                  </children>
                               </Pane>

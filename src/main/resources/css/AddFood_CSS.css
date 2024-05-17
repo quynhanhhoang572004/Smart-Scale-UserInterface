@@ -1,9 +1,4 @@
-#SideBar{
-    -fx-background-color: #F7F6FE
-}
-#SideBar2{
-    -fx-background-color: #FFFF
-}
+
 .root {
     -fx-font-family: 'Inter';
     -fx-font-size: 14;
@@ -33,49 +28,8 @@
 }
 
 
-#btn_noticeStage, #btn_addAudibleInstruction, #btn_assignSound, #btn_addInput, #btn_addTimer, #btn_addTasteTest, #btn_addFoodAndTaste,
-#btn_addRatingContainer,
-#btn_addVasStage,
-#btn_AddGLMS,
-#btn_AddCourse,
-#btn_AddPeriodicStage,
-#btn_AddConditionalStatement, #btn_AddQuestionStage {
-    -fx-background-color: #624DE3;
-    -fx-text-fill: white;
-    -fx-font-weight: bold;
-    -fx-min-width: 250px;
-    -fx-max-width: 250px;
-    -fx-min-height: 30px;
-    -fx-max-height: 30px;
-    -fx-padding: 4px 33px, 4px 33px;
-    -fx-background-radius: 40px 40px 40px 40px;
-    -fx-opacity: 10;
-    -fx-gap: 10;
-}
-#btn_up{
-    -fx-pref-height: 55;
-    -fx-pref-width: 55;
-    -fx-background-image: url('images/upward.png');
-    -fx-background-repeat: no-repeat;
-    -fx-background-position: center;
-    -fx-background-size: cover; /* or contain depending on your preference */
-}
-#btn_down{
-    -fx-pref-height: 55;
-    -fx-pref-width: 55;
-    -fx-background-image: url('images/downward.png');
-    -fx-background-repeat: no-repeat;
-    -fx-background-position: center;
-    -fx-background-size: cover; /* or contain depending on your preference */
-}
-#btn_cross{
-    -fx-pref-height: 55;
-    -fx-pref-width: 55;
-    -fx-background-image: url('images/cross.png');
-    -fx-background-repeat: no-repeat;
-    -fx-background-position: center;
-    -fx-background-size: cover; /* or contain depending on your preference */
-}
+
+
 #btn_menu{
     -fx-pref-height: 39;
     -fx-pref-width: 39;
@@ -84,6 +38,16 @@
     -fx-background-position: center;
     -fx-background-size: cover; /* or contain depending on your preference */
 }
+#btn_edit{
+    -fx-pref-height: 39;
+    -fx-pref-width: 39;
+    -fx-background-image: url('images/btn_edit.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: cover; /* or contain depending on your preference */
+}
+
+
 #avatarImageView{
     -fx-pref-height: 48;
     -fx-pref-width: 48;
@@ -409,7 +373,7 @@
 
         align-items: center;
 
-        -fx-text-fill: #624DE3;
+        -fx-text-fill: #397E82;
 
 
     }
@@ -418,7 +382,7 @@
         /* Button 6 */
 
 
-        -fx-background-color: #624DE3;
+        -fx-background-color: #397E82;
 
 
 
@@ -517,7 +481,7 @@
 
 
 
-        -fx-background-color: #624DE3;
+        -fx-background-color: #397E82;
 
 
 
@@ -586,6 +550,22 @@
         -fx-background-position: center;
         -fx-background-size: 100%, 100%;
     }
+.btn_dashboardButton{
+
+    -fx-font-family: 'Montserrat';
+    -fx-font-style: normal;
+    -fx-font-weight: 500;
+    -fx-font-size: 14px;
+    -fx-text-fill: #000000;
+
+    -fx-max-width: 217px;
+    -fx-max-height: 56px;
+    -fx-min-width: 217px;
+    -fx-min-height: 56px;
+
+    -fx-border-radius: 5px 5px 5px 5px;
+
+}
 
 
 
