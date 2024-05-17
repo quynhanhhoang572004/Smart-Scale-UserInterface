@@ -1,8 +1,5 @@
-#SideBar{
-    -fx-background-color: #F7F6FE
-}
-#SideBar2{
-    -fx-background-color: #FFFF
+.sidebar_left{
+    -fx-background-color: F1F6FB;
 }
 .root {
     -fx-font-family: 'Inter';
@@ -15,18 +12,7 @@
     -fx-background-color: #CCCCCC;
     -fx-text-fill: white;
 }
-#btn_dashboard{
-    -fx-background-color: transparent;
-    -fx-font-size: 32;
-    -fx-font-weight: normal;
-    -fx-text-alignment: left;
 
-
-    -fx-font-family: 'Inter';
-    -fx-font-style: normal;
-
-    -fx-alignment: center;
-    -fx-text-fill: #397E82;}
 
     #lbl_SenseXP{
     -fx-font-family: "Baloo Bhaina 2";
@@ -40,25 +26,7 @@
 }
 
 
-#btn_noticeStage, #btn_addAudibleInstruction, #btn_assignSound, #btn_addInput, #btn_addTimer, #btn_addTasteTest, #btn_addFoodAndTaste,
-#btn_addRatingContainer,
-#btn_addVasStage,
-#btn_AddGLMS,
-#btn_AddCourse,
-#btn_AddPeriodicStage,
-#btn_AddConditionalStatement, #btn_AddQuestionStage {
-    -fx-background-color: #624DE3;
-    -fx-text-fill: white;
-    -fx-font-weight: bold;
-    -fx-min-width: 250px;
-    -fx-max-width: 250px;
-    -fx-min-height: 30px;
-    -fx-max-height: 30px;
-    -fx-padding: 4px 33px, 4px 33px;
-    -fx-background-radius: 40px 40px 40px 40px;
-    -fx-opacity: 10;
-    -fx-gap: 10;
-}
+
 #btn_up{
     -fx-pref-height: 55;
     -fx-pref-width: 55;
@@ -118,7 +86,7 @@
     -fx-font-family: 'Inter';
     -fx-font-size: 14;
 }
-#lbl_DashBoard{
+#btn_DashBoard{
     -fx-font-family: 'Inter';
     -fx-font-style: normal;
     -fx-font-weight: 600;
@@ -247,54 +215,7 @@
     -fx-text-color: #181818;
 
 }
-#ChangeButton,#ChangeButton1,#ChangeButton2,#ChangeButton3{
-    /* Frame 26919 */
-    /* Change */
 
-
-
-    -fx-font-family: 'Poppins';
-    -fx-font-style: normal;
-    -fx-font-weight: 500;
-    -fx-font-size: 16px;
-    line-height: 24px;
-    -fx-text-alignment: center;
-
-
-    -fx-text-fill: #636364;
-
-
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-
-
-    box-sizing: border-box;
-
-    /* Auto layout */
-    display: flex;
-    flex-direction: column;
-    -fx-align-items: flex-start;
-    -fx-padding: 0px 27px 0px 0px;
-
-    -fx-pref-width: 110px;
-    -fx-pref-height: 30px;
-    -fx-border:  1px 0px 0px 0px;
-
-    -fx-border-color: #696969;
-    -fx-border-radius: 5px 5px 5px 5px;
-    -fx-alignment: center;
-
-}
-#textField1{
-
-
-
-
-
-
-}
 #timeField,#timeField2
 {
     -fx-border-color: #696969;
@@ -317,23 +238,7 @@
     -fx-background-color: #FFFF;
 
 }
-#DashBoardButton1{
-    -fx-font-family: 'Montserrat';
-    -fx-font-weight: normal;
-    -fx-align-items: center;
-    -fx-padding: 16px;
-    -fx-gap: 16px;
-    -fx-text-alignment: center;
-    -fx-font-size: 16px;
 
-
-    -fx-text-fill: #000;
-
-
-
-    -fx-background-color: #FFFFFF;
-    -fx-border-radius: 5px;
-}
 #DashBoardButton2,#DashBoardButton3,#DashBoardButton4,#DashBoardButton5,#DashBoardButton6{
     -fx-font-family: 'Montserrat';
     -fx-font-weight: normal;
@@ -409,51 +314,9 @@
     -fx-background-radius: 2em;
 }
 
-    #lbl_TasteTestItemLable,#SoundSelectTionLabel {
-        /* Taste Test Item Selection */
-
-
-        -fx-font-family: 'Inter';
-        -fx-font-style: normal;
-        -fx-font-weight: bold;
-        -fx-font-size: 32px;
-
-        align-items: center;
-
-        -fx-text-fill: #624DE3;
-
-
-    }
-
-    #AddButton,#SelectAllButton,#SelectNoneButton,#CloseButton,#SaveButton2,#RefreshButton,#StopButton,#RemoveButton,#PlayButton{
-        /* Button 6 */
-
-
-        -fx-background-color: #624DE3;
 
 
 
-
-        -fx-border-radius: 20px 20px 20px 20px;
-        /* Add */
-
-
-        -fx-font-family: 'Montserrat';
-        -fx-font-style: normal;
-        -fx-font-weight: 400;
-        -fx-font-size: 13px;
-        -fx-line-height: 16px;
-        -fx-display: flex;
-        -fx-align-items: center;
-
-        -fx-text-fill: #F7F6FE;
-        -fx-padding: 4px 23px, 4px 23px;
-        -fx-background-radius: 10px 10px 10px 10px;
-
-
-
-
-    }
 
     .check-box {
         -fx-max-width: 28px;
@@ -478,100 +341,7 @@
         -fx-border-radius: 5px 5px 5px 5px;
         -fx-alignment: center;
     }
-    #AddFoodPane,#NewExPane,#AddsoundPane,#ImportSoundPane{
 
-
-
-        -fx-background-color: #FFFFFF;
-
-        -fx-box-shadow: inset 0px -20px 0px rgba(0, 0, 0, 0.25);
-        -fx-border-radius: 14px 14px 14px 14px;
-        -fx-border-color: #000;
-
-
-
-    }
-    #AddFoodLabel{
-        /* Add Food */
-
-
-        -fx-font-family: 'Montserrat';
-        -fx-font-style: normal;
-        -fx-font-weight: 400;
-        -fx-font-size: 30px;
-        line-height: 41px;
-        /* identical to box height */
-        -fx-text-align: center;
-
-        -fx-text-fill: #1E1E1E;
-
-
-    }
-    #please1Label{
-        /* Please type the name of the new food below: */
-
-
-
-        -fx-font-family: 'Montserrat';
-        -fx-font-style: normal;
-        -fx-font-weight: 400;
-        -fx-font-size: 15px;
-        line-height: 41px;
-        /* identical to box height */
-        -fx-text-align: center;
-
-        -fx-text-fill: #1E1E1E;
-
-    }
-    #SaveButton1,#CancelButton1{
-        /* Button 15 */
-
-
-
-        -fx-background-color: #624DE3;
-
-
-
-
-        -fx-border-radius: 20px 20px 20px 20px;
-        /* Add */
-
-
-        -fx-font-family: 'Montserrat';
-        -fx-font-style: normal;
-        -fx-font-weight: 400;
-        -fx-font-size: 13px;
-        -fx-line-height: 16px;
-        -fx-display: flex;
-        -fx-align-items: center;
-
-        -fx-text-fill: #F7F6FE;
-        -fx-padding: 4px 23px, 4px 23px;
-        -fx-background-radius: 20px 20px 20px 20px;
-
-
-    }
-    #NewExLabel{
-        /* New experiment */
-
-
-
-        -fx-font-family: 'Poppins';
-        -fx-font-style: normal;
-        -fx-font-weight: 700;
-        -fx-font-size: 32px;
-        line-height: 48px;
-        letter-spacing: 0.03em;
-
-      -fx-text-fill: #655E95;
-
-
-        /* Inside auto layout */
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-
-    }
     #ImportSoundLabel{
         -fx-font-family: 'Montserrat';
         -fx-font-style: normal;
@@ -595,8 +365,25 @@
         -fx-background-size: contain;
         -fx-background-repeat: no-repeat;
         -fx-background-position: center;
-        -fx-background-size: 100%, 100%;
+
     }
+    .btn_dashboardButton{
+
+        -fx-font-family: 'Montserrat';
+        -fx-font-style: normal;
+        -fx-font-weight: 500;
+        -fx-font-size: 14px;
+        -fx-text-fill: #000000;
+
+        -fx-max-width: 217px;
+        -fx-max-height: 56px;
+        -fx-min-width: 217px;
+        -fx-min-height: 56px;
+
+        -fx-border-radius: 5px 5px 5px 5px;
+
+    }
+
 
 
 

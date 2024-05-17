@@ -85,10 +85,10 @@
                <center>
                   <AnchorPane maxHeight="513.0" maxWidth="79.0" minHeight="513.0" minWidth="79.0" prefHeight="513.0" prefWidth="79.0">
                      <children>
-                        <Button fx:id="btn_up" layoutX="10.0" layoutY="91.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="59.0" styleClass="btn_up" stylesheets="@../css/EditExp_CSS.css" text=" " AnchorPane.leftAnchor="9.599999999999994" AnchorPane.rightAnchor="10.0" />
-                        <Button fx:id="btn_down" layoutX="10.0" layoutY="247.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="59.0" styleClass="btn_down" stylesheets="@../css/EditExp_CSS.css" text=" " AnchorPane.leftAnchor="9.6" AnchorPane.rightAnchor="10.399999999999999" />
-                        <Button fx:id="btn_cross" layoutX="10.0" layoutY="172.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="59.0" styleClass="btn_cross" stylesheets="@../css/EditExp_CSS.css" text=" " AnchorPane.leftAnchor="9.6" AnchorPane.rightAnchor="10.399999999999999" />
-                        <Button layoutX="14.0" layoutY="322.0" maxHeight="59.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="59.0" styleClass="btn_copy" stylesheets="@../css/EditExp_CSS.css" />
+                        <Button fx:id="btn_up" layoutX="9.600000381469727" layoutY="115.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="59.0" styleClass="btn_up" stylesheets="@../css/Notice1_CSS.css" text=" " AnchorPane.leftAnchor="9.599999999999994" AnchorPane.rightAnchor="10.400000000000006" />
+                        <Button fx:id="btn_down" layoutX="10.399999618530273" layoutY="271.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="59.0" styleClass="btn_down" stylesheets="@../css/Notice1_CSS.css" text=" " AnchorPane.leftAnchor="10.4" AnchorPane.rightAnchor="9.600000000000001" />
+                        <Button fx:id="btn_cross" layoutX="-4.0" layoutY="196.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="68.0" styleClass="btn_cross" stylesheets="@../css/Notice1_CSS.css" text=" " AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="9.599999999999994" />
+                        <Button layoutX="11.0" layoutY="350.0" mnemonicParsing="false" styleClass="btn_copy" stylesheets="@../css/Notice1_CSS.css" />
                      </children>
                   </AnchorPane>
                </center>
