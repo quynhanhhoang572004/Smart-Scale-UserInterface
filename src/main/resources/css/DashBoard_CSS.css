@@ -20,10 +20,17 @@
     -fx-font-size: 32;
     -fx-font-weight: normal;
     -fx-text-alignment: left;
-    -fx-text-fill: #624DE3;
-}
-#lbl_SenseXP{
-    -fx-text-fill: #624DE3;
+
+
+    -fx-font-family: 'Inter';
+    -fx-font-style: normal;
+
+    -fx-alignment: center;
+    -fx-text-fill: #397E82;}
+
+    #lbl_SenseXP{
+    -fx-font-family: "Baloo Bhaina 2";
+    -fx-text-fill: #397E82;
     -fx-font-weight: bold;
     -fx-font-size: 40;
 }
@@ -112,8 +119,14 @@
     -fx-font-size: 14;
 }
 #lbl_DashBoard{
-    -fx-text-fill: #624DE3;
-    -fx-font-size: 36;
+    -fx-font-family: 'Inter';
+    -fx-font-style: normal;
+    -fx-font-weight: 600;
+    -fx-font-size: 36px;
+    -fx-alignment: center;
+
+    -fx-text-fill: #397E82;
+
 }
 #txt_searchBar{
 
@@ -159,8 +172,6 @@
 
 }
 #btn_AddExperiment{
-    /* Frame 17 */
-
     /* Auto layout */
     -fx-text-fill: white;
     -fx-font-weight: bold;
@@ -168,7 +179,7 @@
     -fx-pref-width: 151px;
     -fx-pref-height: 32px;
 
-    -fx-background-color: #624DE3;
+    -fx-background-color: #397E82;
     -fx-border-radius: 8px;
 
 

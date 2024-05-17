@@ -156,4 +156,14 @@ public class EditExperimentController {
 
     }
 
+    @FXML
+    void btn_addFoodAndTaste(ActionEvent event) {
+
+    }
+
+    @FXML
+    void btn_menu(ActionEvent event) {
+
+    }
+
 }
