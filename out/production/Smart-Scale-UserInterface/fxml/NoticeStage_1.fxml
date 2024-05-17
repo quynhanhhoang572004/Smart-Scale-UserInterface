@@ -22,7 +22,7 @@
                <children>
                         <AnchorPane maxHeight="92.0" maxWidth="1280.0" minHeight="92.0" minWidth="1280.0" prefHeight="92.0" prefWidth="1280.0" stylesheets="@../css/EditExp_CSS.css">
                             <children>
-                                <Label fx:id="lbl_SenseXP" layoutX="14.0" layoutY="-8.0" text="Sense XP" textFill="#141414" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="1091.2">
+                                <Label fx:id="lbl_SenseXP" layoutX="14.0" layoutY="-8.0" text="SenseXP" textFill="#141414" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="1091.2">
                                     <font>
                                         <Font size="40.0" />
                                     </font>
