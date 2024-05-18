@@ -7,6 +7,7 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.StackPane?>
 
+<?import javafx.scene.text.Font?>
 <StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="839.0" prefWidth="1279.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
     <children>
         <BorderPane prefHeight="839.0" prefWidth="1279.0">
@@ -15,7 +16,15 @@
                     <children>
                         <AnchorPane fx:id="SenseXPBar" prefHeight="200.0" prefWidth="1279.2" stylesheets="@../css/EditExp_CSS.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                             <children>
-                                <Label fx:id="lbl_SenseXP" layoutX="8.0" text="SenseXP" />
+                                <Label fx:id="lbl_SenseXP" layoutX="14.0" layoutY="-8.0" stylesheets="@../css/EditExp_CSS.css" text="Sense XP" textFill="#141414" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="1084.4">
+                                    <font>
+                                        <Font size="40.0" />
+                                    </font>
+                                </Label>
+                                <Button layoutX="1212.0" layoutY="13.0" mnemonicParsing="false" styleClass="btn_bell" stylesheets="@../css/EditExp_CSS.css" />
+                                <Label layoutX="1160.0" layoutY="15.0" styleClass="Name" stylesheets="@../css/EditExp_CSS.css" text="Nguyễn" />
+                                <Label layoutX="1158.0" layoutY="37.0" styleClass="Nickname" stylesheets="@../css/EditExp_CSS.css" text="Mymia" />
+
                             </children>
                         </AnchorPane>
                     </children>
