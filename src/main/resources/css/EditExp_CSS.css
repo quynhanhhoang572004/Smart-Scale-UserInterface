@@ -15,6 +15,11 @@
     -fx-background-color: #CCCCCC;
     -fx-text-fill: white;
 }
+.menuPane{
+    -fx-align-items: center;
+    -fx-padding: 16px 0px;
+    -fx-background-color: #F1F6FB;
+}
 #btn_dashboard{
     -fx-background-color: transparent;
     -fx-font-size: 32;

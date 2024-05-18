@@ -1,4 +1,24 @@
+.sideBarButton {
 
+    -fx-font-family: Montserrat;
+    -fx-font-style: normal;
+    -fx-font-weight: 500;
+    -fx-font-size: 14px;
+    -fx-line-height: 17px;
+
+    -fx-text-fill: #000000;
+}
+.saveCancelBtn{
+    -fx-pref-width: 117px;
+    -fx-pref-height: 36px;
+
+    -fx-background-color: #397E82;
+    -fx-background-radius: 9px;
+
+    -fx-text-fill: white;
+    -fx-font-weight: 700;
+
+}
 .root {
     -fx-font-family: 'Inter';
     -fx-font-size: 14;
@@ -15,15 +35,6 @@
     -fx-text-fill: white;
 }
 
-.menu-button .arrow {
-    -fx-background-image: url('images/mingcute_menu-fill.png'); /* Remove arrow background */
-}
-
-.menu-button .arrow-button {
-    -fx-background-color: transparent; /* Remove arrow button background */
-    -fx-shape: ""; /* Remove arrow shape */
-}
-
 .text-field{
     -fx-border-width: 2px;
     -fx-border-style: solid;
@@ -35,28 +46,20 @@
     -fx-text-fill: #858585;
 
 }
-.button{
-    -fx-background-color: transparent;
-}
+
 .button:hover{
     -fx-background-color: #CCCCCC;
     -fx-text-fill: white;
 }
 
-#labelSenseXP{
-    -fx-text-fill: #624DE3;
-    -fx-font-weight: normal;
-    -fx-font-size: 40px;
-    -fx-font-family: Lexend;
-}
-#labelEditProfile{
-    -fx-text-fill: #624DE3;
-    -fx-font-weight: lighter;
-    -fx-font-size: 36px;
-}
+
 #sidebar{
-    -fx-background-color: #F7F6FE;
+    -fx-pref-width: 244px;
+    -fx-pref-height: 774px;
+
+    -fx-background-color: #F1F6FB;
 }
+
 #topbar {
     -fx-background-color: #CAD1D040;
 }
@@ -70,71 +73,35 @@
     -fx-effect: dropshadow(three-pass-box, black, 10, 0, 0, 0);
 }
 
-#strokeIcon {
-}
-
-/* Sidebar styling */
-#sidebar {
-    -fx-background-color: #F7F6FE;
-    -fx-text-fill: black;
-}
-
-#dashboardBtn{
-    -fx-text-fill: black;
-    -fx-graphic-text-gap: 10;
-    -fx-width: 27px; /* Corrected property */
-    -fx-height: 24px; /* Corrected property */
-    -fx-gap: 8px; /* Corrected property */
-
-}
-#generalBtn,
-#importBtn,
-#exportBtn,
-#configureBtn,
-#logOutBtn {
-    -fx-background-color: #F7F6FE;
-    -fx-graphic-text-gap: 10;
-    -fx-text-fill: black;
-}
-#dashboardBtn,
-#generalBtn,
-#importBtn,
-#exportBtn,
-#configureBtn,
-#logOutBtn {
-    -fx-background-color: #F7F6FE;
-    -fx-text-fill: black;
-    -fx-font-family: Montserrat;
-    -fx-font-size: 14px;
+#btn_changeAva {
+    -fx-background-color: transparent;
+    -fx-font-family: 'Poppins';
+    -fx-font-style: normal;
     -fx-font-weight: 500;
-    -fx-line-height: 17.07px;
-    -fx-text-align: left;
+    -fx-font-size: 15px;
+    -fx-line-height: 22px;
+    -fx-text-align: center;
+    -fx-letter-spacing: 0.03em;
+
+    -fx-text-fill: #181818;
 
 }
 
-#dashboardBtn:hover,
-#generalBtn:hover,
-#importBtn:hover,
-#exportBtn:hover,
-#configureBtn:hover,
-#logOutBtn:hover {
-    -fx-background-color: #CCCCCC;
-    -fx-text-fill: white;
-    -fx-font-family: Montserrat;
-    -fx-font-size: 14px;
-    -fx-font-weight: 500;
-    -fx-line-height: 17.07px;
-    -fx-text-align: left;
+#editProfileBtn
+{
+    -fx-background-color: transparent;
+    -fx-font-size: 20px;
+    -fx-font-weight: 700;
+    -fx-text-fill: black;
 }
 
-/* Edit Profile section styling */
-#editProfileBtn,
 #NotificationBtn,
 #SecurityBtn,
 #appearanceBtn,
 #helpBtn {
-    -fx-background-color: #FFFFFF;
+    -fx-background-color: transparent;
     -fx-font-size: 20px;
+    -fx-font-weight: 700;
     -fx-text-fill: #858585;
 }
 
@@ -150,13 +117,3 @@
 
 
 
-#saveBtn,
-#cancelBtn{
-    -fx-background-color: #624DE3;
-    -fx-text-fill: white;
-}
-#saveBtn:hover,
-#cancelBtn:hover {
-    -fx-background-color: #CCCCCC;
-    -fx-text-fill: white;
-}
