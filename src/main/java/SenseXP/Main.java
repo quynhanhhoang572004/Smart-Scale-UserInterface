@@ -12,10 +12,9 @@ public class Main extends Application {
     public static void main(String[] args) {
         launch(args);
     }
-
     @Override
     public void start(Stage primaryStage) throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/EditExperiment_UI.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/VasStage.fxml"));
 //        ProfileController controller = new ProfileController();
 //        /*loader.setController(controller);*/
         Parent root = loader.load();

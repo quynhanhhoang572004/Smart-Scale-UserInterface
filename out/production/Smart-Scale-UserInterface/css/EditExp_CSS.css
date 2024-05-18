@@ -241,6 +241,15 @@
     -fx-text-color: #181818;
 
 }
+
+
+.propertiesTextField{
+    -fx-box-sizing: border-box;
+    -fx-border-color: solid rgba(73, 73, 73, 0.8);
+    -fx-border-radius: 5px 5px 5px 5px;
+    -fx-padding:  1px 1px 1px 1px;
+
+}
 #ChangeButton,#ChangeButton1,#ChangeButton2,#ChangeButton3{
     /* Frame 26919 */
     /* Change */
