@@ -1,4 +1,4 @@
-AddFood_CSS.css#SideBar{
+#SideBar{
     -fx-background-color: #F7F6FE
 }
 #SideBar2{
@@ -20,38 +20,11 @@ AddFood_CSS.css#SideBar{
     -fx-font-size: 32;
     -fx-font-weight: normal;
     -fx-text-alignment: left;
-    -fx-text-fill: #624DE3;
-}
-#lbl_SenseXP{
-    -fx-text-fill: #624DE3;
-    -fx-font-weight: bold;
-    -fx-font-size: 40;
-}
-#lbl_EditExperiment{
-    -fx-text-fill: #624DE3;
-    -fx-font-size: 36;
+    -fx-text-fill: #397E82;
 }
 
 
-#btn_noticeStage, #btn_addAudibleInstruction, #btn_assignSound, #btn_addInput, #btn_addTimer, #btn_addTasteTest, #btn_addFoodAndTaste,
-#btn_addRatingContainer,
-#btn_addVasStage,
-#btn_AddGLMS,
-#btn_AddCourse,
-#btn_AddPeriodicStage,
-#btn_AddConditionalStatement, #btn_AddQuestionStage {
-    -fx-background-color: #624DE3;
-    -fx-text-fill: white;
-    -fx-font-weight: bold;
-    -fx-min-width: 250px;
-    -fx-max-width: 250px;
-    -fx-min-height: 30px;
-    -fx-max-height: 30px;
-    -fx-padding: 4px 33px, 4px 33px;
-    -fx-background-radius: 40px 40px 40px 40px;
-    -fx-opacity: 10;
-    -fx-gap: 10;
-}
+
 #btn_up{
     -fx-pref-height: 55;
     -fx-pref-width: 55;
@@ -112,7 +85,7 @@ AddFood_CSS.css#SideBar{
     -fx-font-size: 14;
 }
 #lbl_DashBoard{
-    -fx-text-fill: #624DE3;
+    -fx-text-fill: #397E82;
     -fx-font-size: 36;
 }
 #txt_searchBar{
@@ -168,7 +141,7 @@ AddFood_CSS.css#SideBar{
     -fx-pref-width: 151px;
     -fx-pref-height: 32px;
 
-    -fx-background-color: #624DE3;
+    -fx-background-color: #397E82;
     -fx-border-radius: 8px;
 
 
@@ -276,14 +249,7 @@ AddFood_CSS.css#SideBar{
     -fx-alignment: center;
 
 }
-#textField1{
 
-
-
-
-
-
-}
 #timeField,#timeField2
 {
     -fx-border-color: #696969;
@@ -409,7 +375,7 @@ AddFood_CSS.css#SideBar{
 
         align-items: center;
 
-        -fx-text-fill: #624DE3;
+        -fx-text-fill: #397E82;
 
 
     }
@@ -418,7 +384,7 @@ AddFood_CSS.css#SideBar{
         /* Button 6 */
 
 
-        -fx-background-color: #624DE3;
+        -fx-background-color: #397E82;
 
 
 
@@ -479,6 +445,7 @@ AddFood_CSS.css#SideBar{
 
 
 
+
     }
     #AddFoodLabel{
         /* Add Food */
@@ -512,55 +479,8 @@ AddFood_CSS.css#SideBar{
         -fx-text-fill: #1E1E1E;
 
     }
-    #SaveButton1,#CancelButton1{
-        /* Button 15 */
 
 
-
-        -fx-background-color: #624DE3;
-
-
-
-
-        -fx-border-radius: 20px 20px 20px 20px;
-        /* Add */
-
-
-        -fx-font-family: 'Montserrat';
-        -fx-font-style: normal;
-        -fx-font-weight: 400;
-        -fx-font-size: 13px;
-        -fx-line-height: 16px;
-        -fx-display: flex;
-        -fx-align-items: center;
-
-        -fx-text-fill: #F7F6FE;
-        -fx-padding: 4px 23px, 4px 23px;
-        -fx-background-radius: 20px 20px 20px 20px;
-
-
-    }
-    #NewExLabel{
-        /* New experiment */
-
-
-
-        -fx-font-family: 'Poppins';
-        -fx-font-style: normal;
-        -fx-font-weight: 700;
-        -fx-font-size: 32px;
-        line-height: 48px;
-        letter-spacing: 0.03em;
-
-      -fx-text-fill: #655E95;
-
-
-        /* Inside auto layout */
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-
-    }
     #ImportSoundLabel{
         -fx-font-family: 'Montserrat';
         -fx-font-style: normal;
@@ -570,22 +490,73 @@ AddFood_CSS.css#SideBar{
         /* identical to box height */
         -fx-text-align: center;
 
-        -fx-text-fill: #655E95;
+        -fx-text-fill: #397E82;
     }
-    #Browsebutton{
-        -fx-text-fill: #624DE3;
+    #btn_browse{
 
-        -fx-padding: 4px 23px, 4px 23px;
-        -fx-background-radius: 10px 10px 10px 10px;
-        -fx-background-color: derive(#85858540,90%);
+        -fx-max-width: 100px;
+        -fx-max-height: 42px;
+        -fx-min-width: 100px;
+        -fx-min-height: 42px;
+        -fx-border-radius: 20px 20px 20px 20px;
+
+        -fx-font-family: 'Montserrat';
+        -fx-font-style: normal;
+        -fx-font-weight: 500;
+        -fx-font-size: 15px;
+
+
+        -fx-text-fill: #397E82;
+        -fx-background-color: #8585853F;
+
+
 
     }
-    .body{
-        -fx-background-size: contain;
-        -fx-background-repeat: no-repeat;
-        -fx-background-position: center;
-        -fx-background-size: 100%, 100%;
-    }
+.btn_dashboardButton{
 
+    -fx-font-family: 'Montserrat';
+    -fx-font-style: normal;
+    -fx-font-weight: 500;
+    -fx-font-size: 14px;
+    -fx-text-fill: #000000;
+
+    -fx-max-width: 217px;
+    -fx-max-height: 56px;
+    -fx-min-width: 217px;
+    -fx-min-height: 56px;
+
+    -fx-border-radius: 5px 5px 5px 5px;
+
+}
+#btn_edit{
+    -fx-pref-height: 39;
+    -fx-pref-width: 39;
+    -fx-background-image: url('images/btn_edit.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: cover; /* or contain depending on your preference */
+}
+#btn_cancel, #btn_save{
+    -fx-background-color: #397E82;
+
+
+
+
+    -fx-border-radius: 20px 20px 20px 20px;
+    /* Add */
+
+
+    -fx-font-family: 'Montserrat';
+    -fx-font-style: normal;
+    -fx-font-weight: 400;
+    -fx-font-size: 13px;
+    -fx-line-height: 16px;
+    -fx-display: flex;
+    -fx-align-items: center;
+
+    -fx-text-fill: #F7F6FE;
+    -fx-padding: 4px 23px, 4px 23px;
+    -fx-background-radius: 20px 20px 20px 20px;
+}
 
 
