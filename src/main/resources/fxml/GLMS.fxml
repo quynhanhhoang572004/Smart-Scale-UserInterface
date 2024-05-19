@@ -27,9 +27,10 @@
                                         <Font size="40.0" />
                                     </font>
                                 </Label>
-                                <Label layoutX="961.0" layoutY="3.0" text="Last Name" />
-                                <Label layoutX="960.0" layoutY="20.0" text="First Name" />
+                                <Label layoutX="1160.0" layoutY="15.0" styleClass="Name" stylesheets="@../css/GLMS_CSS.css" text="Last Name" />
+                                <Label layoutX="1158.0" layoutY="37.0" styleClass="Nickname" stylesheets="@../css/GLMS_CSS.css" text="First Name" />
                                 <Label fx:id="avatarLabel" layoutX="908.0" layoutY="15.0" />
+                        <Button layoutX="1230.0" layoutY="13.0" mnemonicParsing="false" styleClass="btn_bell" stylesheets="@../css/GLMS_CSS.css" />
 
                             </children>
                         </AnchorPane>
@@ -90,6 +91,7 @@
                                 <Button fx:id="btn_up" layoutX="10.0" layoutY="91.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="59.0" styleClass="btn_up" stylesheets="@../css/GLMS_CSS.css" text=" " />
                                 <Button fx:id="btn_down" layoutX="10.0" layoutY="247.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="59.0" styleClass="btn_down" stylesheets="@../css/GLMS_CSS.css" text=" " />
                                 <Button fx:id="btn_cross" layoutX="10.0" layoutY="172.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="59.0" styleClass="btn_cross" stylesheets="@../css/GLMS_CSS.css" text=" " />
+                        <Button layoutX="11.0" layoutY="350.0" mnemonicParsing="false" styleClass="btn_copy" stylesheets="@../css/GLMS_CSS.css" />
                             </children>
                         </AnchorPane>
                     </center>
