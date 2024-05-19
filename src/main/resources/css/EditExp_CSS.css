@@ -580,6 +580,7 @@
         -fx-background-color: derive(#85858540,90%);
 
     }
+<<<<<<< HEAD
 .menuButton{
     -fx-max-width: 250px;
     -fx-max-height: 30px;
@@ -673,5 +674,166 @@
 }
 
 
+=======
+#frame {
+    -fx-box-sizing: border-box;
+
+    -fx-position: absolute;
+    -fx-width: 906px;
+    -fx-height: 576px;
+    -fx-left: 322px;
+    -fx-top: 168px;
+
+    -fx-border-color: #000000;
+    -fx-border-radius: 20px;
+    -fx-background-color: white;
+}
+#labelPreview{
+    -fx-text-fill: #655E95;
+    -fx-font-size: 36;
+    -fx-font-weight: bold;
+}
+#normalLabel{
+    -fx-width: 250px;
+    -fx-height: 30px;
+
+    -fx-font-family: 'Poppins';
+    -fx-font-style: normal;
+    -fx-font-weight: 500;
+    -fx-font-size: 20px;
+    -fx-line-height: 30px;
+    -fx-letter-spacing: 0.03em;
+
+    -fx-color: #181818;
+}
+#highlightLabel{
+    -fx-width: 250px;
+    -fx-height: 30px;
+
+    -fx-font-family: 'Poppins';
+    -fx-font-style: normal;
+    -fx-font-weight: 900;
+    -fx-font-size: 20px;
+    -fx-line-height: 30px;
+    -fx-letter-spacing: 0.03em;
+
+    -fx-color: #181818;
+}
+#importButton, #CancelButton1{
+    -fx-display: flex;
+    -fx-flex-direction: row;
+    -fx-justify-content: center;
+    -fx-align-items: center;
+    -fx-padding: 8px 12px;
+    -fx-gap: 8px;
+    -fx-max-width: 139px;
+    -fx-height: 32px;
+    -fx-font-family: 'Montserrat';
+    -fx-font-style: normal;
+    -fx-font-weight: 700;
+    -fx-font-size: 15px;
+    -fx-line-height: 17px;
+    -fx-background-color:
+            #624DE3
+;
+    -fx-text-fill: white;
+    -fx-border-radius: 50px 50px 50px 50px;
+    -fx-background-radius: 20;
+
+    /* Inside auto layout */
+    -fx-flex: none;
+    -fx-order: 1;
+    -fx-flex-grow: 0;
+
+}
+.table-view{
+    -fx-background-color:#FFFFFF ;
+}
+.table-view .column-header{
+    -fx-background-color: white;
+}
+.table-view .column-header-background{
+    -fx-background-color: transparent;
+}
+.table-view .column-header-background.label{
+    -fx-text-fill: black;
+}
+.table-row-cell{
+    -fx-background-color: white;
+}
+.table-row-cell-odd{
+    -fx-background-color:white;
+}
+#previous, #next{
+    /* Previous */
+
+    -fx-max-width: 80px;
+    -fx-max-height: 15px;
+
+    -fx-font-family: 'Montserrat';
+    -fx-font-style: normal;
+    -fx-font-weight: 500;
+    -fx-font-size: 12px;
+    -fx-line-height: 15px;
+    /* identical to box height */
+
+    -fx-text-fill: #9E9E9E;
+    -fx-background-color: white;
+
+
+    /* Inside auto layout */
+    -fx-flex: none;
+    -fx-order: 0;
+    -fx-flex-grow: 0;
+
+}
+#button1{
+    /* Frame 15 */
+
+    /* Auto layout */
+    -fx-display: flex;
+    -fx-flex-direction: row;
+    -fx-alignment: center;
+    -fx-padding: 8px 9px;
+    -fx-gap: 4px;
+
+    -fx-max-width: 31px;
+    -fx-max-height: 31px;
+
+    -fx-background-color: #624DE3;
+    -fx-border-radius: 8px;
+
+    /* Inside auto layout */
+    -fx-flex: none;
+    -fx-order: 1;
+    -fx-flex-grow: 0;
+    -fx-text-fill: white;
+
+}
+#button2, #button3{
+    /* Frame 15 */
+
+    /* Auto layout */
+    -fx-display: flex;
+    -fx-flex-direction: row;
+    -fx-alignment: center;
+    -fx-padding: 8px 9px;
+    -fx-gap: 4px;
+
+    -fx-max-width: 31px;
+    -fx-max-height: 31px;
+
+    -fx-background-color: #E0E0E0;
+    -fx-border-radius: 8px;
+
+    /* Inside auto layout */
+    -fx-flex: none;
+    -fx-order: 1;
+    -fx-flex-grow: 0;
+    -fx-text-fill: black;
+
+}
+
+>>>>>>> c7c9405e7ddeb456f3ba57aa007215d9017c4c57
 
 

@@ -37,6 +37,7 @@
 }
 
 
+<<<<<<< HEAD
 /*#btn_addAudibleInstruction, #btn_assignSound, #btn_addInput, #btn_addTimer, #btn_addTasteTest, #btn_addFoodAndTaste,
 #btn_addRatingContainer,
 #btn_addVasStage,
@@ -44,6 +45,15 @@
 #btn_AddCourse,
 #btn_AddPeriodicStage,
 #btn_AddConditionalStatement, #btn_AddQuestionStage {
+=======
+#noticeStageButton, #audibleInstructionButton, #assignSoundButton, #addInputButton, #addTimerButton, #addTasteTestButton, #addFoodAndTasteButton,
+#addRatingsContainerButton,
+#addVASStageButton,
+#addGLMSStageButton,
+#addCourseButton,
+#addPeriodicStageButton,
+#addConditionalStatementButton {
+>>>>>>> c7c9405e7ddeb456f3ba57aa007215d9017c4c57
     -fx-background-color: #624DE3;
     -fx-text-fill: white;
     -fx-font-weight: bold;
@@ -184,7 +194,11 @@
     -fx-background-color: white;
 
 }
+<<<<<<< HEAD
 #lbl_ID{
+=======
+#IDLabel{
+>>>>>>> c7c9405e7ddeb456f3ba57aa007215d9017c4c57
 
 
     -fx-font-family: 'Montserrat';
@@ -225,7 +239,12 @@
     flex-grow: 0;
 
 }
+<<<<<<< HEAD
 .propertiesText{
+=======
+#BackGroundColorLabel,#textColorlabel,#fontLabel,#StartDelayLabel, #EndDelayLabel, #DisablebuttonLabel,#InstructionLabel1,#TimeToWaitLablel,
+#SoundDisplayLabel,#QuestionLabel,#StoreResponseLabel,#ButtonTextLabel,#HelpTextLabel,#PlaySoundLabel, #propertiesLabel, #radioButtonAvailable{
+>>>>>>> c7c9405e7ddeb456f3ba57aa007215d9017c4c57
 
 
     -fx-pref-width: 375px;
@@ -294,11 +313,24 @@
     -fx-border-color: #696969;
     -fx-border-radius: 5px 5px 5px 5px;
     -fx-alignment: center;}
+<<<<<<< HEAD
 
 .text-area{
     -fx-border-color: #696969;
     -fx-border-radius: 5px 5px 5px 5px;
     -fx-alignment: center;
+=======
+.propertiesTextField{
+    -fx-border-color: #696969;
+    -fx-border-radius: 5px 5px 5px 5px;
+    -fx-alignment: center;
+
+}
+.text-area{
+    -fx-border-color: #696969;
+    -fx-border-radius: 5px 5px 5px 5px;
+    -fx-alignment: center;
+>>>>>>> c7c9405e7ddeb456f3ba57aa007215d9017c4c57
     -fx-box-sizing: border-box;
 }
 #mainBar{
@@ -336,8 +368,12 @@
     -fx-text-fill: #000;
     -fx-background-color: #F7F6FE
 }
+<<<<<<< HEAD
 #lbl_iD,#lbl_creator,#lbl_experimentName,#lbl_currentVersion,#lbl_result,#lbl_lastM,#lbl_createDate,#lbl_Option
 ,#ExperimentdesLabel,#AdditionNoteLabel,#FileLabel,#NameLabel{
+=======
+#IDlabel,#CreatorLabel,#ExprimentNameLabel,#CurrentVersionLabel,#ResultLabel,#LastMLabel,#DateMLabel,#OptionLabel,#ExperimentdesLabel,#AdditionNoteLabel,#FileLabel,#NameLabel{
+>>>>>>> c7c9405e7ddeb456f3ba57aa007215d9017c4c57
     -fx-font-family: 'Montserrat';
     -fx-font-weight: 700;
     -fx-align-items: center;
@@ -393,12 +429,20 @@
 
 }
 .scroll-pane .scroll-bar:vertical .thumb {
+<<<<<<< HEAD
     -fx-background-color: #397E82;
+=======
+    -fx-background-color: #655E95;
+>>>>>>> c7c9405e7ddeb456f3ba57aa007215d9017c4c57
     -fx-background-insets: 2, 0, 0;
     -fx-background-radius: 2em;
 }
 
+<<<<<<< HEAD
     #lbl_TasteTestItemLable,#SoundSelectTionLabel {
+=======
+    #TasteTestItemLable,#SoundSelectTionLabel {
+>>>>>>> c7c9405e7ddeb456f3ba57aa007215d9017c4c57
         /* Taste Test Item Selection */
 
 
@@ -546,7 +590,11 @@
 
 
         -fx-font-family: 'Poppins';
+<<<<<<< HEAD
         -fx-font-style: normal;
+=======
+        -fx-font-style: bold;
+>>>>>>> c7c9405e7ddeb456f3ba57aa007215d9017c4c57
         -fx-font-weight: 700;
         -fx-font-size: 32px;
         line-height: 48px;
@@ -573,6 +621,10 @@
         -fx-text-fill: #655E95;
     }
     #Browsebutton{
+<<<<<<< HEAD
+=======
+
+>>>>>>> c7c9405e7ddeb456f3ba57aa007215d9017c4c57
         -fx-text-fill: #624DE3;
 
         -fx-padding: 4px 23px, 4px 23px;
@@ -580,6 +632,7 @@
         -fx-background-color: derive(#85858540,90%);
 
     }
+<<<<<<< HEAD
 .menuButton{
     -fx-max-width: 250px;
     -fx-max-height: 30px;
@@ -673,5 +726,7 @@
 }
 
 
+=======
+>>>>>>> c7c9405e7ddeb456f3ba57aa007215d9017c4c57
 
 

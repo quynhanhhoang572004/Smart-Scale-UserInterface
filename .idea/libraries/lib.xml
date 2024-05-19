@@ -1,10 +1,18 @@
 <component name="libraryTable">
   <library name="lib">
     <CLASSES>
+<<<<<<< HEAD
       <root url="file://$PROJECT_DIR$/../../../../openjfx-21.0.2_windows-x64_bin-sdk/javafx-sdk-21.0.2/lib" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
     <jarDirectory url="file://$PROJECT_DIR$/../../../../openjfx-21.0.2_windows-x64_bin-sdk/javafx-sdk-21.0.2/lib" recursive="false" />
+=======
+      <root url="file://$PROJECT_DIR$/../Code app/openjfx-22_windows-x64_bin-sdk/javafx-sdk-22/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/../Code app/openjfx-22_windows-x64_bin-sdk/javafx-sdk-22/lib" recursive="false" />
+>>>>>>> c7c9405e7ddeb456f3ba57aa007215d9017c4c57
   </library>
 </component>

@@ -42,6 +42,7 @@
                         <AnchorPane maxHeight="688.0" minHeight="634.0" prefHeight="688.0" prefWidth="306.0">
                            <children>
 
+<<<<<<< HEAD
                               <Button fx:id="btn_noticeStage" layoutX="36.0" layoutY="91.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" onAction="#btn_noticeStage" prefHeight="30.0" prefWidth="250.0" styleClass="menuButton" stylesheets="@../css/Notice1_CSS.css" text="Add Notice Stage" AnchorPane.leftAnchor="36.0" AnchorPane.rightAnchor="19.200000000000017">
                               </Button>
                               <Button fx:id="btn_addAudibleInstruction" layoutX="36.0" layoutY="133.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" onAction="#btn_addAudibleInstruction" prefHeight="30.0" prefWidth="250.0" styleClass="menuButton" stylesheets="@../css/Notice1_CSS.css" text="Add Audible Instruction" AnchorPane.leftAnchor="36.0" AnchorPane.rightAnchor="19.19999999999999">
@@ -70,6 +71,35 @@
                               </Button>
                               <Button fx:id="btn_menu" layoutX="18.0" layoutY="-6.0" mnemonicParsing="false" onAction="#btn_menu" prefHeight="39.0" prefWidth="39.0" stylesheets="@../css/EditExp_CSS.css" text=" " AnchorPane.leftAnchor="18.0" AnchorPane.rightAnchor="251.59999999999997" />
                               <Label fx:id="lbl_EditExperiment" layoutX="66.0" layoutY="-28.0" prefHeight="53.0" prefWidth="292.0" styleClass="lbl_EditExperiment" stylesheets="@../css/EditExp_CSS.css" text="Edit Experiment" AnchorPane.leftAnchor="66.0" AnchorPane.rightAnchor="-51.60000000000002">
+=======
+                              <Button fx:id="noticeStageButton" layoutX="36.0" layoutY="91.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" text="Add Notice Stage">
+                                 </Button>
+                              <Button fx:id="audibleInstructionButton" layoutX="36.0" layoutY="133.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" text="Add Audible Instruction">
+                                 </Button>
+                              <Button fx:id="assignSoundButton" layoutX="36.0" layoutY="175.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" text="Assign Sound">
+                                 </Button>
+                              <Button fx:id="addInputButton" layoutX="36.0" layoutY="217.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" text="Add Input Stage">
+                                 </Button>
+                              <Button fx:id="addTimerButton" layoutX="36.0" layoutY="259.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" text="Add Timer Stage">
+                                 </Button>
+                              <Button fx:id="addTasteTestButton" layoutX="36.0" layoutY="301.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" text="Add Taste Test">
+                                 </Button>
+                              <Button fx:id="addFoodAndTasteButton" layoutX="36.0" layoutY="343.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" text="Add Food &amp; Taste">
+                                 </Button>
+                              <Button fx:id="addRatingsContainerButton" layoutX="36.0" layoutY="385.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" text="Add Ratings Container">
+                                 </Button>
+                              <Button fx:id="addVASStageButton" layoutX="36.0" layoutY="427.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" text="Add VAS Stage">
+                                 </Button>
+                              <Button fx:id="addGLMSStageButton" layoutX="36.0" layoutY="469.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" text="Add GLMS Stage">
+                                 </Button>
+                              <Button fx:id="addGLMSStageButton" layoutX="36.0" layoutY="511.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" text="Add Course">
+                                 </Button>
+                              <Button fx:id="addPeriodicStageButtoaddGLMSStageButtonn" layoutX="36.0" layoutY="553.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" text="Add Periodic Stage">
+                                 </Button>
+                              <Button fx:id="addConditionalStatemeaddGLMSStageButtonntButton" layoutX="36.0" layoutY="595.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" text="Add Conditional Statement">
+                                 </Button>
+                              <Label fx:id="labelEditExperiment" layoutX="115.0" layoutY="-17.0" prefHeight="53.0" prefWidth="292.0" text="Edit Experiment">
+>>>>>>> c7c9405e7ddeb456f3ba57aa007215d9017c4c57
                               </Label>
                               <Button fx:id="btn_AddQuestionStage" layoutX="36.0" layoutY="636.0" maxHeight="30.0" maxWidth="250.0" minHeight="30.0" minWidth="250.0" mnemonicParsing="false" onAction="#btn_AddQuestionStage" prefHeight="30.0" prefWidth="250.0" styleClass="menuButton" stylesheets="@../css/Notice1_CSS.css" text="Add Question Stage" />
 

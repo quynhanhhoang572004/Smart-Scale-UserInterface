@@ -110,6 +110,7 @@
                                        <content>
                                                         <AnchorPane maxHeight="340.0" maxWidth="906.0" prefHeight="340.0" prefWidth="906.0" stylesheets="@../css/Notice1_CSS.css">
                                                             <children>
+<<<<<<< HEAD
                                                                 <Label layoutX="14.0" layoutY="14.0" styleClass="propertiesText" stylesheets="@../css/EditExp_CSS.css" text="Background Color :" />
                                                                 <Button fx:id="btn_changeBackGroudcolor" layoutX="197.0" layoutY="11.0" minHeight="30.0" mnemonicParsing="false" onAction="#btn_changeBackGroudcolor" prefHeight="30.0" prefWidth="106.0" stylesheets="@../css/EditExp_CSS.css" text="Change" AnchorPane.bottomAnchor="309.0" AnchorPane.leftAnchor="197.0" AnchorPane.rightAnchor="612.6" AnchorPane.topAnchor="11.0" />
                                                                 <Label layoutX="14.0" layoutY="51.0" styleClass="propertiesText" stylesheets="@../css/EditExp_CSS.css" text="Text Color :" />
@@ -125,6 +126,27 @@
                                                 <TextField layoutX="317.0" layoutY="98.0" maxHeight="30.0" maxWidth="370.0" minHeight="30.0" minWidth="370.0" />
                                                 <TextField layoutX="202.0" layoutY="134.0" maxHeight="30.0" maxWidth="485.0" minHeight="30.0" minWidth="485.0" />
                                                 <TextField layoutX="202.0" layoutY="178.0" maxHeight="30.0" maxWidth="485.0" minHeight="30.0" minWidth="485.0" />
+=======
+                                                                <Label fx:id="BackGroundColorLabel" layoutX="14.0" layoutY="14.0" stylesheets="@../css/EditExp_CSS.css" text="Background Color :" />
+                                                                <Button fx:id="ChangeButton0" layoutX="197.0" layoutY="11.0" minHeight="30.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="106.0" stylesheets="@../css/EditExp_CSS.css" text="Change" />
+                                                                <Label fx:id="textColorlabel" layoutX="14.0" layoutY="51.0" stylesheets="@../css/EditExp_CSS.css" text="Text Color :" />
+                                                                <Button fx:id="ChangeButton2" layoutX="197.0" layoutY="51.0" minHeight="30.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="106.0" text="Change" />
+                                                                <Label fx:id="fontLabel" layoutX="14.0" layoutY="87.0" stylesheets="@../css/EditExp_CSS.css" text="Font :" />
+                                                                <Button fx:id="ChangeButton" layoutX="197.0" layoutY="97.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="106.0" text="Change" />
+                                                                <Label fx:id="StartDelayLabel" layoutX="14.0" layoutY="137.0" stylesheets="@../css/EditExp_CSS.css" text="Start of Stage Delay : " />
+                                                                <TextArea fx:id="timeField" layoutX="202.0" layoutY="134.0" minHeight="30.0" prefHeight="30.0" prefWidth="485.0" stylesheets="@../css/EditExp_CSS.css" />
+                                                                <Label fx:id="EndDelayLabel" layoutX="14.0" layoutY="178.0" stylesheets="@../css/EditExp_CSS.css" text="End of Stage Delay :" />
+                                                                <TextArea fx:id="timeField2" layoutX="202.0" layoutY="175.0" maxWidth="485.0" minHeight="30.0" prefHeight="30.0" prefWidth="485.0" />
+                                                                <Label fx:id="DisablebuttonLabel" layoutX="14.0" layoutY="215.0" stylesheets="@../css/EditExp_CSS.css" text="Disabled Button Color :" />
+                                                                <Button fx:id="ChangeButton3" layoutX="202.0" layoutY="212.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="106.0" text="Change" />
+                                                <TextArea fx:id="textField1" layoutX="317.0" layoutY="11.0" maxHeight="30.0" minHeight="30.0" prefHeight="30.0" prefWidth="370.0">
+                                                   <stylesheets>
+                                                      <URL value="@../css/EditExp_CSS.css" />
+                                                      <URL value="@../css/EditExp_CSS.css" />
+                                                   </stylesheets></TextArea>
+                                                <TextArea fx:id="textField11" layoutX="317.0" layoutY="51.0" maxHeight="30.0" minHeight="30.0" prefHeight="30.0" prefWidth="370.0" stylesheets="@../css/EditExp_CSS.css" />
+                                                <TextArea fx:id="textField111" layoutX="317.0" layoutY="97.0" maxHeight="30.0" minHeight="30.0" prefHeight="30.0" prefWidth="370.0" stylesheets="@../css/EditExp_CSS.css" />
+>>>>>>> c7c9405e7ddeb456f3ba57aa007215d9017c4c57
                                                             </children>
                                                         </AnchorPane>
                                        </content>
